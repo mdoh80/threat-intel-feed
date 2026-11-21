@@ -199,7 +199,11 @@ def collect_source(data: dict[str, Any], name: str, parser: Callable[[bytes], li
     attempted = now_iso()
     try:
         records = parser(fetch(SOURCE_URLS[name], headers=headers, body=body))
-        target = "news" if name == "cisa_news" else "advisories" if name == "cisa_advisories" else name
+        target = {
+            "cisa_news": "news",
+            "cisa_advisories": "advisories",
+            "cisa_kev": "kev",
+        }.get(name, name)
         data[target] = records
         data.setdefault("sources", {})[name] = {"status": "healthy", "last_success": attempted, "last_attempt": attempted, "error": None, "url": SOURCE_URLS[name]}
     except Exception as exc:  # preserve last-known-good data for any upstream failure
