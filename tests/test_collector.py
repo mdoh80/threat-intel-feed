@@ -55,6 +55,42 @@ class CollectorTests(unittest.TestCase):
         self.assertEqual(data["news"], [{"id": "old"}])
         self.assertEqual(data["sources"]["cisa_news"]["status"], "error")
 
+    def test_successful_kev_collection_uses_kev_data_key(self):
+        data = collector.default_data()
+        payload = json.dumps({"vulnerabilities": [{"cveID": "CVE-2024-12345"}]}).encode()
+        with patch.object(collector, "fetch", return_value=payload):
+            collector.collect_source(data, "cisa_kev", collector.parse_kev)
+
+        self.assertEqual([item["cve"] for item in data["kev"]], ["CVE-2024-12345"])
+        self.assertNotIn("cisa_kev", data)
+        self.assertEqual(data["sources"]["cisa_kev"]["status"], "healthy")
+
+    def test_collected_kev_records_annotate_matching_news_and_advisories(self):
+        data = collector.default_data()
+        payload = json.dumps({"vulnerabilities": [{"cveID": "CVE-2024-12345"}]}).encode()
+        data["news"] = [{"cves": ["CVE-2024-12345", "CVE-2024-99999"]}]
+        data["advisories"] = [{"cves": ["CVE-2024-99999"]}]
+        with patch.object(collector, "fetch", return_value=payload):
+            collector.collect_source(data, "cisa_kev", collector.parse_kev)
+
+        collector.apply_kev_matches(data)
+        self.assertEqual(data["news"][0]["kev_matches"], ["CVE-2024-12345"])
+        self.assertEqual(data["advisories"][0]["kev_matches"], [])
+
+    def test_failed_kev_collection_preserves_data_and_marks_source_stale(self):
+        data = collector.default_data()
+        data["kev"] = [{"cve": "CVE-2024-12345"}]
+        data["sources"]["cisa_kev"] = {
+            "last_success": "2024-01-01T00:00:00Z",
+            "status": "healthy",
+        }
+        with patch.object(collector, "fetch", side_effect=OSError("temporary failure")):
+            collector.collect_source(data, "cisa_kev", collector.parse_kev)
+
+        self.assertEqual(data["kev"], [{"cve": "CVE-2024-12345"}])
+        self.assertEqual(data["sources"]["cisa_kev"]["status"], "stale")
+        self.assertIn("last_attempt", data["sources"]["cisa_kev"])
+
     def test_secret_is_only_used_as_header(self):
         data = collector.default_data()
         with patch.object(collector, "fetch", return_value=b'{"query_status":"ok","data":[]}') as fetch:
