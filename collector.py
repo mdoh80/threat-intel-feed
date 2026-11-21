@@ -139,6 +139,8 @@ def parse_urlhaus(payload: bytes) -> list[dict[str, Any]]:
 
 def parse_threatfox(payload: bytes) -> list[dict[str, Any]]:
     raw = json.loads(payload)
+    if raw.get("query_status") in {"no_results", "no_result"}:
+        return []
     if raw.get("query_status") != "ok":
         raise ValueError(f"ThreatFox query status: {raw.get('query_status', 'unknown')}")
     entries = []
@@ -202,7 +204,7 @@ def collect_source(data: dict[str, Any], name: str, parser: Callable[[bytes], li
         data.setdefault("sources", {})[name] = {"status": "healthy", "last_success": attempted, "last_attempt": attempted, "error": None, "url": SOURCE_URLS[name]}
     except Exception as exc:  # preserve last-known-good data for any upstream failure
         prior = data.setdefault("sources", {}).get(name, {})
-        data["sources"][name] = {**prior, "status": "error" if prior.get("last_success") else "stale", "last_attempt": attempted, "error": str(exc)[:240], "url": SOURCE_URLS[name]}
+        data["sources"][name] = {**prior, "status": "stale" if prior.get("last_success") else "error", "last_attempt": attempted, "error": str(exc)[:240], "url": SOURCE_URLS[name]}
 
 
 def mark_not_configured(data: dict[str, Any], name: str, message: str) -> None:

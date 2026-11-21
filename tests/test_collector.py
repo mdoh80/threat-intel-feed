@@ -1,9 +1,7 @@
 """Unit tests for source parsing, normalization, and failure-safe persistence."""
 
 import json
-import tempfile
 import unittest
-from pathlib import Path
 from unittest.mock import patch
 
 import collector
@@ -35,13 +33,27 @@ class CollectorTests(unittest.TestCase):
         self.assertEqual(item["malware"], "Example")
         self.assertEqual(item["confidence"], 75)
 
-    def test_failed_source_preserves_previous_records(self):
+    def test_empty_source_response_is_a_successful_empty_collection(self):
+        self.assertEqual(collector.parse_rss(b"<rss><channel /></rss>", "cisa_news"), [])
+        self.assertEqual(collector.parse_urlhaus(b'{"query_status":"no_results","urls":[]}'), [])
+        self.assertEqual(collector.parse_threatfox(b'{"query_status":"no_results"}'), [])
+
+    def test_failed_source_with_previous_success_is_stale(self):
+        data = collector.default_data()
+        data["news"] = [{"id": "old"}]
+        data["sources"]["cisa_news"] = {"last_success": "2024-01-01T00:00:00Z", "status": "healthy"}
+        with patch.object(collector, "fetch", side_effect=OSError("temporary failure")):
+            collector.collect_source(data, "cisa_news", lambda payload: collector.parse_rss(payload, "cisa_news"))
+        self.assertEqual(data["news"], [{"id": "old"}])
+        self.assertEqual(data["sources"]["cisa_news"]["status"], "stale")
+
+    def test_failed_source_without_previous_success_is_error(self):
         data = collector.default_data()
         data["news"] = [{"id": "old"}]
         with patch.object(collector, "fetch", side_effect=OSError("temporary failure")):
             collector.collect_source(data, "cisa_news", lambda payload: collector.parse_rss(payload, "cisa_news"))
         self.assertEqual(data["news"], [{"id": "old"}])
-        self.assertEqual(data["sources"]["cisa_news"]["status"], "stale")
+        self.assertEqual(data["sources"]["cisa_news"]["status"], "error")
 
     def test_secret_is_only_used_as_header(self):
         data = collector.default_data()
