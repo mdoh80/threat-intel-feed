@@ -20,6 +20,7 @@ jobs:
       - name: Validate JavaScript syntax
         run: node --check app.js
       - name: Validate workflow YAML
-        run: ruby -e 'require "yaml"; Dir[".github/workflows/*.yml"].each { |path| YAML.load_file(path); puts "valid #{path}" }'
+        run: |
+          ruby -e 'require "yaml"; Dir[".github/workflows/*.yml"].each { |path| YAML.load_file(path); puts "valid #{path}" }'
       - name: Run Python tests
         run: python3 -m unittest discover -s tests -v
