@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Open-source threat intelligence feed with CISA, URLhaus, and ThreatFox data.">
+  <title>Threat Intel Feed · Signal Console</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="console">
+    <header class="topbar">
+      <div class="brand"><span class="brand-mark"></span><div><h1>THREAT INTEL FEED</h1><p>GLOBAL SECURITY OPERATIONS / OPEN-SOURCE INTELLIGENCE</p></div></div>
+      <div class="status-pill"><i></i><span id="health-label">LOADING SOURCES</span></div>
+      <div class="clock"><strong id="clock">--:--:-- UTC</strong><span id="date">LOADING DATE</span></div>
+      <div class="nominal" id="overall-status">● PIPELINE STARTING</div>
+    </header>
+
+    <section class="top-grid">
+      <article class="panel overview-panel">
+        <div class="panel-heading"><div><h2>OPERATIONAL OVERVIEW</h2><p>Calculated from the latest retained source data</p></div><span class="eyebrow">LIVE SIGNALS</span></div>
+        <div class="overview-grid" id="overview-metrics"></div>
+      </article>
+      <article class="panel activity-panel">
+        <div class="panel-heading"><div><h2>THREAT ACTIVITY · LAST 24 HOURS</h2><p>Real publication and observation timestamps</p></div><span class="eyebrow">UTC</span></div>
+        <div class="bars" id="activity-bars"></div><div class="axis"><span>00:00</span><span>04:00</span><span>08:00</span><span>12:00</span><span>16:00</span><span>20:00</span><span>NOW</span></div>
+      </article>
+    </section>
+
+    <section class="panel health-panel"><div class="panel-heading"><div><h2>INTELLIGENCE SOURCE HEALTH</h2><p>Fetch status and last successful ingest</p></div><span class="eyebrow" id="source-count">0 SOURCES</span></div><div class="source-cards" id="source-health"></div></section>
+
+    <section class="content-grid">
+      <article class="panel feed-panel"><div class="panel-heading"><div><h2>MAIN INTELLIGENCE FEED</h2><p>Recent CISA news and cybersecurity advisories</p></div><span class="eyebrow" id="feed-count">0 ITEMS</span></div><div class="controls"><input id="feed-search" type="search" placeholder="Search title, CVE, summary..." aria-label="Search CISA intelligence"><div class="segmented" id="feed-filters"><button class="active" data-filter="all">ALL</button><button data-filter="news">NEWS</button><button data-filter="advisory">ADVISORIES</button></div></div><div class="feed-list" id="feed-list"></div></article>
+      <article class="panel kev-panel"><div class="panel-heading"><div><h2>KNOWN EXPLOITED VULNERABILITIES</h2><p>CISA KEV catalog · absence does not prove non-exploitation</p></div><span class="eyebrow" id="kev-count">0 KEVS</span></div><div class="controls"><input id="kev-search" type="search" placeholder="Search CVE, vendor, product..." aria-label="Search known exploited vulnerabilities"><select id="kev-sort" aria-label="Sort KEV vulnerabilities"><option value="date_added">DATE ADDED</option><option value="due_date">DUE DATE</option></select></div><div class="kev-list" id="kev-list"></div></article>
+    </section>
+
+    <section class="panel ioc-panel"><div class="panel-heading"><div><h2>THREAT INTELLIGENCE</h2><p>Recent malicious URLs and malware-related IOCs · do not visit IOC links</p></div><span class="eyebrow" id="ioc-count">0 IOCs</span></div><div class="controls"><input id="ioc-search" type="search" placeholder="Search IOC, family, tag..." aria-label="Search indicators"><select id="ioc-source" aria-label="Filter indicator source"><option value="all">ALL SOURCES</option><option value="urlhaus">URLHAUS</option><option value="threatfox">THREATFOX</option></select><select id="ioc-type" aria-label="Filter indicator type"><option value="all">ALL IOC TYPES</option></select></div><div class="ioc-table-wrap"><table><thead><tr><th>IOC / HOST</th><th>SOURCE</th><th>TYPE</th><th>FAMILY / STATUS</th><th>FIRST SEEN</th></tr></thead><tbody id="ioc-list"></tbody></table></div></section>
+
+    <footer class="footer"><span class="green-dot"></span><span id="footer-status">PIPELINE OPERATIONAL</span><span>•</span><span id="last-ingest">LAST INGEST UNAVAILABLE</span><span class="footer-note">DATA ATTRIBUTED TO ORIGINAL PROVIDERS · NO IOC IS PROOF OF COMPROMISE</span><span>THREAT INTEL FEED / v1.0</span></footer>
+    <section class="ticker"><div class="ticker-head"><strong><span class="orange-dot"></span>RECENTLY EXPLOITED</strong><span>SOURCE: CISA KEV CATALOG</span><button id="ticker-toggle" type="button">PAUSE Ⅱ</button></div><div class="ticker-clip"><div class="ticker-track" id="ticker-track"></div></div></section>
+  </main>
+  <script src="app.js" defer></script>
+</body>
+</html>
