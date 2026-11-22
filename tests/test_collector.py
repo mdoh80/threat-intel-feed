@@ -9,11 +9,12 @@ import collector
 
 class CollectorTests(unittest.TestCase):
     def test_rss_parsing_extracts_cves_and_deduplicates(self):
-        payload = b"""<rss><channel><item><title>Fix CVE-2024-12345</title><description>Summary</description><pubDate>Wed, 20 Nov 2024 12:00:00 GMT</pubDate><link>https://example.test/a</link></item><item><title>Fix CVE-2024-12345</title><link>https://example.test/a</link></item></channel></rss>"""
+        payload = b"""<rss><channel><item><title>Fix CVE-2024-12345</title><description><![CDATA[<p>Summary with <strong>formatting</strong>.</p>]]></description><pubDate>Wed, 20 Nov 2024 12:00:00 GMT</pubDate><link>https://example.test/a</link></item><item><title>Fix CVE-2024-12345</title><link>https://example.test/a</link></item></channel></rss>"""
         result = collector.parse_rss(payload, "cisa_advisories")
         self.assertEqual(len(result), 1)
         self.assertEqual(result[0]["cves"], ["CVE-2024-12345"])
         self.assertEqual(result[0]["kind"], "advisory")
+        self.assertEqual(result[0]["summary"], "<p>Summary with <strong>formatting</strong>.</p>")
 
     def test_kev_parsing_normalizes_unknown_ransomware(self):
         payload = json.dumps({"vulnerabilities": [{"cveID": "CVE-2024-1", "vulnerabilityName": "Name", "vendorProject": "Vendor", "product": "Product", "dateAdded": "2024-01-01", "dueDate": "2024-02-01", "knownRansomwareCampaignUse": "Unknown"}]}).encode()
