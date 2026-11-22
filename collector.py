@@ -6,6 +6,7 @@ import json
 import os
 import re
 import sys
+import time
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -17,6 +18,12 @@ from typing import Any, Callable
 ROOT = Path(__file__).resolve().parent
 DATA_PATH = ROOT / "data" / "intelligence.json"
 CVE_RE = re.compile(r"\bCVE-\d{4}-\d{4,}\b", re.IGNORECASE)
+NVD_CVE_URL = "https://services.nvd.nist.gov/rest/json/cves/2.0"
+CVSS_CACHE_TTL_SECONDS = 30 * 24 * 60 * 60
+NVD_REQUEST_INTERVAL_SECONDS = 0.7
+NVD_REQUEST_INTERVAL_WITHOUT_KEY_SECONDS = 6.0
+NVD_MAX_REQUESTS_WITH_KEY = 20
+NVD_MAX_REQUESTS_WITHOUT_KEY = 5
 SOURCE_URLS = {
     "cisa_news": "https://www.cisa.gov/news.xml",
     "cisa_advisories": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
@@ -111,9 +118,122 @@ def parse_kev(payload: bytes) -> list[dict[str, Any]]:
             "date_added": parse_datetime(item.get("dateAdded")),
             "due_date": parse_datetime(item.get("dueDate")),
             "ransomware_use": item.get("knownRansomwareCampaignUse") or "Unknown",
+            "cvss_score": None,
+            "cvss_version": None,
+            "cvss_severity": "Unavailable",
+            "cvss_source": None,
             "url": f"https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext={urllib.parse.quote(cve)}",
         })
     return dedupe(entries, "id")
+
+
+def cvss_severity(score: Any) -> str:
+    """Classify a validated CVSS base score using the standard ranges."""
+    try:
+        value = float(score)
+    except (TypeError, ValueError):
+        return "Unavailable"
+    if not 0 <= value <= 10:
+        return "Unavailable"
+    if value == 0:
+        return "None"
+    if value < 4:
+        return "Low"
+    if value < 7:
+        return "Medium"
+    if value < 9:
+        return "High"
+    return "Critical"
+
+
+def extract_cvss(vulnerability: dict[str, Any]) -> dict[str, Any] | None:
+    """Select the highest-priority NVD CVSS metric from one CVE response."""
+    metrics = vulnerability.get("cve", {}).get("metrics", {})
+    for version, key in (("4.0", "cvssMetricV40"), ("3.1", "cvssMetricV31"), ("3.0", "cvssMetricV30"), ("2.0", "cvssMetricV2")):
+        candidates = metrics.get(key) or []
+        ordered = sorted(candidates, key=lambda metric: 0 if metric.get("type") == "Primary" else 1)
+        for metric in ordered:
+            cvss_data = metric.get("cvssData") or {}
+            score = cvss_data.get("baseScore")
+            severity = cvss_severity(score)
+            if severity != "Unavailable":
+                value = float(score)
+                return {
+                    "score": round(value, 1),
+                    "version": version,
+                    "severity": severity,
+                    "source": "NVD",
+                }
+    return None
+
+
+def cache_entry_fresh(entry: dict[str, Any], now: datetime | None = None) -> bool:
+    fetched_at = parse_datetime(entry.get("fetched_at"))
+    if not fetched_at:
+        return False
+    parsed = datetime.fromisoformat(fetched_at.replace("Z", "+00:00"))
+    current = now or datetime.now(timezone.utc)
+    return (current - parsed).total_seconds() < CVSS_CACHE_TTL_SECONDS
+
+
+def apply_cvss(record: dict[str, Any], entry: dict[str, Any]) -> None:
+    record["cvss_score"] = entry.get("score")
+    record["cvss_version"] = entry.get("version")
+    record["cvss_severity"] = entry.get("severity") or "Unavailable"
+    record["cvss_source"] = entry.get("source")
+
+
+def fetch_cvss(cve: str, *, api_key: str | None, fetcher: Callable[..., bytes]) -> dict[str, Any] | None:
+    headers = {"apiKey": api_key} if api_key else None
+    query = urllib.parse.urlencode({"cveId": cve})
+    raw = json.loads(fetcher(f"{NVD_CVE_URL}?{query}", headers=headers))
+    vulnerabilities = raw.get("vulnerabilities") or []
+    if not vulnerabilities:
+        return None
+    return extract_cvss(vulnerabilities[0])
+
+
+def enrich_kev_cvss(
+    data: dict[str, Any],
+    *,
+    api_key: str | None = None,
+    fetcher: Callable[..., bytes] | None = None,
+    sleeper: Callable[[float], None] | None = None,
+) -> None:
+    """Best-effort NVD enrichment with a persistent, expiring per-CVE cache."""
+    cache = data.setdefault("cvss_cache", {})
+    lookup = fetcher or fetch
+    sleep = sleeper or time.sleep
+    now = datetime.now(timezone.utc)
+    pending: list[dict[str, Any]] = []
+    seen: set[str] = set()
+    for record in data.get("kev", []):
+        cve = record.get("cve")
+        if not cve or cve in seen:
+            continue
+        seen.add(cve)
+        cached = cache.get(cve)
+        if isinstance(cached, dict):
+            apply_cvss(record, cached)
+        if not isinstance(cached, dict) or not cache_entry_fresh(cached, now):
+            pending.append(record)
+
+    max_requests = NVD_MAX_REQUESTS_WITH_KEY if api_key else NVD_MAX_REQUESTS_WITHOUT_KEY
+    interval = NVD_REQUEST_INTERVAL_SECONDS if api_key else NVD_REQUEST_INTERVAL_WITHOUT_KEY_SECONDS
+    for index, record in enumerate(pending[:max_requests]):
+        if index:
+            sleep(interval)
+        cve = record["cve"]
+        try:
+            result = fetch_cvss(cve, api_key=api_key, fetcher=lookup)
+        except Exception:
+            continue
+        entry = {
+            **(result or {"score": None, "version": None, "severity": "Unavailable", "source": "NVD"}),
+            "fetched_at": now_iso(),
+        }
+        cache[cve] = entry
+        apply_cvss(record, entry)
 
 
 def parse_urlhaus(payload: bytes) -> list[dict[str, Any]]:
@@ -180,7 +300,7 @@ def fetch(url: str, *, headers: dict[str, str] | None = None, body: bytes | None
 
 
 def default_data() -> dict[str, Any]:
-    return {"generated_at": None, "sources": {}, "news": [], "advisories": [], "kev": [], "urlhaus": [], "threatfox": []}
+    return {"generated_at": None, "sources": {}, "cvss_cache": {}, "news": [], "advisories": [], "kev": [], "urlhaus": [], "threatfox": []}
 
 
 def load_data() -> dict[str, Any]:
@@ -228,6 +348,7 @@ def main() -> int:
     collect_source(data, "cisa_news", lambda payload: parse_rss(payload, "cisa_news"))
     collect_source(data, "cisa_advisories", lambda payload: parse_rss(payload, "cisa_advisories"))
     collect_source(data, "cisa_kev", parse_kev)
+    enrich_kev_cvss(data, api_key=os.environ.get("NVD_API_KEY"))
 
     urlhaus_key = os.environ.get("URLHAUS_AUTH_KEY")
     if urlhaus_key:
