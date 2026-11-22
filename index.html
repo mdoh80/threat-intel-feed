@@ -19,6 +19,8 @@
       <div class="nominal" id="overall-status">● PIPELINE STARTING</div>
     </header>
 
+    <section class="ticker"><div class="ticker-head"><strong><span class="orange-dot"></span>RECENTLY EXPLOITED</strong><span>SOURCE: CISA KEV CATALOG</span><button id="ticker-toggle" type="button">PAUSE Ⅱ</button></div><div class="ticker-clip"><div class="ticker-track" id="ticker-track"></div></div></section>
+
     <section class="top-grid">
       <article class="panel overview-panel">
         <div class="panel-heading"><div><h2>OPERATIONAL OVERVIEW</h2><p>Calculated from the latest retained source data</p></div><span class="eyebrow">LIVE SIGNALS</span></div>
@@ -40,7 +42,6 @@
     <section class="panel ioc-panel"><div class="panel-heading"><div><h2>THREAT INTELLIGENCE</h2><p>Recent malicious URLs and malware-related IOCs · do not visit IOC links</p></div><span class="eyebrow" id="ioc-count">0 IOCs</span></div><div class="controls"><input id="ioc-search" type="search" placeholder="Search IOC, family, tag..." aria-label="Search indicators"><select id="ioc-source" aria-label="Filter indicator source"><option value="all">ALL SOURCES</option><option value="urlhaus">URLHAUS</option><option value="threatfox">THREATFOX</option></select><select id="ioc-type" aria-label="Filter indicator type"><option value="all">ALL IOC TYPES</option></select></div><div class="ioc-table-wrap"><table><thead><tr><th>IOC / HOST</th><th>SOURCE</th><th>TYPE</th><th>FAMILY / STATUS</th><th>FIRST SEEN</th></tr></thead><tbody id="ioc-list"></tbody></table></div></section>
 
     <footer class="footer"><span class="green-dot"></span><span id="footer-status">PIPELINE OPERATIONAL</span><span>•</span><span id="last-ingest">LAST INGEST UNAVAILABLE</span><span class="footer-note">DATA ATTRIBUTED TO ORIGINAL PROVIDERS · NO IOC IS PROOF OF COMPROMISE</span><span>THREAT INTEL FEED / v1.0</span></footer>
-    <section class="ticker"><div class="ticker-head"><strong><span class="orange-dot"></span>RECENTLY EXPLOITED</strong><span>SOURCE: CISA KEV CATALOG</span><button id="ticker-toggle" type="button">PAUSE Ⅱ</button></div><div class="ticker-clip"><div class="ticker-track" id="ticker-track"></div></div></section>
   </main>
   <script src="app.js" defer></script>
 </body>
