@@ -25537,6 +25537,13 @@
       "source": "NVD",
       "version": "3.1"
     },
+    "CVE-2026-102895": {
+      "fetched_at": "2026-11-22T22:35:07Z",
+      "score": 9.8,
+      "severity": "Critical",
+      "source": "NVD",
+      "version": "3.1"
+    },
     "CVE-2026-111560": {
       "fetched_at": "2026-11-22T22:21:56Z",
       "score": 8.6,
@@ -25565,9 +25572,30 @@
       "source": "NVD",
       "version": "4.0"
     },
+    "CVE-2026-116606": {
+      "fetched_at": "2026-11-22T22:34:55Z",
+      "score": 9.3,
+      "severity": "Critical",
+      "source": "NVD",
+      "version": "4.0"
+    },
+    "CVE-2026-116779": {
+      "fetched_at": "2026-11-22T22:35:20Z",
+      "score": 9.8,
+      "severity": "Critical",
+      "source": "NVD",
+      "version": "3.1"
+    },
     "CVE-2026-123039": {
       "fetched_at": "2026-11-22T22:21:32Z",
       "score": 7.8,
+      "severity": "High",
+      "source": "NVD",
+      "version": "3.1"
+    },
+    "CVE-2026-123158": {
+      "fetched_at": "2026-11-22T22:35:14Z",
+      "score": 8.1,
       "severity": "High",
       "source": "NVD",
       "version": "3.1"
@@ -25583,6 +25611,13 @@
       "fetched_at": "2026-11-22T22:21:38Z",
       "score": 6.5,
       "severity": "Medium",
+      "source": "NVD",
+      "version": "3.1"
+    },
+    "CVE-2026-125350": {
+      "fetched_at": "2026-11-22T22:35:01Z",
+      "score": 8.8,
+      "severity": "High",
       "source": "NVD",
       "version": "3.1"
     },
@@ -25629,7 +25664,7 @@
       "version": "3.1"
     }
   },
-  "generated_at": "2026-11-22T22:21:59Z",
+  "generated_at": "2026-11-22T22:35:21Z",
   "kev": [
     {
       "cve": "CVE-2026-129448",
@@ -25903,10 +25938,10 @@
     },
     {
       "cve": "CVE-2026-116606",
-      "cvss_score": null,
-      "cvss_severity": "Unavailable",
-      "cvss_source": null,
-      "cvss_version": null,
+      "cvss_score": 9.3,
+      "cvss_severity": "Critical",
+      "cvss_source": "NVD",
+      "cvss_version": "4.0",
       "date_added": "2026-11-10T00:00:00Z",
       "description": "Barracuda Networks Email Security Gateway (ESG) contains an authentication bypass using an alternate path or channel that could allow an unauthenticated remote attacker to invoke a configuration-import function and restore a crafted, compatible backup archive, resulting in unauthorized modification of the appliance\u2019s global configuration. This vulnerability can be chained with CVE-2026-111560.",
       "due_date": "2026-11-13T00:00:00Z",
@@ -25921,10 +25956,10 @@
     },
     {
       "cve": "CVE-2026-125350",
-      "cvss_score": null,
-      "cvss_severity": "Unavailable",
-      "cvss_source": null,
-      "cvss_version": null,
+      "cvss_score": 8.8,
+      "cvss_severity": "High",
+      "cvss_source": "NVD",
+      "cvss_version": "3.1",
       "date_added": "2026-11-10T00:00:00Z",
       "description": "Google Chromium contains a use-after-free vulnerability in the XML component that could allow a remote attacker to execute arbitrary code inside the sandbox via a specially crafted webpage. This vulnerability could affect multiple web browsers that utilize Chromium, including, but not limited to, Google Chrome, Microsoft Edge, and Opera.",
       "due_date": "2026-11-24T00:00:00Z",
@@ -25939,10 +25974,10 @@
     },
     {
       "cve": "CVE-2026-102895",
-      "cvss_score": null,
-      "cvss_severity": "Unavailable",
-      "cvss_source": null,
-      "cvss_version": null,
+      "cvss_score": 9.8,
+      "cvss_severity": "Critical",
+      "cvss_source": "NVD",
+      "cvss_version": "3.1",
       "date_added": "2026-11-09T00:00:00Z",
       "description": "GPUStack contains an improper authentication vulnerability which could allow unauthenticated administrative access, including user and model changes, persistent administrator API-key creation, disclosure of worker and cloud-provider secrets, and code execution through POST /v2/inference-backends/from-yaml.",
       "due_date": "2026-11-12T00:00:00Z",
@@ -25957,10 +25992,10 @@
     },
     {
       "cve": "CVE-2026-123158",
-      "cvss_score": null,
-      "cvss_severity": "Unavailable",
-      "cvss_source": null,
-      "cvss_version": null,
+      "cvss_score": 8.1,
+      "cvss_severity": "High",
+      "cvss_source": "NVD",
+      "cvss_version": "3.1",
       "date_added": "2026-11-09T00:00:00Z",
       "description": "OpenBSD OpenSSH on Linux contains an unexpected status code or return value vulnerability that could allow for authentication bypass.",
       "due_date": "2026-11-12T00:00:00Z",
@@ -25975,10 +26010,10 @@
     },
     {
       "cve": "CVE-2026-116779",
-      "cvss_score": null,
-      "cvss_severity": "Unavailable",
-      "cvss_source": null,
-      "cvss_version": null,
+      "cvss_score": 9.8,
+      "cvss_severity": "Critical",
+      "cvss_source": "NVD",
+      "cvss_version": "3.1",
       "date_added": "2026-11-09T00:00:00Z",
       "description": "SignalWire FreeSwitch contains a code injection vulnerability that permits configuration and credential disclosure, arbitrary call control, and command execution.",
       "due_date": "2026-11-12T00:00:00Z",
@@ -57967,36 +58002,36 @@
   "sources": {
     "cisa_advisories": {
       "error": null,
-      "last_attempt": "2026-11-22T22:21:31Z",
-      "last_success": "2026-11-22T22:21:31Z",
+      "last_attempt": "2026-11-22T22:34:54Z",
+      "last_success": "2026-11-22T22:34:54Z",
       "status": "healthy",
       "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml"
     },
     "cisa_kev": {
       "error": null,
-      "last_attempt": "2026-11-22T22:21:31Z",
-      "last_success": "2026-11-22T22:21:31Z",
+      "last_attempt": "2026-11-22T22:34:54Z",
+      "last_success": "2026-11-22T22:34:54Z",
       "status": "healthy",
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
     },
     "cisa_news": {
       "error": null,
-      "last_attempt": "2026-11-22T22:21:31Z",
-      "last_success": "2026-11-22T22:21:31Z",
+      "last_attempt": "2026-11-22T22:34:54Z",
+      "last_success": "2026-11-22T22:34:54Z",
       "status": "healthy",
       "url": "https://www.cisa.gov/news.xml"
     },
     "threatfox": {
       "error": "IncompleteRead(64375 bytes read)",
-      "last_attempt": "2026-11-22T22:21:57Z",
+      "last_attempt": "2026-11-22T22:35:21Z",
       "last_success": "2026-11-22T00:28:26Z",
       "status": "stale",
       "url": "https://threatfox-api.abuse.ch/api/v1/"
     },
     "urlhaus": {
       "error": null,
-      "last_attempt": "2026-11-22T22:21:56Z",
-      "last_success": "2026-11-22T22:21:56Z",
+      "last_attempt": "2026-11-22T22:35:20Z",
+      "last_success": "2026-11-22T22:35:20Z",
       "status": "healthy",
       "url": "https://urlhaus-api.abuse.ch/v1/urls/recent/limit/100/"
     }
@@ -103622,6 +103657,50 @@
   ],
   "urlhaus": [
     {
+      "first_seen": "2026-11-22T22:32:06Z",
+      "host": "182.52.126.18",
+      "id": "4074393",
+      "ioc": "http://182.52.126.18:59034/bin.sh",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [],
+      "url": "https://urlhaus.abuse.ch/url/4074393/"
+    },
+    {
+      "first_seen": "2026-11-22T22:32:06Z",
+      "host": "182.121.112.54",
+      "id": "4074392",
+      "ioc": "http://182.121.112.54:50827/bin.sh",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [],
+      "url": "https://urlhaus.abuse.ch/url/4074392/"
+    },
+    {
+      "first_seen": "2026-11-22T22:32:06Z",
+      "host": "183.35.50.222",
+      "id": "4074391",
+      "ioc": "http://183.35.50.222:32772/i",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [],
+      "url": "https://urlhaus.abuse.ch/url/4074391/"
+    },
+    {
+      "first_seen": "2026-11-22T22:32:05Z",
+      "host": "196.189.132.118",
+      "id": "4074390",
+      "ioc": "http://196.189.132.118:26630/bin.sh",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [],
+      "url": "https://urlhaus.abuse.ch/url/4074390/"
+    },
+    {
       "first_seen": "2026-11-22T22:19:06Z",
       "host": "125.43.32.186",
       "id": "4074389",
@@ -103645,7 +103724,9 @@
       "ioc_type": "url",
       "source": "urlhaus",
       "status": "online",
-      "tags": [],
+      "tags": [
+        "Mozi"
+      ],
       "url": "https://urlhaus.abuse.ch/url/4074388/"
     },
     {
@@ -103656,7 +103737,9 @@
       "ioc_type": "url",
       "source": "urlhaus",
       "status": "online",
-      "tags": [],
+      "tags": [
+        "Mozi"
+      ],
       "url": "https://urlhaus.abuse.ch/url/4074387/"
     },
     {
@@ -105026,62 +105109,6 @@
         "Mozi"
       ],
       "url": "https://urlhaus.abuse.ch/url/4074294/"
-    },
-    {
-      "first_seen": "2026-11-22T21:19:12Z",
-      "host": "cdn.discordapp.com",
-      "id": "4074293",
-      "ioc": "https://cdn.discordapp.com/attachments/1571225716761170093/1574171600935461124/8045bd90fb?ex=6b04ad0c&is=6b035b8c&hm=8ba61e9c051e06b2ab5edfe94a04cc6047fdba2a25ce15fb9cd621f3f740f215&",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "IRAHook"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074293/"
-    },
-    {
-      "first_seen": "2026-11-22T21:15:16Z",
-      "host": "210.208.110.51",
-      "id": "4074292",
-      "ioc": "http://210.208.110.51:41900/bin.sh",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "32-bit",
-        "arm",
-        "elf",
-        "mirai",
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074292/"
-    },
-    {
-      "first_seen": "2026-11-22T21:06:14Z",
-      "host": "cdn.discordapp.com",
-      "id": "4074291",
-      "ioc": "https://cdn.discordapp.com/attachments/1560716942153613344/1574167673258905804/de71436b03?ex=6b04a963&is=6b0357e3&hm=8b930acdea41f795268ac575caf124ec3d89436d87ca0a8514af4d07cd7c3c0e&",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "IRAHook"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074291/"
-    },
-    {
-      "first_seen": "2026-11-22T21:02:06Z",
-      "host": "182.116.115.11",
-      "id": "4074290",
-      "ioc": "http://182.116.115.11:33788/i",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074290/"
     }
   ]
 }
