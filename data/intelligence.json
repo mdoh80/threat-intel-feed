@@ -25522,7 +25522,7 @@
       "vendor": "Zyxel"
     }
   ],
-  "generated_at": "2026-11-21T20:15:11Z",
+  "generated_at": "2026-11-22T00:28:28Z",
   "kev": [
     {
       "cve": "CVE-2026-129448",
@@ -50700,41 +50700,2670 @@
   "sources": {
     "cisa_advisories": {
       "error": null,
-      "last_attempt": "2026-11-21T20:15:10Z",
-      "last_success": "2026-11-21T20:15:10Z",
+      "last_attempt": "2026-11-22T00:28:25Z",
+      "last_success": "2026-11-22T00:28:25Z",
       "status": "healthy",
       "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml"
     },
     "cisa_kev": {
       "error": null,
-      "last_attempt": "2026-11-21T20:15:10Z",
-      "last_success": "2026-11-21T20:15:10Z",
+      "last_attempt": "2026-11-22T00:28:25Z",
+      "last_success": "2026-11-22T00:28:25Z",
       "status": "healthy",
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
     },
     "cisa_news": {
       "error": null,
-      "last_attempt": "2026-11-21T20:15:10Z",
-      "last_success": "2026-11-21T20:15:10Z",
+      "last_attempt": "2026-11-22T00:28:25Z",
+      "last_success": "2026-11-22T00:28:25Z",
       "status": "healthy",
       "url": "https://www.cisa.gov/news.xml"
     },
     "threatfox": {
       "error": null,
-      "last_attempt": "2026-11-21T20:15:10Z",
-      "last_success": "2026-11-21T20:15:10Z",
+      "last_attempt": "2026-11-22T00:28:26Z",
+      "last_success": "2026-11-22T00:28:26Z",
       "status": "healthy",
       "url": "https://threatfox-api.abuse.ch/api/v1/"
     },
     "urlhaus": {
       "error": null,
-      "last_attempt": "2026-11-21T20:15:10Z",
-      "last_success": "2026-11-21T20:15:10Z",
+      "last_attempt": "2026-11-22T00:28:26Z",
+      "last_success": "2026-11-22T00:28:26Z",
       "status": "healthy",
       "url": "https://urlhaus-api.abuse.ch/v1/urls/recent/limit/100/"
     }
   },
   "threatfox": [
+    {
+      "confidence": 75,
+      "first_seen": "2026-11-22T00:26:57Z",
+      "id": "2038785",
+      "ioc": "fewyxe.sa.com",
+      "ioc_type": "domain",
+      "malware": "IClickFix",
+      "source": "threatfox",
+      "threat_type": "payload_delivery",
+      "url": "https://urlscan.io/result/01a1ff85-af33-706f-9d66-f2bc0505b991/"
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-22T00:26:34Z",
+      "id": "2038784",
+      "ioc": "mmecsq1t.pruebasrhglobal.com",
+      "ioc_type": "domain",
+      "malware": "ClearFake",
+      "source": "threatfox",
+      "threat_type": "payload_delivery",
+      "url": null
+    },
+    {
+      "confidence": 90,
+      "first_seen": "2026-11-22T00:26:24Z",
+      "id": "2038783",
+      "ioc": "amadvancedmarketing.com",
+      "ioc_type": "domain",
+      "malware": "ClearFake",
+      "source": "threatfox",
+      "threat_type": "payload_delivery",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-22T00:25:31Z",
+      "id": "2038782",
+      "ioc": "pruebasrhglobal.com",
+      "ioc_type": "domain",
+      "malware": "ClearFake",
+      "source": "threatfox",
+      "threat_type": "payload_delivery",
+      "url": null
+    },
+    {
+      "confidence": 75,
+      "first_seen": "2026-11-22T00:25:22Z",
+      "id": "2038781",
+      "ioc": "metallicaviejagardia.epizy.com",
+      "ioc_type": "domain",
+      "malware": "IClickFix",
+      "source": "threatfox",
+      "threat_type": "payload_delivery",
+      "url": "https://urlscan.io/result/01a1ff93-c8db-7558-be80-a191275a1308/"
+    },
+    {
+      "confidence": 75,
+      "first_seen": "2026-11-22T00:23:13Z",
+      "id": "2038780",
+      "ioc": "aplustowingmn.com",
+      "ioc_type": "domain",
+      "malware": "IClickFix",
+      "source": "threatfox",
+      "threat_type": "payload_delivery",
+      "url": "https://urlscan.io/result/01a1ffcc-8af5-74b4-afdf-6b17eeedfc78/"
+    },
+    {
+      "confidence": 75,
+      "first_seen": "2026-11-22T00:22:53Z",
+      "id": "2038779",
+      "ioc": "belltowingandrecovery.com",
+      "ioc_type": "domain",
+      "malware": "IClickFix",
+      "source": "threatfox",
+      "threat_type": "payload_delivery",
+      "url": "https://urlscan.io/result/01a1ffeb-507f-773d-a6b0-2e596556f6a9/"
+    },
+    {
+      "confidence": 75,
+      "first_seen": "2026-11-22T00:22:47Z",
+      "id": "2038778",
+      "ioc": "bezigue.com",
+      "ioc_type": "domain",
+      "malware": "IClickFix",
+      "source": "threatfox",
+      "threat_type": "payload_delivery",
+      "url": "https://urlscan.io/result/01a1ffee-ee1e-714b-8150-ca288cf6a0b1/"
+    },
+    {
+      "confidence": 75,
+      "first_seen": "2026-11-22T00:22:24Z",
+      "id": "2038777",
+      "ioc": "cursosesferaquantica.com.br",
+      "ioc_type": "domain",
+      "malware": "IClickFix",
+      "source": "threatfox",
+      "threat_type": "payload_delivery",
+      "url": "https://urlscan.io/result/01a20020-3695-72c5-8acf-2ae452b179e6/"
+    },
+    {
+      "confidence": 75,
+      "first_seen": "2026-11-22T00:21:48Z",
+      "id": "2038776",
+      "ioc": "data.eu-management.ink",
+      "ioc_type": "domain",
+      "malware": "IClickFix",
+      "source": "threatfox",
+      "threat_type": "payload_delivery",
+      "url": "https://urlscan.io/result/01a2005c-db1d-733d-8c63-4a72927e0388/"
+    },
+    {
+      "confidence": 75,
+      "first_seen": "2026-11-22T00:21:42Z",
+      "id": "2038775",
+      "ioc": "www.prenursingsmarter.com",
+      "ioc_type": "domain",
+      "malware": "IClickFix",
+      "source": "threatfox",
+      "threat_type": "payload_delivery",
+      "url": "https://urlscan.io/result/01a20061-084f-751f-a44e-d92ddef0db58/"
+    },
+    {
+      "confidence": 50,
+      "first_seen": "2026-11-22T00:21:35Z",
+      "id": "2038774",
+      "ioc": "69-89.atualtektelecom.com.br",
+      "ioc_type": "domain",
+      "malware": "php.shin_webshell",
+      "source": "threatfox",
+      "threat_type": "payload_delivery",
+      "url": null
+    },
+    {
+      "confidence": 75,
+      "first_seen": "2026-11-22T00:21:29Z",
+      "id": "2038773",
+      "ioc": "flagabudownictwo.pl",
+      "ioc_type": "domain",
+      "malware": "IClickFix",
+      "source": "threatfox",
+      "threat_type": "payload_delivery",
+      "url": "https://urlscan.io/result/01a20074-c9d2-73fb-b04e-ab1bc95907c7/"
+    },
+    {
+      "confidence": 75,
+      "first_seen": "2026-11-22T00:21:15Z",
+      "id": "2038772",
+      "ioc": "futuretechnologyhub.com",
+      "ioc_type": "domain",
+      "malware": "IClickFix",
+      "source": "threatfox",
+      "threat_type": "payload_delivery",
+      "url": "https://urlscan.io/result/01a2007f-aa18-76f0-942d-3d192975b943/"
+    },
+    {
+      "confidence": 75,
+      "first_seen": "2026-11-22T00:21:06Z",
+      "id": "2038771",
+      "ioc": "giaxere.vn",
+      "ioc_type": "domain",
+      "malware": "IClickFix",
+      "source": "threatfox",
+      "threat_type": "payload_delivery",
+      "url": "https://urlscan.io/result/01a20085-b5ff-7750-8ad8-fce745f10881/"
+    },
+    {
+      "confidence": 75,
+      "first_seen": "2026-11-22T00:19:08Z",
+      "id": "2038770",
+      "ioc": "http://72.255.26.192:56473/Mozi.a",
+      "ioc_type": "url",
+      "malware": "Mozi",
+      "source": "threatfox",
+      "threat_type": "payload_delivery",
+      "url": "https://honeylabs.net/lookup/72.255.26.192"
+    },
+    {
+      "confidence": 75,
+      "first_seen": "2026-11-22T00:19:08Z",
+      "id": "2038769",
+      "ioc": "http://223.123.73.209:52457/Mozi.m",
+      "ioc_type": "url",
+      "malware": "Mozi",
+      "source": "threatfox",
+      "threat_type": "payload_delivery",
+      "url": "https://honeylabs.net/lookup/223.123.73.209"
+    },
+    {
+      "confidence": 75,
+      "first_seen": "2026-11-22T00:19:08Z",
+      "id": "2038768",
+      "ioc": "http://139.135.60.2:52711/Mozi.m",
+      "ioc_type": "url",
+      "malware": "Mozi",
+      "source": "threatfox",
+      "threat_type": "payload_delivery",
+      "url": "https://honeylabs.net/lookup/139.135.60.2"
+    },
+    {
+      "confidence": 75,
+      "first_seen": "2026-11-22T00:19:07Z",
+      "id": "2038767",
+      "ioc": "http://103.174.243.205:34747/Mozi.m",
+      "ioc_type": "url",
+      "malware": "Mozi",
+      "source": "threatfox",
+      "threat_type": "payload_delivery",
+      "url": "https://honeylabs.net/lookup/103.174.243.205"
+    },
+    {
+      "confidence": 75,
+      "first_seen": "2026-11-22T00:19:07Z",
+      "id": "2038766",
+      "ioc": "http://102.21.87.48:55635/Mozi.m",
+      "ioc_type": "url",
+      "malware": "Mozi",
+      "source": "threatfox",
+      "threat_type": "payload_delivery",
+      "url": "https://honeylabs.net/lookup/102.21.87.48"
+    },
+    {
+      "confidence": 90,
+      "first_seen": "2026-11-22T00:15:14Z",
+      "id": "2038765",
+      "ioc": "m.nerobet888.com",
+      "ioc_type": "domain",
+      "malware": "ClearFake",
+      "source": "threatfox",
+      "threat_type": "payload_delivery",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-22T00:06:19Z",
+      "id": "2038764",
+      "ioc": "thistle-pliaor-zrams.pro",
+      "ioc_type": "domain",
+      "malware": "IClickFix",
+      "source": "threatfox",
+      "threat_type": "payload_delivery",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-22T00:06:19Z",
+      "id": "2038763",
+      "ioc": "stuststoaara-grove.pro",
+      "ioc_type": "domain",
+      "malware": "IClickFix",
+      "source": "threatfox",
+      "threat_type": "payload_delivery",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-22T00:06:19Z",
+      "id": "2038762",
+      "ioc": "silvercreskriaor.pro",
+      "ioc_type": "domain",
+      "malware": "IClickFix",
+      "source": "threatfox",
+      "threat_type": "payload_delivery",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-22T00:06:19Z",
+      "id": "2038761",
+      "ioc": "silver-glide-badger-rioen.pro",
+      "ioc_type": "domain",
+      "malware": "IClickFix",
+      "source": "threatfox",
+      "threat_type": "payload_delivery",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-22T00:06:19Z",
+      "id": "2038760",
+      "ioc": "reoddium-thistle.pro",
+      "ioc_type": "domain",
+      "malware": "IClickFix",
+      "source": "threatfox",
+      "threat_type": "payload_delivery",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-22T00:06:19Z",
+      "id": "2038759",
+      "ioc": "kiln-bruiyn-ncuas.pro",
+      "ioc_type": "domain",
+      "malware": "IClickFix",
+      "source": "threatfox",
+      "threat_type": "payload_delivery",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-22T00:06:19Z",
+      "id": "2038758",
+      "ioc": "famplianpleoa.pro",
+      "ioc_type": "domain",
+      "malware": "IClickFix",
+      "source": "threatfox",
+      "threat_type": "payload_delivery",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-22T00:06:19Z",
+      "id": "2038757",
+      "ioc": "coral-vale-greopgaeen.pro",
+      "ioc_type": "domain",
+      "malware": "IClickFix",
+      "source": "threatfox",
+      "threat_type": "payload_delivery",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-22T00:06:19Z",
+      "id": "2038756",
+      "ioc": "cobaltfriobpliaon.pro",
+      "ioc_type": "domain",
+      "malware": "IClickFix",
+      "source": "threatfox",
+      "threat_type": "payload_delivery",
+      "url": null
+    },
+    {
+      "confidence": 50,
+      "first_seen": "2026-11-22T00:04:35Z",
+      "id": "2038755",
+      "ioc": "rate-limited-proxy-66-249-89-229.google.com",
+      "ioc_type": "domain",
+      "malware": "php.shin_webshell",
+      "source": "threatfox",
+      "threat_type": "payload_delivery",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-22T00:00:24Z",
+      "id": "2038754",
+      "ioc": "94.131.125.122:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-22T00:00:24Z",
+      "id": "2038753",
+      "ioc": "60.204.233.159:8787",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-22T00:00:24Z",
+      "id": "2038752",
+      "ioc": "43.251.224.148:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-22T00:00:24Z",
+      "id": "2038751",
+      "ioc": "23.226.70.142:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-22T00:00:24Z",
+      "id": "2038750",
+      "ioc": "23.226.70.141:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-22T00:00:24Z",
+      "id": "2038749",
+      "ioc": "23.226.70.140:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-22T00:00:24Z",
+      "id": "2038748",
+      "ioc": "209.99.186.196:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-22T00:00:23Z",
+      "id": "2038747",
+      "ioc": "186.246.53.38:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-22T00:00:23Z",
+      "id": "2038746",
+      "ioc": "161.120.218.168:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-22T00:00:23Z",
+      "id": "2038745",
+      "ioc": "139.162.40.209:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-22T00:00:23Z",
+      "id": "2038744",
+      "ioc": "137.220.130.26:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-22T00:00:23Z",
+      "id": "2038743",
+      "ioc": "13.140.39.150:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-22T00:00:23Z",
+      "id": "2038742",
+      "ioc": "113.45.68.166:8787",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 90,
+      "first_seen": "2026-11-22T00:00:12Z",
+      "id": "2038741",
+      "ioc": "c014333302604fc100a0f095be65ac3b762f9384b0590934463d0cd9ddbc6089",
+      "ioc_type": "sha256_hash",
+      "malware": "Mirai",
+      "source": "threatfox",
+      "threat_type": "payload",
+      "url": null
+    },
+    {
+      "confidence": 90,
+      "first_seen": "2026-11-22T00:00:10Z",
+      "id": "2038740",
+      "ioc": "6e126d39bc27d6125d95fb86b6b7d85c257f09d11c681780e810ed68de83b755",
+      "ioc_type": "sha256_hash",
+      "malware": "Mirai",
+      "source": "threatfox",
+      "threat_type": "payload",
+      "url": null
+    },
+    {
+      "confidence": 90,
+      "first_seen": "2026-11-22T00:00:09Z",
+      "id": "2038739",
+      "ioc": "6fe8cbb204bb13b4b91598373f0b1bd769f7bba9116f931e430a23df30919d05",
+      "ioc_type": "sha256_hash",
+      "malware": "Mirai",
+      "source": "threatfox",
+      "threat_type": "payload",
+      "url": null
+    },
+    {
+      "confidence": 90,
+      "first_seen": "2026-11-22T00:00:07Z",
+      "id": "2038738",
+      "ioc": "9703b3a469c4fe3d00c5fa95ca5a178b5380d194b6fa269fcf8fa8e688f77942",
+      "ioc_type": "sha256_hash",
+      "malware": "Mirai",
+      "source": "threatfox",
+      "threat_type": "payload",
+      "url": null
+    },
+    {
+      "confidence": 75,
+      "first_seen": "2026-11-21T23:59:18Z",
+      "id": "2038737",
+      "ioc": "117.72.123.49:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:58:46Z",
+      "id": "2038736",
+      "ioc": "43.173.38.91:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:58:46Z",
+      "id": "2038735",
+      "ioc": "43.167.92.43:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:58:46Z",
+      "id": "2038734",
+      "ioc": "43.167.172.20:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:58:46Z",
+      "id": "2038733",
+      "ioc": "43.166.5.95:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:58:46Z",
+      "id": "2038732",
+      "ioc": "43.166.240.130:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:58:46Z",
+      "id": "2038731",
+      "ioc": "43.166.18.250:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:58:46Z",
+      "id": "2038730",
+      "ioc": "43.157.210.152:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:58:46Z",
+      "id": "2038729",
+      "ioc": "43.157.174.2:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:58:46Z",
+      "id": "2038728",
+      "ioc": "43.157.170.157:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:58:46Z",
+      "id": "2038727",
+      "ioc": "43.157.169.156:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:58:46Z",
+      "id": "2038726",
+      "ioc": "43.152.243.245:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:58:46Z",
+      "id": "2038725",
+      "ioc": "43.133.205.196:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:58:46Z",
+      "id": "2038724",
+      "ioc": "43.128.220.9:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:58:46Z",
+      "id": "2038723",
+      "ioc": "43.128.213.140:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:58:46Z",
+      "id": "2038722",
+      "ioc": "43.128.211.240:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:58:46Z",
+      "id": "2038721",
+      "ioc": "43.128.1.168:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:58:46Z",
+      "id": "2038720",
+      "ioc": "34.61.246.29:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:58:46Z",
+      "id": "2038719",
+      "ioc": "186.240.202.78:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:58:46Z",
+      "id": "2038718",
+      "ioc": "170.106.38.231:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:58:46Z",
+      "id": "2038717",
+      "ioc": "161.120.220.30:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:58:46Z",
+      "id": "2038716",
+      "ioc": "161.120.218.28:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:58:46Z",
+      "id": "2038715",
+      "ioc": "161.120.218.134:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:58:46Z",
+      "id": "2038714",
+      "ioc": "154.198.52.12:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:58:46Z",
+      "id": "2038713",
+      "ioc": "150.109.186.112:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:58:46Z",
+      "id": "2038712",
+      "ioc": "142.86.110.155:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:58:46Z",
+      "id": "2038711",
+      "ioc": "119.28.19.56:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 50,
+      "first_seen": "2026-11-21T23:46:52Z",
+      "id": "2038710",
+      "ioc": "tcnbb19766.workers.dev",
+      "ioc_type": "domain",
+      "malware": "php.shin_webshell",
+      "source": "threatfox",
+      "threat_type": "payload_delivery",
+      "url": null
+    },
+    {
+      "confidence": 90,
+      "first_seen": "2026-11-21T23:35:18Z",
+      "id": "2038709",
+      "ioc": "bf577276afbaee9d5e820f913b757f4bba600a8818aede3c64fb383922764826",
+      "ioc_type": "sha256_hash",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "payload",
+      "url": "https://blog.malwaremustdie.org/2026/11/mmd-073-2026-linuxeasyshell-new-rust.html"
+    },
+    {
+      "confidence": 90,
+      "first_seen": "2026-11-21T23:35:18Z",
+      "id": "2038708",
+      "ioc": "103629e022a235ae38b0ccbe61c8e274688ace40e67c2ab63559b2f9848d339b",
+      "ioc_type": "sha256_hash",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "payload",
+      "url": "https://blog.malwaremustdie.org/2026/11/mmd-073-2026-linuxeasyshell-new-rust.html"
+    },
+    {
+      "confidence": 90,
+      "first_seen": "2026-11-21T23:35:18Z",
+      "id": "2038707",
+      "ioc": "a4f5a2fd96e6631e31a87fda07d5fe276fc6808d36ca1d0cb19ff8b3d8b4c44e",
+      "ioc_type": "sha256_hash",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "payload",
+      "url": "https://blog.malwaremustdie.org/2026/11/mmd-073-2026-linuxeasyshell-new-rust.html"
+    },
+    {
+      "confidence": 90,
+      "first_seen": "2026-11-21T23:35:18Z",
+      "id": "2038706",
+      "ioc": "ec85be53f1e3b7cfc7e0f060ec3ef2e5d19fe017e20e16c473df76e072f51512",
+      "ioc_type": "sha256_hash",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "payload",
+      "url": "https://blog.malwaremustdie.org/2026/11/mmd-073-2026-linuxeasyshell-new-rust.html"
+    },
+    {
+      "confidence": 90,
+      "first_seen": "2026-11-21T23:35:18Z",
+      "id": "2038705",
+      "ioc": "e2bff1830fe20f7f450dabfc02d4b80fc3393f18ed5cb378b95b61131c261cab",
+      "ioc_type": "sha256_hash",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "payload",
+      "url": "https://blog.malwaremustdie.org/2026/11/mmd-073-2026-linuxeasyshell-new-rust.html"
+    },
+    {
+      "confidence": 90,
+      "first_seen": "2026-11-21T23:35:18Z",
+      "id": "2038704",
+      "ioc": "95bc2d42a233037c1b29f9252331c4342b891830f55f458b78c5b107863baf95",
+      "ioc_type": "sha256_hash",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "payload",
+      "url": "https://blog.malwaremustdie.org/2026/11/mmd-073-2026-linuxeasyshell-new-rust.html"
+    },
+    {
+      "confidence": 90,
+      "first_seen": "2026-11-21T23:35:18Z",
+      "id": "2038703",
+      "ioc": "d480c78005a0999ab678bf35f293e16cfa5a635d72c63941be1311d0a78ce91e",
+      "ioc_type": "sha256_hash",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "payload",
+      "url": "https://blog.malwaremustdie.org/2026/11/mmd-073-2026-linuxeasyshell-new-rust.html"
+    },
+    {
+      "confidence": 90,
+      "first_seen": "2026-11-21T23:29:56Z",
+      "id": "2038702",
+      "ioc": "app.wetrading.io",
+      "ioc_type": "domain",
+      "malware": "ClearFake",
+      "source": "threatfox",
+      "threat_type": "payload_delivery",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:08:44Z",
+      "id": "2038701",
+      "ioc": "47.98.177.143:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:08:44Z",
+      "id": "2038700",
+      "ioc": "47.254.1.33:9000",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:08:44Z",
+      "id": "2038699",
+      "ioc": "47.116.71.206:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:08:44Z",
+      "id": "2038698",
+      "ioc": "46.183.27.170:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:08:44Z",
+      "id": "2038697",
+      "ioc": "45.141.224.142:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:08:44Z",
+      "id": "2038696",
+      "ioc": "45.133.210.46:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:08:44Z",
+      "id": "2038695",
+      "ioc": "43.226.17.40:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:08:44Z",
+      "id": "2038694",
+      "ioc": "38.54.85.138:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:08:44Z",
+      "id": "2038693",
+      "ioc": "35.198.236.64:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:08:44Z",
+      "id": "2038692",
+      "ioc": "31.76.245.71:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:08:44Z",
+      "id": "2038691",
+      "ioc": "23.134.124.241:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:08:44Z",
+      "id": "2038690",
+      "ioc": "167.88.61.154:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:08:44Z",
+      "id": "2038689",
+      "ioc": "165.227.22.147:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:08:44Z",
+      "id": "2038688",
+      "ioc": "162.35.47.98:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:08:44Z",
+      "id": "2038687",
+      "ioc": "159.200.232.212:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:08:44Z",
+      "id": "2038686",
+      "ioc": "154.9.235.99:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:08:44Z",
+      "id": "2038685",
+      "ioc": "107.149.88.73:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:08:44Z",
+      "id": "2038684",
+      "ioc": "104.233.207.18:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:05:34Z",
+      "id": "2038683",
+      "ioc": "rh.asiagacor777.org",
+      "ioc_type": "domain",
+      "malware": "Vidar",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:05:26Z",
+      "id": "2038682",
+      "ioc": "85.189.58.26:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:05:26Z",
+      "id": "2038681",
+      "ioc": "103.86.44.178:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 90,
+      "first_seen": "2026-11-21T23:05:15Z",
+      "id": "2038680",
+      "ioc": "68e7c39c47ebabb8a1321fcb8bd812ac77ec66db927dd22127a3a498c85506d4",
+      "ioc_type": "sha256_hash",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "payload",
+      "url": "https://blog.malwaremustdie.org/2026/11/mmd-073-2026-linuxeasyshell-new-rust.html"
+    },
+    {
+      "confidence": 90,
+      "first_seen": "2026-11-21T23:05:15Z",
+      "id": "2038679",
+      "ioc": "fa63c70ec9122c5994debacbd81dc19097b278af1a45b0799451571ccd6de69e",
+      "ioc_type": "sha256_hash",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "payload",
+      "url": "https://blog.malwaremustdie.org/2026/11/mmd-073-2026-linuxeasyshell-new-rust.html"
+    },
+    {
+      "confidence": 90,
+      "first_seen": "2026-11-21T23:05:14Z",
+      "id": "2038678",
+      "ioc": "e1a9dea79bd7d795451bd6187508dda6e6413e3dbc9cc54d84b1a42069ce454b",
+      "ioc_type": "sha256_hash",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "payload",
+      "url": "https://blog.malwaremustdie.org/2026/11/mmd-073-2026-linuxeasyshell-new-rust.html"
+    },
+    {
+      "confidence": 90,
+      "first_seen": "2026-11-21T23:05:14Z",
+      "id": "2038677",
+      "ioc": "4b9c3ec2f5aa65f00df5cf47ba1001cd359f97264917318e431d2b0a4920bddf",
+      "ioc_type": "sha256_hash",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "payload",
+      "url": "https://blog.malwaremustdie.org/2026/11/mmd-073-2026-linuxeasyshell-new-rust.html"
+    },
+    {
+      "confidence": 90,
+      "first_seen": "2026-11-21T23:05:14Z",
+      "id": "2038676",
+      "ioc": "6ec7bb93dc1c8ac0bf0213610a3ab30671f7ed35df78451607cbb89a99f65c28",
+      "ioc_type": "sha256_hash",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "payload",
+      "url": "https://blog.malwaremustdie.org/2026/11/mmd-073-2026-linuxeasyshell-new-rust.html"
+    },
+    {
+      "confidence": 90,
+      "first_seen": "2026-11-21T23:05:14Z",
+      "id": "2038675",
+      "ioc": "a7f5eae474e065517ab70842500331a20bc87f5881d3afddda695462134b79d4",
+      "ioc_type": "sha256_hash",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "payload",
+      "url": "https://blog.malwaremustdie.org/2026/11/mmd-073-2026-linuxeasyshell-new-rust.html"
+    },
+    {
+      "confidence": 90,
+      "first_seen": "2026-11-21T23:05:14Z",
+      "id": "2038674",
+      "ioc": "f02313f9a0f4a43ee74c37594ce588d8bafd458075991cee870b29559b11ee26",
+      "ioc_type": "sha256_hash",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "payload",
+      "url": "https://blog.malwaremustdie.org/2026/11/mmd-073-2026-linuxeasyshell-new-rust.html"
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:03:42Z",
+      "id": "2038673",
+      "ioc": "43.173.30.242:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:03:42Z",
+      "id": "2038672",
+      "ioc": "43.173.247.45:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:03:42Z",
+      "id": "2038671",
+      "ioc": "43.173.15.159:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:03:42Z",
+      "id": "2038670",
+      "ioc": "43.172.69.225:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:03:42Z",
+      "id": "2038669",
+      "ioc": "43.167.47.78:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:03:42Z",
+      "id": "2038668",
+      "ioc": "43.167.212.35:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:03:42Z",
+      "id": "2038667",
+      "ioc": "43.166.14.126:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:03:42Z",
+      "id": "2038666",
+      "ioc": "43.159.226.235:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:03:42Z",
+      "id": "2038665",
+      "ioc": "43.157.23.112:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:03:42Z",
+      "id": "2038664",
+      "ioc": "43.157.207.95:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:03:42Z",
+      "id": "2038663",
+      "ioc": "43.157.173.189:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:03:42Z",
+      "id": "2038662",
+      "ioc": "43.157.161.102:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:03:42Z",
+      "id": "2038661",
+      "ioc": "43.157.157.48:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:03:42Z",
+      "id": "2038660",
+      "ioc": "43.153.148.144:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:03:42Z",
+      "id": "2038659",
+      "ioc": "43.152.227.51:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:03:42Z",
+      "id": "2038658",
+      "ioc": "43.133.117.70:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:03:42Z",
+      "id": "2038657",
+      "ioc": "43.132.169.85:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:03:42Z",
+      "id": "2038656",
+      "ioc": "43.131.60.138:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:03:42Z",
+      "id": "2038655",
+      "ioc": "43.131.52.2:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:03:42Z",
+      "id": "2038654",
+      "ioc": "43.131.51.162:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:03:42Z",
+      "id": "2038653",
+      "ioc": "43.130.90.206:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:03:42Z",
+      "id": "2038652",
+      "ioc": "43.130.158.179:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:03:42Z",
+      "id": "2038651",
+      "ioc": "43.128.30.32:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:03:42Z",
+      "id": "2038650",
+      "ioc": "170.106.151.247:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:03:41Z",
+      "id": "2038649",
+      "ioc": "161.120.223.60:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:03:41Z",
+      "id": "2038648",
+      "ioc": "161.120.223.24:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:03:41Z",
+      "id": "2038647",
+      "ioc": "161.120.222.215:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:03:41Z",
+      "id": "2038646",
+      "ioc": "150.109.179.183:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:03:41Z",
+      "id": "2038645",
+      "ioc": "142.86.118.18:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:03:41Z",
+      "id": "2038644",
+      "ioc": "129.226.64.34:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:03:41Z",
+      "id": "2038643",
+      "ioc": "124.156.218.163:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:03:41Z",
+      "id": "2038642",
+      "ioc": "124.156.174.82:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:03:41Z",
+      "id": "2038641",
+      "ioc": "119.28.13.128:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:03:41Z",
+      "id": "2038640",
+      "ioc": "101.32.49.26:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T23:03:41Z",
+      "id": "2038639",
+      "ioc": "101.32.22.176:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T22:37:06Z",
+      "id": "2038638",
+      "ioc": "5m48xpxq.bossbeyclub.click",
+      "ioc_type": "domain",
+      "malware": "ClearFake",
+      "source": "threatfox",
+      "threat_type": "payload_delivery",
+      "url": null
+    },
+    {
+      "confidence": 90,
+      "first_seen": "2026-11-21T22:35:22Z",
+      "id": "2038637",
+      "ioc": "f277c5c0a1564bcf90a0241a2a16efa12d7b33f32fb7746e256180d9091d503f",
+      "ioc_type": "sha256_hash",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "payload",
+      "url": "https://blog.malwaremustdie.org/2026/11/mmd-073-2026-linuxeasyshell-new-rust.html"
+    },
+    {
+      "confidence": 90,
+      "first_seen": "2026-11-21T22:35:22Z",
+      "id": "2038636",
+      "ioc": "5732e58f9d71087079f079478f23091ba8ede0909b968ae4d6d1d61fe38ba34f",
+      "ioc_type": "sha256_hash",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "payload",
+      "url": "https://blog.malwaremustdie.org/2026/11/mmd-073-2026-linuxeasyshell-new-rust.html"
+    },
+    {
+      "confidence": 90,
+      "first_seen": "2026-11-21T22:35:22Z",
+      "id": "2038635",
+      "ioc": "a72433cd2a3fc4b031696d2166150e8fedf43f18bd9ddcc772b20f2b36210dc4",
+      "ioc_type": "sha256_hash",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "payload",
+      "url": "https://blog.malwaremustdie.org/2026/11/mmd-073-2026-linuxeasyshell-new-rust.html"
+    },
+    {
+      "confidence": 90,
+      "first_seen": "2026-11-21T22:35:22Z",
+      "id": "2038634",
+      "ioc": "256acc5dd15a2a47880591ac4bca390342c525293e5f3637d05c0e082fc0c848",
+      "ioc_type": "sha256_hash",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "payload",
+      "url": "https://blog.malwaremustdie.org/2026/11/mmd-073-2026-linuxeasyshell-new-rust.html"
+    },
+    {
+      "confidence": 90,
+      "first_seen": "2026-11-21T22:35:22Z",
+      "id": "2038633",
+      "ioc": "731baa7c5a9b5a0e2fffcbf9094a8aed2c3eaadbfd0dce23c5462a6fbe7ac107",
+      "ioc_type": "sha256_hash",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "payload",
+      "url": "https://blog.malwaremustdie.org/2026/11/mmd-073-2026-linuxeasyshell-new-rust.html"
+    },
+    {
+      "confidence": 90,
+      "first_seen": "2026-11-21T22:35:22Z",
+      "id": "2038632",
+      "ioc": "6a91d5f8b328490e5b6c465ab9692887394e7cb84ad91481130599ca296b9e52",
+      "ioc_type": "sha256_hash",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "payload",
+      "url": "https://blog.malwaremustdie.org/2026/11/mmd-073-2026-linuxeasyshell-new-rust.html"
+    },
+    {
+      "confidence": 90,
+      "first_seen": "2026-11-21T22:35:22Z",
+      "id": "2038631",
+      "ioc": "e120f7d78b40bd4004722ce3537acd771f8a61351ab0ac7a172593bbdcb7f51a",
+      "ioc_type": "sha256_hash",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "payload",
+      "url": "https://blog.malwaremustdie.org/2026/11/mmd-073-2026-linuxeasyshell-new-rust.html"
+    },
+    {
+      "confidence": 90,
+      "first_seen": "2026-11-21T22:34:39Z",
+      "id": "2038630",
+      "ioc": "lacariaautomobile.ch",
+      "ioc_type": "domain",
+      "malware": "ClearFake",
+      "source": "threatfox",
+      "threat_type": "payload_delivery",
+      "url": null
+    },
+    {
+      "confidence": 75,
+      "first_seen": "2026-11-21T22:21:56Z",
+      "id": "2038629",
+      "ioc": "201.58.142.28:9931",
+      "ioc_type": "ip:port",
+      "malware": "Mirai",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": "https://github.com/cyberpascal1101/linux-malware-research/tree/main/mirai-variant-ovh-arm"
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T22:21:29Z",
+      "id": "2038628",
+      "ioc": "5h30holu.zayce.store",
+      "ioc_type": "domain",
+      "malware": "ClearFake",
+      "source": "threatfox",
+      "threat_type": "payload_delivery",
+      "url": null
+    },
+    {
+      "confidence": 85,
+      "first_seen": "2026-11-21T22:00:06Z",
+      "id": "2038627",
+      "ioc": "ab6d56fbb84f2a0ec4907c4ce75c5d5d79181c5a4a5554e5054460f826818bf2",
+      "ioc_type": "sha256_hash",
+      "malware": "Unknown Loader",
+      "source": "threatfox",
+      "threat_type": "payload",
+      "url": null
+    },
+    {
+      "confidence": 50,
+      "first_seen": "2026-11-21T21:39:38Z",
+      "id": "2038626",
+      "ioc": "qlsjk94464.workers.dev",
+      "ioc_type": "domain",
+      "malware": "php.shin_webshell",
+      "source": "threatfox",
+      "threat_type": "payload_delivery",
+      "url": null
+    },
+    {
+      "confidence": 90,
+      "first_seen": "2026-11-21T21:35:21Z",
+      "id": "2038625",
+      "ioc": "91145f700b48cda35039b760a936a1267b00dec814b01b8646c7b8bd3171bc47",
+      "ioc_type": "sha256_hash",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "payload",
+      "url": "https://blog.malwaremustdie.org/2026/11/mmd-073-2026-linuxeasyshell-new-rust.html"
+    },
+    {
+      "confidence": 90,
+      "first_seen": "2026-11-21T21:35:21Z",
+      "id": "2038624",
+      "ioc": "e4f8933dc8fe2e0e6de9ed3f62ba29f655d4b0e07653aa806ed92d9a39b349d8",
+      "ioc_type": "sha256_hash",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "payload",
+      "url": "https://blog.malwaremustdie.org/2026/11/mmd-073-2026-linuxeasyshell-new-rust.html"
+    },
+    {
+      "confidence": 90,
+      "first_seen": "2026-11-21T21:35:21Z",
+      "id": "2038623",
+      "ioc": "0ea7c2cee5c1679a1440d87e356114fab6adcda025991965b7ff07240c1d9783",
+      "ioc_type": "sha256_hash",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "payload",
+      "url": "https://blog.malwaremustdie.org/2026/11/mmd-073-2026-linuxeasyshell-new-rust.html"
+    },
+    {
+      "confidence": 90,
+      "first_seen": "2026-11-21T21:35:21Z",
+      "id": "2038622",
+      "ioc": "4c737f89395171928fca25ead46060fa442c09dbc0caad2d1c13cb2ec7803301",
+      "ioc_type": "sha256_hash",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "payload",
+      "url": "https://blog.malwaremustdie.org/2026/11/mmd-073-2026-linuxeasyshell-new-rust.html"
+    },
+    {
+      "confidence": 90,
+      "first_seen": "2026-11-21T21:35:21Z",
+      "id": "2038621",
+      "ioc": "09c85c7c704aaac1a5a11837b6e3721d6b1f4f0358626f1cddda2d7dd1dec684",
+      "ioc_type": "sha256_hash",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "payload",
+      "url": "https://blog.malwaremustdie.org/2026/11/mmd-073-2026-linuxeasyshell-new-rust.html"
+    },
+    {
+      "confidence": 90,
+      "first_seen": "2026-11-21T21:35:21Z",
+      "id": "2038620",
+      "ioc": "5fe4051310fc9c7ef042b99955ad5408daa88f3c00a7239cb595f763c888a33a",
+      "ioc_type": "sha256_hash",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "payload",
+      "url": "https://blog.malwaremustdie.org/2026/11/mmd-073-2026-linuxeasyshell-new-rust.html"
+    },
+    {
+      "confidence": 90,
+      "first_seen": "2026-11-21T21:35:21Z",
+      "id": "2038619",
+      "ioc": "d5c9443b0c7ef40896b772f0dc70facfeb403515fc8d5160a9e5ed8be08e10c2",
+      "ioc_type": "sha256_hash",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "payload",
+      "url": "https://blog.malwaremustdie.org/2026/11/mmd-073-2026-linuxeasyshell-new-rust.html"
+    },
+    {
+      "confidence": 90,
+      "first_seen": "2026-11-21T21:24:24Z",
+      "id": "2038618",
+      "ioc": "grandivini.altervista.org",
+      "ioc_type": "domain",
+      "malware": "ClearFake",
+      "source": "threatfox",
+      "threat_type": "payload_delivery",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T21:23:57Z",
+      "id": "2038617",
+      "ioc": "43.166.182.58:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T21:23:57Z",
+      "id": "2038616",
+      "ioc": "43.155.161.178:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T21:23:57Z",
+      "id": "2038615",
+      "ioc": "43.133.113.80:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T21:23:57Z",
+      "id": "2038614",
+      "ioc": "43.128.207.90:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T21:23:57Z",
+      "id": "2038613",
+      "ioc": "142.86.114.249:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T21:22:24Z",
+      "id": "2038612",
+      "ioc": "103.86.44.141:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T21:21:59Z",
+      "id": "2038611",
+      "ioc": "45.76.51.187:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T21:21:59Z",
+      "id": "2038610",
+      "ioc": "43.255.156.154:8787",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T21:21:59Z",
+      "id": "2038609",
+      "ioc": "213.165.38.5:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T21:21:59Z",
+      "id": "2038608",
+      "ioc": "209.50.229.133:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T21:21:59Z",
+      "id": "2038607",
+      "ioc": "185.7.214.26:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T21:21:59Z",
+      "id": "2038606",
+      "ioc": "159.253.120.87:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T21:21:59Z",
+      "id": "2038605",
+      "ioc": "139.9.200.89:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T21:21:59Z",
+      "id": "2038604",
+      "ioc": "138.68.30.40:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T21:21:59Z",
+      "id": "2038603",
+      "ioc": "111.231.19.95:8787",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 75,
+      "first_seen": "2026-11-21T21:12:27Z",
+      "id": "2038602",
+      "ioc": "stexa.kerotilex.com",
+      "ioc_type": "domain",
+      "malware": "FAKEUPDATES",
+      "source": "threatfox",
+      "threat_type": "payload_delivery",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T21:08:38Z",
+      "id": "2038601",
+      "ioc": "ddf8ckm4.movilidadacademica.com",
+      "ioc_type": "domain",
+      "malware": "ClearFake",
+      "source": "threatfox",
+      "threat_type": "payload_delivery",
+      "url": null
+    },
+    {
+      "confidence": 90,
+      "first_seen": "2026-11-21T21:05:15Z",
+      "id": "2038600",
+      "ioc": "efbaddc9beae3e24e1cc6417fe3dcefcc391c10689103043d055360859e7bb16",
+      "ioc_type": "sha256_hash",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "payload",
+      "url": "https://blog.malwaremustdie.org/2026/11/mmd-073-2026-linuxeasyshell-new-rust.html"
+    },
+    {
+      "confidence": 90,
+      "first_seen": "2026-11-21T21:05:15Z",
+      "id": "2038599",
+      "ioc": "8ddc60d5c3fd96ef88146eb5b9c057f8642c6f99852b727635db557c117b2e9e",
+      "ioc_type": "sha256_hash",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "payload",
+      "url": "https://blog.malwaremustdie.org/2026/11/mmd-073-2026-linuxeasyshell-new-rust.html"
+    },
+    {
+      "confidence": 90,
+      "first_seen": "2026-11-21T21:05:15Z",
+      "id": "2038598",
+      "ioc": "7afb882e8ed1ead95cfaef4da8417dfb4af65d4f6aaa646774dc905cbd98b432",
+      "ioc_type": "sha256_hash",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "payload",
+      "url": "https://blog.malwaremustdie.org/2026/11/mmd-073-2026-linuxeasyshell-new-rust.html"
+    },
+    {
+      "confidence": 90,
+      "first_seen": "2026-11-21T21:05:15Z",
+      "id": "2038597",
+      "ioc": "7024105cb7345ce2db7b72be6897811ccbc8172c974d6bca0a2f1326980293c5",
+      "ioc_type": "sha256_hash",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "payload",
+      "url": "https://blog.malwaremustdie.org/2026/11/mmd-073-2026-linuxeasyshell-new-rust.html"
+    },
+    {
+      "confidence": 90,
+      "first_seen": "2026-11-21T21:05:15Z",
+      "id": "2038596",
+      "ioc": "09ca17582d531711806b86fda396d55a56ede2f042bbaa555cac382da7d06893",
+      "ioc_type": "sha256_hash",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "payload",
+      "url": "https://blog.malwaremustdie.org/2026/11/mmd-073-2026-linuxeasyshell-new-rust.html"
+    },
+    {
+      "confidence": 90,
+      "first_seen": "2026-11-21T21:05:15Z",
+      "id": "2038595",
+      "ioc": "f6d87d46bbe3d0ef88ba5421a4ab2147f4b3e49e6938c09dd315e3221ed6756e",
+      "ioc_type": "sha256_hash",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "payload",
+      "url": "https://blog.malwaremustdie.org/2026/11/mmd-073-2026-linuxeasyshell-new-rust.html"
+    },
+    {
+      "confidence": 90,
+      "first_seen": "2026-11-21T21:05:14Z",
+      "id": "2038594",
+      "ioc": "83a12b55e09e5c71119e3789123ac68201bc345d44c98188f1febaa41b9fd157",
+      "ioc_type": "sha256_hash",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "payload",
+      "url": "https://blog.malwaremustdie.org/2026/11/mmd-073-2026-linuxeasyshell-new-rust.html"
+    },
+    {
+      "confidence": 75,
+      "first_seen": "2026-11-21T21:05:11Z",
+      "id": "2038593",
+      "ioc": "stella.grihemiaziarirubiav.com",
+      "ioc_type": "domain",
+      "malware": "FAKEUPDATES",
+      "source": "threatfox",
+      "threat_type": "payload_delivery",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T21:05:04Z",
+      "id": "2038592",
+      "ioc": "23.95.220.222:27017",
+      "ioc_type": "ip:port",
+      "malware": "Cobalt Strike",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 90,
+      "first_seen": "2026-11-21T21:00:17Z",
+      "id": "2038591",
+      "ioc": "6adabd4ed2d9dcba1ae731b1726c47ecb79165bf51a7fdbd0e71bcc1cc2d5f75",
+      "ioc_type": "sha256_hash",
+      "malware": "Mirai",
+      "source": "threatfox",
+      "threat_type": "payload",
+      "url": null
+    },
+    {
+      "confidence": 90,
+      "first_seen": "2026-11-21T21:00:16Z",
+      "id": "2038590",
+      "ioc": "b6ab7a7de15ce240ae3d38ecefa0136a64b0a121c0132febeb9b6d0d8dad9112",
+      "ioc_type": "sha256_hash",
+      "malware": "Mirai",
+      "source": "threatfox",
+      "threat_type": "payload",
+      "url": null
+    },
+    {
+      "confidence": 90,
+      "first_seen": "2026-11-21T21:00:15Z",
+      "id": "2038589",
+      "ioc": "1ada1864578d85f6dc1aefe58cb6b0e8f77250f8c2d2f830bed1de1b1dbd5992",
+      "ioc_type": "sha256_hash",
+      "malware": "Mirai",
+      "source": "threatfox",
+      "threat_type": "payload",
+      "url": null
+    },
+    {
+      "confidence": 90,
+      "first_seen": "2026-11-21T21:00:14Z",
+      "id": "2038588",
+      "ioc": "c1779bfc96ed59ee5796e945cf6cf6b48a14924b264b5761ee8ac576196c8f68",
+      "ioc_type": "sha256_hash",
+      "malware": "Mirai",
+      "source": "threatfox",
+      "threat_type": "payload",
+      "url": null
+    },
+    {
+      "confidence": 90,
+      "first_seen": "2026-11-21T21:00:13Z",
+      "id": "2038587",
+      "ioc": "35081c1f8044c688286be18ff9d3b7a464da8570bddfb8f88f8af3bd1729bd62",
+      "ioc_type": "sha256_hash",
+      "malware": "Mirai",
+      "source": "threatfox",
+      "threat_type": "payload",
+      "url": null
+    },
+    {
+      "confidence": 90,
+      "first_seen": "2026-11-21T21:00:12Z",
+      "id": "2038586",
+      "ioc": "61d385958e92ff51a01631d7336bdb02c8639cb6738dfef2bb5ae2f70d124aa2",
+      "ioc_type": "sha256_hash",
+      "malware": "Mirai",
+      "source": "threatfox",
+      "threat_type": "payload",
+      "url": null
+    },
+    {
+      "confidence": 90,
+      "first_seen": "2026-11-21T21:00:11Z",
+      "id": "2038585",
+      "ioc": "379b79aaead2174331ec64474818589aa8ccc3759f3c8d6db5be20dfcc0d82ee",
+      "ioc_type": "sha256_hash",
+      "malware": "Mirai",
+      "source": "threatfox",
+      "threat_type": "payload",
+      "url": null
+    },
+    {
+      "confidence": 90,
+      "first_seen": "2026-11-21T21:00:09Z",
+      "id": "2038584",
+      "ioc": "407d5d7b68ce35d6f78129648b3b55dbaee62fc88964f7093b529764d30e22a2",
+      "ioc_type": "sha256_hash",
+      "malware": "Mirai",
+      "source": "threatfox",
+      "threat_type": "payload",
+      "url": null
+    },
+    {
+      "confidence": 90,
+      "first_seen": "2026-11-21T21:00:08Z",
+      "id": "2038583",
+      "ioc": "724a34bdfb51be35388aea2112b8b0d1cbc1cbeb8727f5912273b43d15942274",
+      "ioc_type": "sha256_hash",
+      "malware": "Mirai",
+      "source": "threatfox",
+      "threat_type": "payload",
+      "url": null
+    },
+    {
+      "confidence": 90,
+      "first_seen": "2026-11-21T21:00:07Z",
+      "id": "2038582",
+      "ioc": "e777bd97482abc3f2f2fe358eec6b86f7d74144457af5c87b58ede3312017672",
+      "ioc_type": "sha256_hash",
+      "malware": "Mirai",
+      "source": "threatfox",
+      "threat_type": "payload",
+      "url": null
+    },
+    {
+      "confidence": 90,
+      "first_seen": "2026-11-21T21:00:06Z",
+      "id": "2038581",
+      "ioc": "0b24489a1c01df1ea811a86c82aba2349489dae73fa52a910080a8ca4440a323",
+      "ioc_type": "sha256_hash",
+      "malware": "Mirai",
+      "source": "threatfox",
+      "threat_type": "payload",
+      "url": null
+    },
+    {
+      "confidence": 90,
+      "first_seen": "2026-11-21T20:52:57Z",
+      "id": "2038580",
+      "ioc": "www.wandpllc.com",
+      "ioc_type": "domain",
+      "malware": "ClearFake",
+      "source": "threatfox",
+      "threat_type": "payload_delivery",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T20:51:45Z",
+      "id": "2038579",
+      "ioc": "43.136.124.246:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T20:51:45Z",
+      "id": "2038578",
+      "ioc": "103.213.248.38:80",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T20:50:24Z",
+      "id": "2038577",
+      "ioc": "94.228.162.0:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T20:50:24Z",
+      "id": "2038576",
+      "ioc": "84.247.157.161:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T20:50:24Z",
+      "id": "2038575",
+      "ioc": "62.238.2.172:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T20:50:24Z",
+      "id": "2038574",
+      "ioc": "43.255.159.42:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T20:50:24Z",
+      "id": "2038573",
+      "ioc": "43.226.44.160:8787",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T20:50:24Z",
+      "id": "2038572",
+      "ioc": "43.226.17.38:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T20:50:24Z",
+      "id": "2038571",
+      "ioc": "43.226.17.18:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T20:50:24Z",
+      "id": "2038570",
+      "ioc": "202.95.18.28:8787",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T20:50:23Z",
+      "id": "2038569",
+      "ioc": "155.103.50.204:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T20:50:23Z",
+      "id": "2038568",
+      "ioc": "140.143.236.166:8787",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T20:50:23Z",
+      "id": "2038567",
+      "ioc": "113.44.157.84:8087",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T20:50:23Z",
+      "id": "2038566",
+      "ioc": "103.238.227.10:8787",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T20:49:04Z",
+      "id": "2038565",
+      "ioc": "49.51.169.24:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T20:49:04Z",
+      "id": "2038564",
+      "ioc": "43.173.6.46:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T20:49:04Z",
+      "id": "2038563",
+      "ioc": "43.172.12.6:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T20:49:04Z",
+      "id": "2038562",
+      "ioc": "43.167.88.14:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T20:49:04Z",
+      "id": "2038561",
+      "ioc": "43.166.68.122:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T20:49:04Z",
+      "id": "2038560",
+      "ioc": "43.166.24.186:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T20:49:04Z",
+      "id": "2038559",
+      "ioc": "43.166.205.92:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T20:49:04Z",
+      "id": "2038558",
+      "ioc": "43.166.17.252:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T20:49:04Z",
+      "id": "2038557",
+      "ioc": "43.152.238.72:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T20:49:04Z",
+      "id": "2038556",
+      "ioc": "43.133.97.115:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T20:49:04Z",
+      "id": "2038555",
+      "ioc": "43.133.123.237:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T20:49:04Z",
+      "id": "2038554",
+      "ioc": "43.129.35.17:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T20:49:04Z",
+      "id": "2038553",
+      "ioc": "43.128.36.193:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T20:49:04Z",
+      "id": "2038552",
+      "ioc": "43.128.218.220:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T20:49:04Z",
+      "id": "2038551",
+      "ioc": "43.128.208.226:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T20:49:04Z",
+      "id": "2038550",
+      "ioc": "162.62.229.66:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T20:49:04Z",
+      "id": "2038549",
+      "ioc": "150.109.118.110:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 100,
+      "first_seen": "2026-11-21T20:49:04Z",
+      "id": "2038548",
+      "ioc": "142.86.118.172:443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "source": "threatfox",
+      "threat_type": "botnet_cc",
+      "url": null
+    },
+    {
+      "confidence": 90,
+      "first_seen": "2026-11-21T20:42:56Z",
+      "id": "2038547",
+      "ioc": "mail.afsanehansari.com",
+      "ioc_type": "domain",
+      "malware": "ClearFake",
+      "source": "threatfox",
+      "threat_type": "payload_delivery",
+      "url": null
+    },
     {
       "confidence": 90,
       "first_seen": "2026-11-21T20:05:36Z",
@@ -93722,273 +96351,864 @@
       "source": "threatfox",
       "threat_type": "botnet_cc",
       "url": "https://github.com/deepfield/public-research/tree/main/cecbot"
-    },
-    {
-      "confidence": 75,
-      "first_seen": "2026-11-19T00:19:06Z",
-      "id": "2034644",
-      "ioc": "http://101.53.233.150:37999/Mozi.m",
-      "ioc_type": "url",
-      "malware": "Mozi",
-      "source": "threatfox",
-      "threat_type": "payload_delivery",
-      "url": "https://honeylabs.net/lookup/101.53.233.150"
-    },
-    {
-      "confidence": 90,
-      "first_seen": "2026-11-19T00:17:01Z",
-      "id": "2034643",
-      "ioc": "creatum.com",
-      "ioc_type": "domain",
-      "malware": "ClearFake",
-      "source": "threatfox",
-      "threat_type": "payload_delivery",
-      "url": null
-    },
-    {
-      "confidence": 50,
-      "first_seen": "2026-11-19T00:09:58Z",
-      "id": "2034642",
-      "ioc": "121.22.233.35.bc.googleusercontent.com",
-      "ioc_type": "domain",
-      "malware": "php.shin_webshell",
-      "source": "threatfox",
-      "threat_type": "payload_delivery",
-      "url": null
-    },
-    {
-      "confidence": 50,
-      "first_seen": "2026-11-19T00:09:31Z",
-      "id": "2034641",
-      "ioc": "69.81.175.207.bc.googleusercontent.com",
-      "ioc_type": "domain",
-      "malware": "php.shin_webshell",
-      "source": "threatfox",
-      "threat_type": "payload_delivery",
-      "url": null
-    },
-    {
-      "confidence": 100,
-      "first_seen": "2026-11-19T00:05:34Z",
-      "id": "2034640",
-      "ioc": "x8.asas777.org",
-      "ioc_type": "domain",
-      "malware": "Vidar",
-      "source": "threatfox",
-      "threat_type": "botnet_cc",
-      "url": null
-    },
-    {
-      "confidence": 85,
-      "first_seen": "2026-11-18T23:59:30Z",
-      "id": "2034639",
-      "ioc": "e9db176f351574e18a098e9bab934a138d81937f0fb03781a3697695f5dfb7f2",
-      "ioc_type": "sha256_hash",
-      "malware": "Unknown Loader",
-      "source": "threatfox",
-      "threat_type": "payload",
-      "url": null
-    },
-    {
-      "confidence": 90,
-      "first_seen": "2026-11-18T23:59:29Z",
-      "id": "2034638",
-      "ioc": "2a756042ccd0d0b582edd6defa0091eae3c7df3db685eb635b97c390f2bd6a50",
-      "ioc_type": "sha256_hash",
-      "malware": "Mirai",
-      "source": "threatfox",
-      "threat_type": "payload",
-      "url": null
-    },
-    {
-      "confidence": 50,
-      "first_seen": "2026-11-18T23:41:19Z",
-      "id": "2034637",
-      "ioc": "cyanjustina.workers.dev",
-      "ioc_type": "domain",
-      "malware": "php.shin_webshell",
-      "source": "threatfox",
-      "threat_type": "payload_delivery",
-      "url": null
-    },
-    {
-      "confidence": 100,
-      "first_seen": "2026-11-18T23:27:49Z",
-      "id": "2034633",
-      "ioc": "meadow-facet.com",
-      "ioc_type": "domain",
-      "malware": "AMOS",
-      "source": "threatfox",
-      "threat_type": "payload_delivery",
-      "url": "https://www.virustotal.com/gui/file/c507fc24c8bad38e14184c486cfb3c4ace00778e74974158ed402323cf2d3289"
-    },
-    {
-      "confidence": 100,
-      "first_seen": "2026-11-18T23:27:49Z",
-      "id": "2034632",
-      "ioc": "https://meadow-facet.com/f/hjyzam087lx6gnvy44p9wa/rs3v3bf2",
-      "ioc_type": "url",
-      "malware": "AMOS",
-      "source": "threatfox",
-      "threat_type": "payload_delivery",
-      "url": "https://www.virustotal.com/gui/file/c507fc24c8bad38e14184c486cfb3c4ace00778e74974158ed402323cf2d3289"
-    },
-    {
-      "confidence": 100,
-      "first_seen": "2026-11-18T23:27:48Z",
-      "id": "2034631",
-      "ioc": "https://meadow-facet.com/curl/1v7loiwx6o/xv87m9vrqad8si6q.dat",
-      "ioc_type": "url",
-      "malware": "AMOS",
-      "source": "threatfox",
-      "threat_type": "payload_delivery",
-      "url": "https://www.virustotal.com/gui/file/c507fc24c8bad38e14184c486cfb3c4ace00778e74974158ed402323cf2d3289"
-    },
-    {
-      "confidence": 100,
-      "first_seen": "2026-11-18T23:27:48Z",
-      "id": "2034630",
-      "ioc": "c507fc24c8bad38e14184c486cfb3c4ace00778e74974158ed402323cf2d3289",
-      "ioc_type": "sha256_hash",
-      "malware": "AMOS",
-      "source": "threatfox",
-      "threat_type": "payload",
-      "url": "https://www.virustotal.com/gui/file/c507fc24c8bad38e14184c486cfb3c4ace00778e74974158ed402323cf2d3289"
-    },
-    {
-      "confidence": 100,
-      "first_seen": "2026-11-18T23:27:48Z",
-      "id": "2034629",
-      "ioc": "d955f934ead59181274b378c66b059ffa515feb885663e40ada693aae0f66a44",
-      "ioc_type": "sha256_hash",
-      "malware": "AMOS",
-      "source": "threatfox",
-      "threat_type": "payload",
-      "url": "https://www.virustotal.com/gui/file/c507fc24c8bad38e14184c486cfb3c4ace00778e74974158ed402323cf2d3289"
-    },
-    {
-      "confidence": 100,
-      "first_seen": "2026-11-18T23:11:33Z",
-      "id": "2034628",
-      "ioc": "31.56.54.103:10213",
-      "ioc_type": "ip:port",
-      "malware": "CECbot",
-      "source": "threatfox",
-      "threat_type": "botnet_cc",
-      "url": "https://github.com/deepfield/public-research/tree/main/cecbot"
-    },
-    {
-      "confidence": 100,
-      "first_seen": "2026-11-18T23:10:35Z",
-      "id": "2034627",
-      "ioc": "q.goo55.org",
-      "ioc_type": "domain",
-      "malware": "Vidar",
-      "source": "threatfox",
-      "threat_type": "botnet_cc",
-      "url": null
-    },
-    {
-      "confidence": 100,
-      "first_seen": "2026-11-18T23:05:34Z",
-      "id": "2034626",
-      "ioc": "eh.asas777.org",
-      "ioc_type": "domain",
-      "malware": "Vidar",
-      "source": "threatfox",
-      "threat_type": "botnet_cc",
-      "url": null
-    },
-    {
-      "confidence": 100,
-      "first_seen": "2026-11-18T23:05:34Z",
-      "id": "2034625",
-      "ioc": "sk.ankapaito.org",
-      "ioc_type": "domain",
-      "malware": "Vidar",
-      "source": "threatfox",
-      "threat_type": "botnet_cc",
-      "url": null
-    },
-    {
-      "confidence": 100,
-      "first_seen": "2026-11-18T22:05:34Z",
-      "id": "2034621",
-      "ioc": "md.asas777.org",
-      "ioc_type": "domain",
-      "malware": "Vidar",
-      "source": "threatfox",
-      "threat_type": "botnet_cc",
-      "url": null
-    },
-    {
-      "confidence": 50,
-      "first_seen": "2026-11-18T21:40:49Z",
-      "id": "2034616",
-      "ioc": "ynkrjgbl1l.workers.dev",
-      "ioc_type": "domain",
-      "malware": "php.shin_webshell",
-      "source": "threatfox",
-      "threat_type": "payload_delivery",
-      "url": null
-    },
-    {
-      "confidence": 100,
-      "first_seen": "2026-11-18T21:38:12Z",
-      "id": "2034615",
-      "ioc": "196.251.122.15:10213",
-      "ioc_type": "ip:port",
-      "malware": "CECbot",
-      "source": "threatfox",
-      "threat_type": "botnet_cc",
-      "url": "https://github.com/deepfield/public-research/tree/main/cecbot"
-    },
-    {
-      "confidence": 100,
-      "first_seen": "2026-11-18T21:20:42Z",
-      "id": "2034612",
-      "ioc": "130.12.181.142:10213",
-      "ioc_type": "ip:port",
-      "malware": "CECbot",
-      "source": "threatfox",
-      "threat_type": "botnet_cc",
-      "url": "https://github.com/deepfield/public-research/tree/main/cecbot"
-    },
-    {
-      "confidence": 100,
-      "first_seen": "2026-11-18T21:10:34Z",
-      "id": "2034611",
-      "ioc": "asas777.org",
-      "ioc_type": "domain",
-      "malware": "Vidar",
-      "source": "threatfox",
-      "threat_type": "botnet_cc",
-      "url": null
-    },
-    {
-      "confidence": 100,
-      "first_seen": "2026-11-18T21:10:34Z",
-      "id": "2034610",
-      "ioc": "cq.asas777.org",
-      "ioc_type": "domain",
-      "malware": "Vidar",
-      "source": "threatfox",
-      "threat_type": "botnet_cc",
-      "url": null
-    },
-    {
-      "confidence": 90,
-      "first_seen": "2026-11-18T20:59:28Z",
-      "id": "2034609",
-      "ioc": "9c883ac7e0bfa1c10480f8da05c6ec5760dc1ab16c806bd673857d1b9bd67690",
-      "ioc_type": "sha256_hash",
-      "malware": "Mirai",
-      "source": "threatfox",
-      "threat_type": "payload",
-      "url": null
     }
   ],
   "urlhaus": [
+    {
+      "first_seen": "2026-11-22T00:20:07Z",
+      "host": "124.6.165.86",
+      "id": "4073550",
+      "ioc": "http://124.6.165.86:52227/bin.sh",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "32-bit",
+        "arm",
+        "elf",
+        "mirai",
+        "Mozi"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073550/"
+    },
+    {
+      "first_seen": "2026-11-22T00:17:12Z",
+      "host": "115.63.229.180",
+      "id": "4073547",
+      "ioc": "http://115.63.229.180:56518/bin.sh",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "Mozi"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073547/"
+    },
+    {
+      "first_seen": "2026-11-22T00:17:12Z",
+      "host": "175.165.199.203",
+      "id": "4073548",
+      "ioc": "http://175.165.199.203:41687/i",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [],
+      "url": "https://urlhaus.abuse.ch/url/4073548/"
+    },
+    {
+      "first_seen": "2026-11-22T00:17:12Z",
+      "host": "105.184.198.94",
+      "id": "4073549",
+      "ioc": "http://105.184.198.94:49335/i",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "mirai"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073549/"
+    },
+    {
+      "first_seen": "2026-11-22T00:17:11Z",
+      "host": "27.207.139.35",
+      "id": "4073544",
+      "ioc": "http://27.207.139.35:44352/bin.sh",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "Mozi"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073544/"
+    },
+    {
+      "first_seen": "2026-11-22T00:17:11Z",
+      "host": "101.21.11.177",
+      "id": "4073545",
+      "ioc": "http://101.21.11.177:60723/i",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "mirai"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073545/"
+    },
+    {
+      "first_seen": "2026-11-22T00:17:11Z",
+      "host": "182.124.127.89",
+      "id": "4073546",
+      "ioc": "http://182.124.127.89:40820/bin.sh",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "Mozi"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073546/"
+    },
+    {
+      "first_seen": "2026-11-22T00:02:06Z",
+      "host": "42.238.172.36",
+      "id": "4073541",
+      "ioc": "http://42.238.172.36:53276/bin.sh",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "Mozi"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073541/"
+    },
+    {
+      "first_seen": "2026-11-22T00:02:06Z",
+      "host": "115.55.217.143",
+      "id": "4073542",
+      "ioc": "http://115.55.217.143:39314/i",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "Mozi"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073542/"
+    },
+    {
+      "first_seen": "2026-11-22T00:02:06Z",
+      "host": "61.71.255.225",
+      "id": "4073543",
+      "ioc": "http://61.71.255.225:59183/i",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "mirai"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073543/"
+    },
+    {
+      "first_seen": "2026-11-22T00:02:05Z",
+      "host": "123.12.230.112",
+      "id": "4073540",
+      "ioc": "http://123.12.230.112:43570/i",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "Mozi"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073540/"
+    },
+    {
+      "first_seen": "2026-11-21T23:53:15Z",
+      "host": "141.11.154.61",
+      "id": "4073539",
+      "ioc": "http://141.11.154.61:51863/i",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "32-bit",
+        "elf",
+        "mips",
+        "mirai"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073539/"
+    },
+    {
+      "first_seen": "2026-11-21T23:47:11Z",
+      "host": "123.8.35.255",
+      "id": "4073538",
+      "ioc": "http://123.8.35.255:54476/i",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "Mozi"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073538/"
+    },
+    {
+      "first_seen": "2026-11-21T23:47:08Z",
+      "host": "123.11.180.127",
+      "id": "4073537",
+      "ioc": "http://123.11.180.127:40460/i",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "Mozi"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073537/"
+    },
+    {
+      "first_seen": "2026-11-21T23:47:06Z",
+      "host": "163.142.77.233",
+      "id": "4073536",
+      "ioc": "http://163.142.77.233:49005/i",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [],
+      "url": "https://urlhaus.abuse.ch/url/4073536/"
+    },
+    {
+      "first_seen": "2026-11-21T23:45:14Z",
+      "host": "61.53.122.168",
+      "id": "4073535",
+      "ioc": "http://61.53.122.168:42446/i",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "elf",
+        "Mozi"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073535/"
+    },
+    {
+      "first_seen": "2026-11-21T23:32:21Z",
+      "host": "59.180.156.170",
+      "id": "4073534",
+      "ioc": "http://59.180.156.170:58502/bin.sh",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "Mozi"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073534/"
+    },
+    {
+      "first_seen": "2026-11-21T23:32:07Z",
+      "host": "115.55.217.143",
+      "id": "4073533",
+      "ioc": "http://115.55.217.143:39314/bin.sh",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "Mozi"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073533/"
+    },
+    {
+      "first_seen": "2026-11-21T23:32:06Z",
+      "host": "105.225.96.231",
+      "id": "4073531",
+      "ioc": "http://105.225.96.231:49807/bin.sh",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "mirai"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073531/"
+    },
+    {
+      "first_seen": "2026-11-21T23:32:06Z",
+      "host": "27.204.195.97",
+      "id": "4073532",
+      "ioc": "http://27.204.195.97:35109/i",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "Mozi"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073532/"
+    },
+    {
+      "first_seen": "2026-11-21T23:29:15Z",
+      "host": "36.88.136.194",
+      "id": "4073530",
+      "ioc": "http://36.88.136.194:36647/i",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "32-bit",
+        "arm",
+        "elf",
+        "mirai",
+        "Mozi"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073530/"
+    },
+    {
+      "first_seen": "2026-11-21T23:25:15Z",
+      "host": "141.11.154.61",
+      "id": "4073529",
+      "ioc": "http://141.11.154.61:51863/bin.sh",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "32-bit",
+        "elf",
+        "mips",
+        "mirai"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073529/"
+    },
+    {
+      "first_seen": "2026-11-21T23:18:14Z",
+      "host": "61.53.122.168",
+      "id": "4073528",
+      "ioc": "http://61.53.122.168:42446/bin.sh",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "elf",
+        "Mozi"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073528/"
+    },
+    {
+      "first_seen": "2026-11-21T23:18:07Z",
+      "host": "115.58.172.28",
+      "id": "4073527",
+      "ioc": "http://115.58.172.28:50312/bin.sh",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "Mozi"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073527/"
+    },
+    {
+      "first_seen": "2026-11-21T23:17:07Z",
+      "host": "163.142.77.233",
+      "id": "4073526",
+      "ioc": "http://163.142.77.233:49005/bin.sh",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [],
+      "url": "https://urlhaus.abuse.ch/url/4073526/"
+    },
+    {
+      "first_seen": "2026-11-21T23:02:05Z",
+      "host": "42.230.38.231",
+      "id": "4073525",
+      "ioc": "http://42.230.38.231:35880/i",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "Mozi"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073525/"
+    },
+    {
+      "first_seen": "2026-11-21T22:51:04Z",
+      "host": "www.dropbox.com",
+      "id": "4073524",
+      "ioc": "https://www.dropbox.com/scl/fi/dcgh2bk079w4ixp8bntbk/31ce35c351?rlkey=8sbeumsrndwof53magn53tvt2&st=e44tjw4f&dl=1",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "offline",
+      "tags": [
+        "IRAHook"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073524/"
+    },
+    {
+      "first_seen": "2026-11-21T22:47:08Z",
+      "host": "116.140.14.181",
+      "id": "4073523",
+      "ioc": "http://116.140.14.181:56289/i",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "mirai"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073523/"
+    },
+    {
+      "first_seen": "2026-11-21T22:47:07Z",
+      "host": "106.107.153.151",
+      "id": "4073522",
+      "ioc": "http://106.107.153.151:33824/i",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "Mozi"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073522/"
+    },
+    {
+      "first_seen": "2026-11-21T22:47:06Z",
+      "host": "42.230.38.231",
+      "id": "4073521",
+      "ioc": "http://42.230.38.231:35880/bin.sh",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "Mozi"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073521/"
+    },
+    {
+      "first_seen": "2026-11-21T22:32:06Z",
+      "host": "115.63.8.47",
+      "id": "4073520",
+      "ioc": "http://115.63.8.47:43351/i",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "Mozi"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073520/"
+    },
+    {
+      "first_seen": "2026-11-21T22:29:08Z",
+      "host": "164.163.25.176",
+      "id": "4073518",
+      "ioc": "http://164.163.25.176:39910/i",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "elf",
+        "mirai"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073518/"
+    },
+    {
+      "first_seen": "2026-11-21T22:29:08Z",
+      "host": "36.88.136.194",
+      "id": "4073519",
+      "ioc": "http://36.88.136.194:36647/bin.sh",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "32-bit",
+        "arm",
+        "elf",
+        "mirai",
+        "Mozi"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073519/"
+    },
+    {
+      "first_seen": "2026-11-21T22:21:10Z",
+      "host": "cdn.discordapp.com",
+      "id": "4073517",
+      "ioc": "https://cdn.discordapp.com/attachments/1540130216540770334/1573819827343204483/50c2158094?ex=6b03656e&is=6b0213ee&hm=90fa01a5949535b11952eafdfe352ead3dadbbebdb08f157b465b64152a170a3&",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "IRAHook"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073517/"
+    },
+    {
+      "first_seen": "2026-11-21T22:20:26Z",
+      "host": "cdn.discordapp.com",
+      "id": "4073516",
+      "ioc": "https://cdn.discordapp.com/attachments/1567313157385363520/1573792444288598077/3babe820b9?ex=6b034bee&is=6b01fa6e&hm=e33a4c0fd78dcf96f5e03490527eaaa3178222c4faedef4ab622cd18cbd7c54c&",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "IRAHook"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073516/"
+    },
+    {
+      "first_seen": "2026-11-21T22:17:07Z",
+      "host": "115.63.147.111",
+      "id": "4073515",
+      "ioc": "http://115.63.147.111:36796/i",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "Mozi"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073515/"
+    },
+    {
+      "first_seen": "2026-11-21T22:17:05Z",
+      "host": "45.172.218.181",
+      "id": "4073514",
+      "ioc": "http://45.172.218.181:55769/bin.sh",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "offline",
+      "tags": [
+        "mirai"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073514/"
+    },
+    {
+      "first_seen": "2026-11-21T22:16:15Z",
+      "host": "42.239.152.248",
+      "id": "4073513",
+      "ioc": "http://42.239.152.248:49547/bin.sh",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "offline",
+      "tags": [
+        "32-bit",
+        "elf",
+        "mips",
+        "Mozi"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073513/"
+    },
+    {
+      "first_seen": "2026-11-21T22:02:06Z",
+      "host": "105.225.96.231",
+      "id": "4073512",
+      "ioc": "http://105.225.96.231:49807/i",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "mirai"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073512/"
+    },
+    {
+      "first_seen": "2026-11-21T22:02:05Z",
+      "host": "115.49.71.27",
+      "id": "4073511",
+      "ioc": "http://115.49.71.27:48264/bin.sh",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "Mozi"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073511/"
+    },
+    {
+      "first_seen": "2026-11-21T22:00:15Z",
+      "host": "164.163.25.176",
+      "id": "4073510",
+      "ioc": "http://164.163.25.176:39910/bin.sh",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "elf",
+        "mirai"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073510/"
+    },
+    {
+      "first_seen": "2026-11-21T21:47:13Z",
+      "host": "42.57.36.98",
+      "id": "4073509",
+      "ioc": "http://42.57.36.98:38129/bin.sh",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "32-bit",
+        "elf",
+        "mips",
+        "Mozi"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073509/"
+    },
+    {
+      "first_seen": "2026-11-21T21:47:07Z",
+      "host": "221.15.214.223",
+      "id": "4073508",
+      "ioc": "http://221.15.214.223:41075/i",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "mirai"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073508/"
+    },
+    {
+      "first_seen": "2026-11-21T21:47:06Z",
+      "host": "123.14.235.128",
+      "id": "4073506",
+      "ioc": "http://123.14.235.128:48319/i",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "Mozi"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073506/"
+    },
+    {
+      "first_seen": "2026-11-21T21:47:06Z",
+      "host": "115.61.16.59",
+      "id": "4073507",
+      "ioc": "http://115.61.16.59:51737/i",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "Mozi"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073507/"
+    },
+    {
+      "first_seen": "2026-11-21T21:32:06Z",
+      "host": "115.49.71.27",
+      "id": "4073504",
+      "ioc": "http://115.49.71.27:48264/i",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "Mozi"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073504/"
+    },
+    {
+      "first_seen": "2026-11-21T21:32:06Z",
+      "host": "219.155.2.77",
+      "id": "4073505",
+      "ioc": "http://219.155.2.77:48177/i",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "Mozi"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073505/"
+    },
+    {
+      "first_seen": "2026-11-21T21:21:15Z",
+      "host": "115.48.138.240",
+      "id": "4073503",
+      "ioc": "http://115.48.138.240:43782/bin.sh",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "offline",
+      "tags": [
+        "32-bit",
+        "elf",
+        "mips",
+        "Mozi"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073503/"
+    },
+    {
+      "first_seen": "2026-11-21T21:17:07Z",
+      "host": "219.155.2.77",
+      "id": "4073501",
+      "ioc": "http://219.155.2.77:48177/bin.sh",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "Mozi"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073501/"
+    },
+    {
+      "first_seen": "2026-11-21T21:17:07Z",
+      "host": "59.97.251.68",
+      "id": "4073502",
+      "ioc": "http://59.97.251.68:57345/i",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "Mozi"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073502/"
+    },
+    {
+      "first_seen": "2026-11-21T21:17:04Z",
+      "host": "115.55.8.155",
+      "id": "4073500",
+      "ioc": "http://115.55.8.155:51744/bin.sh",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "offline",
+      "tags": [],
+      "url": "https://urlhaus.abuse.ch/url/4073500/"
+    },
+    {
+      "first_seen": "2026-11-21T21:02:05Z",
+      "host": "103.68.95.197",
+      "id": "4073499",
+      "ioc": "http://103.68.95.197:33529/i",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [],
+      "url": "https://urlhaus.abuse.ch/url/4073499/"
+    },
+    {
+      "first_seen": "2026-11-21T20:57:12Z",
+      "host": "114.198.242.174",
+      "id": "4073498",
+      "ioc": "http://114.198.242.174:51054/i",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "elf",
+        "mirai"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073498/"
+    },
+    {
+      "first_seen": "2026-11-21T20:54:05Z",
+      "host": "111.173.159.149",
+      "id": "4073497",
+      "ioc": "http://111.173.159.149:44844/i",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "32-bit",
+        "arm",
+        "elf",
+        "mirai",
+        "Mozi"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073497/"
+    },
+    {
+      "first_seen": "2026-11-21T20:49:13Z",
+      "host": "112.248.97.125",
+      "id": "4073496",
+      "ioc": "http://112.248.97.125:59778/i",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "32-bit",
+        "elf",
+        "mips",
+        "Mozi"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073496/"
+    },
+    {
+      "first_seen": "2026-11-21T20:47:06Z",
+      "host": "59.97.251.68",
+      "id": "4073494",
+      "ioc": "http://59.97.251.68:57345/bin.sh",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "Mozi"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073494/"
+    },
+    {
+      "first_seen": "2026-11-21T20:47:06Z",
+      "host": "115.206.129.74",
+      "id": "4073495",
+      "ioc": "http://115.206.129.74:47219/bin.sh",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "mirai"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073495/"
+    },
+    {
+      "first_seen": "2026-11-21T20:47:05Z",
+      "host": "219.156.154.40",
+      "id": "4073493",
+      "ioc": "http://219.156.154.40:43469/bin.sh",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "Mozi"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073493/"
+    },
+    {
+      "first_seen": "2026-11-21T20:32:06Z",
+      "host": "118.248.133.205",
+      "id": "4073492",
+      "ioc": "http://118.248.133.205:48634/i",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "mirai"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073492/"
+    },
+    {
+      "first_seen": "2026-11-21T20:31:13Z",
+      "host": "111.173.159.149",
+      "id": "4073491",
+      "ioc": "http://111.173.159.149:44844/bin.sh",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "32-bit",
+        "arm",
+        "elf",
+        "mirai",
+        "Mozi"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073491/"
+    },
+    {
+      "first_seen": "2026-11-21T20:30:14Z",
+      "host": "182.126.120.231",
+      "id": "4073490",
+      "ioc": "http://182.126.120.231:42374/i",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "32-bit",
+        "elf",
+        "mips",
+        "Mozi"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073490/"
+    },
+    {
+      "first_seen": "2026-11-21T20:17:06Z",
+      "host": "60.23.188.227",
+      "id": "4073489",
+      "ioc": "http://60.23.188.227:47013/i",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "mirai"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073489/"
+    },
+    {
+      "first_seen": "2026-11-21T20:17:05Z",
+      "host": "115.62.155.207",
+      "id": "4073488",
+      "ioc": "http://115.62.155.207:47086/i",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "Mozi"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073488/"
+    },
     {
       "first_seen": "2026-11-21T20:02:08Z",
       "host": "203.177.28.149",
@@ -94009,7 +97229,7 @@
       "ioc": "http://115.49.230.227:45898/i",
       "ioc_type": "url",
       "source": "urlhaus",
-      "status": "online",
+      "status": "offline",
       "tags": [
         "Mozi"
       ],
@@ -94134,7 +97354,7 @@
       "ioc": "https://www.dropbox.com/scl/fi/gvt1norn57vcr43fx8ipg/cp.zip?rlkey=slrrhrn10c62di4kuziaebaiq&st=p2funnqp&dl=1",
       "ioc_type": "url",
       "source": "urlhaus",
-      "status": "online",
+      "status": "offline",
       "tags": [
         "Dropbox",
         "ens",
@@ -94186,22 +97406,6 @@
     },
     {
       "first_seen": "2026-11-21T19:08:12Z",
-      "host": "115.55.8.155",
-      "id": "4073474",
-      "ioc": "http://115.55.8.155:51744/i",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "32-bit",
-        "elf",
-        "mips",
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073474/"
-    },
-    {
-      "first_seen": "2026-11-21T19:08:12Z",
       "host": "125.47.116.38",
       "id": "4073473",
       "ioc": "http://125.47.116.38:51780/i",
@@ -94217,27 +97421,65 @@
       "url": "https://urlhaus.abuse.ch/url/4073473/"
     },
     {
+      "first_seen": "2026-11-21T19:08:12Z",
+      "host": "115.55.8.155",
+      "id": "4073474",
+      "ioc": "http://115.55.8.155:51744/i",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "offline",
+      "tags": [
+        "32-bit",
+        "elf",
+        "mips",
+        "Mozi"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073474/"
+    },
+    {
       "first_seen": "2026-11-21T19:08:07Z",
-      "host": "raw.githubusercontent.com",
-      "id": "4073472",
-      "ioc": "https://raw.githubusercontent.com/viveksarkar0/quyl-assesment/refs/heads/main/app/api/students/%5Bid%5D/public/fonts/fa-solid-900.woff2",
+      "host": "105.224.253.3",
+      "id": "4073466",
+      "ioc": "http://105.224.253.3:54463/i",
       "ioc_type": "url",
       "source": "urlhaus",
       "status": "online",
       "tags": [
-        "DEVPOPPER",
-        "github",
-        "js",
-        "TxDataHiding",
-        "VSCode"
+        "mirai"
       ],
-      "url": "https://urlhaus.abuse.ch/url/4073472/"
+      "url": "https://urlhaus.abuse.ch/url/4073466/"
+    },
+    {
+      "first_seen": "2026-11-21T19:08:07Z",
+      "host": "105.224.253.3",
+      "id": "4073467",
+      "ioc": "http://105.224.253.3:54463/bin.sh",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "mirai"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073467/"
+    },
+    {
+      "first_seen": "2026-11-21T19:08:07Z",
+      "host": "115.49.65.129",
+      "id": "4073468",
+      "ioc": "http://115.49.65.129:51921/bin.sh",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "Mozi"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073468/"
     },
     {
       "first_seen": "2026-11-21T19:08:07Z",
       "host": "raw.githubusercontent.com",
-      "id": "4073471",
-      "ioc": "https://raw.githubusercontent.com/VPRoyal/bloxhq/refs/heads/main/frontend/src/components/skeletons/public/fonts/fa-solid-900.woff2",
+      "id": "4073469",
+      "ioc": "https://raw.githubusercontent.com/VPRoyal/athena/refs/heads/master/app/api/contact/public/fonts/fa-solid-900.woff2",
       "ioc_type": "url",
       "source": "urlhaus",
       "status": "online",
@@ -94248,7 +97490,7 @@
         "TxDataHiding",
         "VSCode"
       ],
-      "url": "https://urlhaus.abuse.ch/url/4073471/"
+      "url": "https://urlhaus.abuse.ch/url/4073469/"
     },
     {
       "first_seen": "2026-11-21T19:08:07Z",
@@ -94270,8 +97512,8 @@
     {
       "first_seen": "2026-11-21T19:08:07Z",
       "host": "raw.githubusercontent.com",
-      "id": "4073469",
-      "ioc": "https://raw.githubusercontent.com/VPRoyal/athena/refs/heads/master/app/api/contact/public/fonts/fa-solid-900.woff2",
+      "id": "4073471",
+      "ioc": "https://raw.githubusercontent.com/VPRoyal/bloxhq/refs/heads/main/frontend/src/components/skeletons/public/fonts/fa-solid-900.woff2",
       "ioc_type": "url",
       "source": "urlhaus",
       "status": "online",
@@ -94282,46 +97524,24 @@
         "TxDataHiding",
         "VSCode"
       ],
-      "url": "https://urlhaus.abuse.ch/url/4073469/"
+      "url": "https://urlhaus.abuse.ch/url/4073471/"
     },
     {
       "first_seen": "2026-11-21T19:08:07Z",
-      "host": "115.49.65.129",
-      "id": "4073468",
-      "ioc": "http://115.49.65.129:51921/bin.sh",
+      "host": "raw.githubusercontent.com",
+      "id": "4073472",
+      "ioc": "https://raw.githubusercontent.com/viveksarkar0/quyl-assesment/refs/heads/main/app/api/students/%5Bid%5D/public/fonts/fa-solid-900.woff2",
       "ioc_type": "url",
       "source": "urlhaus",
       "status": "online",
       "tags": [
-        "Mozi"
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
       ],
-      "url": "https://urlhaus.abuse.ch/url/4073468/"
-    },
-    {
-      "first_seen": "2026-11-21T19:08:07Z",
-      "host": "105.224.253.3",
-      "id": "4073467",
-      "ioc": "http://105.224.253.3:54463/bin.sh",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "mirai"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073467/"
-    },
-    {
-      "first_seen": "2026-11-21T19:08:07Z",
-      "host": "105.224.253.3",
-      "id": "4073466",
-      "ioc": "http://105.224.253.3:54463/i",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "mirai"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073466/"
+      "url": "https://urlhaus.abuse.ch/url/4073472/"
     },
     {
       "first_seen": "2026-11-21T19:08:06Z",
@@ -94333,19 +97553,6 @@
       "status": "online",
       "tags": [],
       "url": "https://urlhaus.abuse.ch/url/4073465/"
-    },
-    {
-      "first_seen": "2026-11-21T19:08:05Z",
-      "host": "42.232.111.244",
-      "id": "4073464",
-      "ioc": "http://42.232.111.244:56572/i",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073464/"
     },
     {
       "first_seen": "2026-11-21T19:08:05Z",
@@ -94365,13 +97572,26 @@
       "url": "https://urlhaus.abuse.ch/url/4073463/"
     },
     {
+      "first_seen": "2026-11-21T19:08:05Z",
+      "host": "42.232.111.244",
+      "id": "4073464",
+      "ioc": "http://42.232.111.244:56572/i",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "Mozi"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073464/"
+    },
+    {
       "first_seen": "2026-11-21T18:52:47Z",
       "host": "www.dropbox.com",
       "id": "4073462",
       "ioc": "https://www.dropbox.com/scl/fi/zst0ogtbik2yzd2eejd1u/d8bfb66bfb?rlkey=xuezriihmic1i1btd3sh849iw&st=0yuaae8v&dl=1",
       "ioc_type": "url",
       "source": "urlhaus",
-      "status": "online",
+      "status": "offline",
       "tags": [
         "Dropbox",
         "ens",
@@ -94407,11 +97627,11 @@
     {
       "first_seen": "2026-11-21T18:52:37Z",
       "host": "206.189.84.190",
-      "id": "4073460",
-      "ioc": "http://206.189.84.190/iran.m68k",
+      "id": "4073458",
+      "ioc": "http://206.189.84.190/iran.armv4l",
       "ioc_type": "url",
       "source": "urlhaus",
-      "status": "online",
+      "status": "offline",
       "tags": [
         "206-189-84-190",
         "cowrie",
@@ -94419,7 +97639,7 @@
         "honeypot",
         "mirai"
       ],
-      "url": "https://urlhaus.abuse.ch/url/4073460/"
+      "url": "https://urlhaus.abuse.ch/url/4073458/"
     },
     {
       "first_seen": "2026-11-21T18:52:37Z",
@@ -94428,7 +97648,7 @@
       "ioc": "http://206.189.84.190/iran.armv5l",
       "ioc_type": "url",
       "source": "urlhaus",
-      "status": "online",
+      "status": "offline",
       "tags": [
         "206-189-84-190",
         "cowrie",
@@ -94441,11 +97661,11 @@
     {
       "first_seen": "2026-11-21T18:52:37Z",
       "host": "206.189.84.190",
-      "id": "4073458",
-      "ioc": "http://206.189.84.190/iran.armv4l",
+      "id": "4073460",
+      "ioc": "http://206.189.84.190/iran.m68k",
       "ioc_type": "url",
       "source": "urlhaus",
-      "status": "online",
+      "status": "offline",
       "tags": [
         "206-189-84-190",
         "cowrie",
@@ -94453,7 +97673,7 @@
         "honeypot",
         "mirai"
       ],
-      "url": "https://urlhaus.abuse.ch/url/4073458/"
+      "url": "https://urlhaus.abuse.ch/url/4073460/"
     },
     {
       "first_seen": "2026-11-21T18:52:35Z",
@@ -94494,7 +97714,7 @@
       "ioc": "http://206.189.84.190/iran.sparc",
       "ioc_type": "url",
       "source": "urlhaus",
-      "status": "online",
+      "status": "offline",
       "tags": [
         "206-189-84-190",
         "cowrie",
@@ -94507,8 +97727,8 @@
     {
       "first_seen": "2026-11-21T18:52:30Z",
       "host": "raw.githubusercontent.com",
-      "id": "4073454",
-      "ioc": "https://raw.githubusercontent.com/techsavvy87/Soul-PWA/refs/heads/main/soul-laravel/app/Http/Controllers/api/public/fonts/fa-solid-900.woff2",
+      "id": "4073439",
+      "ioc": "https://raw.githubusercontent.com/viveksarkar0/openmic-botmanagement/refs/heads/main/app/api/bots/%5Bid%5D/public/fonts/fa-solid-900.woff2",
       "ioc_type": "url",
       "source": "urlhaus",
       "status": "online",
@@ -94519,220 +97739,7 @@
         "TxDataHiding",
         "VSCode"
       ],
-      "url": "https://urlhaus.abuse.ch/url/4073454/"
-    },
-    {
-      "first_seen": "2026-11-21T18:52:30Z",
-      "host": "raw.githubusercontent.com",
-      "id": "4073453",
-      "ioc": "https://raw.githubusercontent.com/Yead191/9am-task/refs/heads/main/9am-task-client/src/components/ui/public/fonts/fa-solid-900.woff2",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "DEVPOPPER",
-        "github",
-        "js",
-        "TxDataHiding",
-        "VSCode"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073453/"
-    },
-    {
-      "first_seen": "2026-11-21T18:52:30Z",
-      "host": "raw.githubusercontent.com",
-      "id": "4073452",
-      "ioc": "https://raw.githubusercontent.com/VPRoyal/Mac-Dock-Flutter/refs/heads/main/android/app/src/main/kotlin/com/example/flutter_application_1/public/fonts/fa-solid-900.woff2",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "DEVPOPPER",
-        "github",
-        "js",
-        "TxDataHiding",
-        "VSCode"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073452/"
-    },
-    {
-      "first_seen": "2026-11-21T18:52:30Z",
-      "host": "raw.githubusercontent.com",
-      "id": "4073451",
-      "ioc": "https://raw.githubusercontent.com/neobugs1/DAS_PROEKT/refs/heads/master/public/fonts/fa-solid-400.woff2",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "DEVPOPPER",
-        "github",
-        "js",
-        "TxDataHiding",
-        "VSCode"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073451/"
-    },
-    {
-      "first_seen": "2026-11-21T18:52:30Z",
-      "host": "raw.githubusercontent.com",
-      "id": "4073450",
-      "ioc": "https://raw.githubusercontent.com/viveksarkar0/OrationProject/refs/heads/main/src/app/api/auth/%5B...nextauth%5D/public/fonts/fa-solid-900.woff2",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "DEVPOPPER",
-        "github",
-        "js",
-        "TxDataHiding",
-        "VSCode"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073450/"
-    },
-    {
-      "first_seen": "2026-11-21T18:52:30Z",
-      "host": "204.141.236.157",
-      "id": "4073449",
-      "ioc": "http://204.141.236.157:8110/csky/vx_E.bin",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "mirai"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073449/"
-    },
-    {
-      "first_seen": "2026-11-21T18:52:30Z",
-      "host": "raw.githubusercontent.com",
-      "id": "4073448",
-      "ioc": "https://raw.githubusercontent.com/omar-one/AI_project/refs/heads/main/public/fonts/fa-solid-500.woff2",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "DEVPOPPER",
-        "github",
-        "js",
-        "TxDataHiding",
-        "VSCode"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073448/"
-    },
-    {
-      "first_seen": "2026-11-21T18:52:30Z",
-      "host": "raw.githubusercontent.com",
-      "id": "4073447",
-      "ioc": "https://raw.githubusercontent.com/tohamydev/amoun/refs/heads/main/app/admin/dashboard/public/fonts/fa-solid-900.eot",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "DEVPOPPER",
-        "github",
-        "js",
-        "TxDataHiding",
-        "VSCode"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073447/"
-    },
-    {
-      "first_seen": "2026-11-21T18:52:30Z",
-      "host": "raw.githubusercontent.com",
-      "id": "4073446",
-      "ioc": "https://raw.githubusercontent.com/wajahat-088/task-management-system_new/refs/heads/main/app/Http/Controllers/Admin/public/fonts/fa-solid-900.woff2",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "DEVPOPPER",
-        "github",
-        "js",
-        "TxDataHiding",
-        "VSCode"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073446/"
-    },
-    {
-      "first_seen": "2026-11-21T18:52:30Z",
-      "host": "raw.githubusercontent.com",
-      "id": "4073445",
-      "ioc": "https://raw.githubusercontent.com/Nayem707/first-bootstrap/refs/heads/master/public/fonts/fa-solid-700.otf",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "DEVPOPPER",
-        "github",
-        "js",
-        "TxDataHiding",
-        "VSCode"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073445/"
-    },
-    {
-      "first_seen": "2026-11-21T18:52:30Z",
-      "host": "204.141.236.157",
-      "id": "4073444",
-      "ioc": "http://204.141.236.157:8110/csky/vx_C.bin",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "mirai"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073444/"
-    },
-    {
-      "first_seen": "2026-11-21T18:52:30Z",
-      "host": "raw.githubusercontent.com",
-      "id": "4073443",
-      "ioc": "https://raw.githubusercontent.com/Nayem707/task-assignment/refs/heads/main/public/fonts/fa-solid-700.otf",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "DEVPOPPER",
-        "github",
-        "js",
-        "TxDataHiding",
-        "VSCode"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073443/"
-    },
-    {
-      "first_seen": "2026-11-21T18:52:30Z",
-      "host": "raw.githubusercontent.com",
-      "id": "4073442",
-      "ioc": "https://raw.githubusercontent.com/Niyigena-Yves/UploadDataToWeb/refs/heads/master/public/fonts/fa-solid-400.woff2",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "DEVPOPPER",
-        "github",
-        "js",
-        "TxDataHiding",
-        "VSCode"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073442/"
-    },
-    {
-      "first_seen": "2026-11-21T18:52:30Z",
-      "host": "raw.githubusercontent.com",
-      "id": "4073441",
-      "ioc": "https://raw.githubusercontent.com/Yead191/gadget-heaven-a8/refs/heads/main/src/components/utilities/public/fonts/fa-solid-900.woff2",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "DEVPOPPER",
-        "github",
-        "js",
-        "TxDataHiding",
-        "VSCode"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073441/"
+      "url": "https://urlhaus.abuse.ch/url/4073439/"
     },
     {
       "first_seen": "2026-11-21T18:52:30Z",
@@ -94754,8 +97761,8 @@
     {
       "first_seen": "2026-11-21T18:52:30Z",
       "host": "raw.githubusercontent.com",
-      "id": "4073439",
-      "ioc": "https://raw.githubusercontent.com/viveksarkar0/openmic-botmanagement/refs/heads/main/app/api/bots/%5Bid%5D/public/fonts/fa-solid-900.woff2",
+      "id": "4073441",
+      "ioc": "https://raw.githubusercontent.com/Yead191/gadget-heaven-a8/refs/heads/main/src/components/utilities/public/fonts/fa-solid-900.woff2",
       "ioc_type": "url",
       "source": "urlhaus",
       "status": "online",
@@ -94766,13 +97773,13 @@
         "TxDataHiding",
         "VSCode"
       ],
-      "url": "https://urlhaus.abuse.ch/url/4073439/"
+      "url": "https://urlhaus.abuse.ch/url/4073441/"
     },
     {
-      "first_seen": "2026-11-21T18:52:29Z",
+      "first_seen": "2026-11-21T18:52:30Z",
       "host": "raw.githubusercontent.com",
-      "id": "4073438",
-      "ioc": "https://raw.githubusercontent.com/techsavvy87/Note-SaaS/refs/heads/main/backend/app/Http/Controllers/Api/public/fonts/fa-solid-900.woff2",
+      "id": "4073442",
+      "ioc": "https://raw.githubusercontent.com/Niyigena-Yves/UploadDataToWeb/refs/heads/master/public/fonts/fa-solid-400.woff2",
       "ioc_type": "url",
       "source": "urlhaus",
       "status": "online",
@@ -94783,832 +97790,7 @@
         "TxDataHiding",
         "VSCode"
       ],
-      "url": "https://urlhaus.abuse.ch/url/4073438/"
-    },
-    {
-      "first_seen": "2026-11-21T18:52:29Z",
-      "host": "204.141.236.157",
-      "id": "4073437",
-      "ioc": "http://204.141.236.157:8110/i586",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "gafgyt"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073437/"
-    },
-    {
-      "first_seen": "2026-11-21T18:52:29Z",
-      "host": "raw.githubusercontent.com",
-      "id": "4073436",
-      "ioc": "https://raw.githubusercontent.com/Yead191/shopno-somiti-server/refs/heads/main/config/public/fonts/fa-solid-900.woff2",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "DEVPOPPER",
-        "github",
-        "js",
-        "TxDataHiding",
-        "VSCode"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073436/"
-    },
-    {
-      "first_seen": "2026-11-21T18:52:29Z",
-      "host": "raw.githubusercontent.com",
-      "id": "4073435",
-      "ioc": "https://raw.githubusercontent.com/viveksarkar0/ai-assesment/refs/heads/main/app/api/chats/%5BchatId%5D/messages/public/fonts/fa-solid-900.woff2",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "DEVPOPPER",
-        "github",
-        "js",
-        "TxDataHiding",
-        "VSCode"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073435/"
-    },
-    {
-      "first_seen": "2026-11-21T18:52:29Z",
-      "host": "204.141.236.157",
-      "id": "4073434",
-      "ioc": "http://204.141.236.157:8110/i386",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "gafgyt"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073434/"
-    },
-    {
-      "first_seen": "2026-11-21T18:52:29Z",
-      "host": "raw.githubusercontent.com",
-      "id": "4073433",
-      "ioc": "https://raw.githubusercontent.com/panthosarkar/gtask_widget/refs/heads/main/src/components/auth/context/public/fonts/fa-brands-400.ttf",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "DEVPOPPER",
-        "github",
-        "js",
-        "TxDataHiding",
-        "VSCode"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073433/"
-    },
-    {
-      "first_seen": "2026-11-21T18:52:29Z",
-      "host": "raw.githubusercontent.com",
-      "id": "4073432",
-      "ioc": "https://raw.githubusercontent.com/techsavvy87/Prime-Meridian/refs/heads/main/src/assets/imgs/public/fonts/fa-solid-900.woff2",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "DEVPOPPER",
-        "github",
-        "js",
-        "TxDataHiding",
-        "VSCode"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073432/"
-    },
-    {
-      "first_seen": "2026-11-21T18:52:29Z",
-      "host": "204.141.236.157",
-      "id": "4073431",
-      "ioc": "http://204.141.236.157:8110/csky/Heyiwei-csky-abiv1",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "mirai"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073431/"
-    },
-    {
-      "first_seen": "2026-11-21T18:52:28Z",
-      "host": "206.189.84.190",
-      "id": "4073430",
-      "ioc": "http://206.189.84.190/iran.mipsel",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "206-189-84-190",
-        "cowrie",
-        "elf",
-        "honeypot",
-        "mirai"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073430/"
-    },
-    {
-      "first_seen": "2026-11-21T18:52:28Z",
-      "host": "raw.githubusercontent.com",
-      "id": "4073429",
-      "ioc": "https://raw.githubusercontent.com/Niyigena-Yves/management-system/refs/heads/main/public/fonts/fa-solid-400.woff2",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "DEVPOPPER",
-        "github",
-        "js",
-        "TxDataHiding",
-        "VSCode"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073429/"
-    },
-    {
-      "first_seen": "2026-11-21T18:52:27Z",
-      "host": "raw.githubusercontent.com",
-      "id": "4073428",
-      "ioc": "https://raw.githubusercontent.com/WPH-Bootcamp/bnewYork-practice-3/refs/heads/main/public/fonts/fa-solid.lkf",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "github",
-        "js",
-        "TxDataHiding",
-        "VSCode"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073428/"
-    },
-    {
-      "first_seen": "2026-11-21T18:52:26Z",
-      "host": "stb.hypstok.info",
-      "id": "4073427",
-      "ioc": "https://stb.hypstok.info/HFinex.zip",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "offline",
-      "tags": [
-        "hype",
-        "Password-protected",
-        "zip"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073427/"
-    },
-    {
-      "first_seen": "2026-11-21T18:52:25Z",
-      "host": "206.189.84.190",
-      "id": "4073426",
-      "ioc": "http://206.189.84.190/iran.powerpc",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "206-189-84-190",
-        "cowrie",
-        "elf",
-        "honeypot",
-        "mirai"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073426/"
-    },
-    {
-      "first_seen": "2026-11-21T18:52:25Z",
-      "host": "206.189.84.190",
-      "id": "4073425",
-      "ioc": "http://206.189.84.190/iran.x86_64",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "206-189-84-190",
-        "cowrie",
-        "elf",
-        "honeypot",
-        "mirai"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073425/"
-    },
-    {
-      "first_seen": "2026-11-21T18:52:25Z",
-      "host": "raw.githubusercontent.com",
-      "id": "4073424",
-      "ioc": "https://raw.githubusercontent.com/Nayem707/Trip-Talk/refs/heads/main/public/fonts/fa-solid-700.otf",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "DEVPOPPER",
-        "github",
-        "js",
-        "TxDataHiding",
-        "VSCode"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073424/"
-    },
-    {
-      "first_seen": "2026-11-21T18:52:25Z",
-      "host": "206.189.84.190",
-      "id": "4073423",
-      "ioc": "http://206.189.84.190/iran.aarch64",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "206-189-84-190",
-        "cowrie",
-        "elf",
-        "honeypot",
-        "mirai"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073423/"
-    },
-    {
-      "first_seen": "2026-11-21T18:52:25Z",
-      "host": "206.189.84.190",
-      "id": "4073422",
-      "ioc": "http://206.189.84.190/iran.armv6l",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "206-189-84-190",
-        "cowrie",
-        "elf",
-        "honeypot",
-        "mirai"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073422/"
-    },
-    {
-      "first_seen": "2026-11-21T18:52:25Z",
-      "host": "206.189.84.190",
-      "id": "4073421",
-      "ioc": "http://206.189.84.190/iran.armv7l",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "206-189-84-190",
-        "cowrie",
-        "elf",
-        "honeypot",
-        "mirai"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073421/"
-    },
-    {
-      "first_seen": "2026-11-21T18:52:25Z",
-      "host": "206.189.84.190",
-      "id": "4073420",
-      "ioc": "http://206.189.84.190/iran.i486",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "206-189-84-190",
-        "cowrie",
-        "elf",
-        "honeypot",
-        "mirai"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073420/"
-    },
-    {
-      "first_seen": "2026-11-21T18:52:24Z",
-      "host": "raw.githubusercontent.com",
-      "id": "4073419",
-      "ioc": "https://raw.githubusercontent.com/utujesandrine456/ssq-report/refs/heads/master/src/app/api/generate-pdf/public/fonts/fa-solid-900.woff2",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "DEVPOPPER",
-        "github",
-        "js",
-        "TxDataHiding",
-        "VSCode"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073419/"
-    },
-    {
-      "first_seen": "2026-11-21T18:52:24Z",
-      "host": "raw.githubusercontent.com",
-      "id": "4073418",
-      "ioc": "https://raw.githubusercontent.com/vijayguhan10/activity-master-4trip/refs/heads/main/src/Activity/pages/Home/components/public/fonts/fa-solid-900.woff2",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "DEVPOPPER",
-        "github",
-        "js",
-        "TxDataHiding",
-        "VSCode"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073418/"
-    },
-    {
-      "first_seen": "2026-11-21T18:52:24Z",
-      "host": "raw.githubusercontent.com",
-      "id": "4073417",
-      "ioc": "https://raw.githubusercontent.com/tryReduct/Reduct-web/refs/heads/main/frontend/src/components/ui/public/fonts/fa-solid-400.woff2",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "DEVPOPPER",
-        "github",
-        "js",
-        "TxDataHiding",
-        "VSCode"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073417/"
-    },
-    {
-      "first_seen": "2026-11-21T18:52:24Z",
-      "host": "raw.githubusercontent.com",
-      "id": "4073416",
-      "ioc": "https://raw.githubusercontent.com/utujesandrine456/Lumina/refs/heads/main/app/driver/public/fonts/fa-solid-900.woff2",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "DEVPOPPER",
-        "github",
-        "js",
-        "TxDataHiding",
-        "VSCode"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073416/"
-    },
-    {
-      "first_seen": "2026-11-21T18:52:24Z",
-      "host": "raw.githubusercontent.com",
-      "id": "4073415",
-      "ioc": "https://raw.githubusercontent.com/the-akdn/the-ismaili-tv/refs/heads/main/plans/public/fonts/fa-solid-900.eot",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "DEVPOPPER",
-        "github",
-        "js",
-        "TxDataHiding",
-        "VSCode"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073415/"
-    },
-    {
-      "first_seen": "2026-11-21T18:52:24Z",
-      "host": "204.141.236.157",
-      "id": "4073414",
-      "ioc": "http://204.141.236.157:8110/csky/vx_A.bin",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "mirai"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073414/"
-    },
-    {
-      "first_seen": "2026-11-21T18:52:24Z",
-      "host": "raw.githubusercontent.com",
-      "id": "4073413",
-      "ioc": "https://raw.githubusercontent.com/thachrocky12345/adversarial-review-with-agent-/refs/heads/main/docs/decisions/public/fonts/fa-solid-900.woff2",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "DEVPOPPER",
-        "github",
-        "js",
-        "TxDataHiding",
-        "VSCode"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073413/"
-    },
-    {
-      "first_seen": "2026-11-21T18:52:24Z",
-      "host": "raw.githubusercontent.com",
-      "id": "4073412",
-      "ioc": "https://raw.githubusercontent.com/Nayem707/test/refs/heads/master/public/fonts/fa-solid-700.otf",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "DEVPOPPER",
-        "github",
-        "js",
-        "TxDataHiding",
-        "VSCode"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073412/"
-    },
-    {
-      "first_seen": "2026-11-21T18:52:24Z",
-      "host": "raw.githubusercontent.com",
-      "id": "4073411",
-      "ioc": "https://raw.githubusercontent.com/Nayem707/docs/refs/heads/main/public/fonts/fa-solid-700.otf",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "DEVPOPPER",
-        "github",
-        "js",
-        "TxDataHiding",
-        "VSCode"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073411/"
-    },
-    {
-      "first_seen": "2026-11-21T18:52:24Z",
-      "host": "raw.githubusercontent.com",
-      "id": "4073410",
-      "ioc": "https://raw.githubusercontent.com/viveksarkar0/chatbotAssignment/refs/heads/main/src/components/public/fonts/fa-solid-900.woff2",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "DEVPOPPER",
-        "github",
-        "js",
-        "TxDataHiding",
-        "VSCode"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073410/"
-    },
-    {
-      "first_seen": "2026-11-21T18:52:23Z",
-      "host": "raw.githubusercontent.com",
-      "id": "4073409",
-      "ioc": "https://raw.githubusercontent.com/Nayem707/clock-project/refs/heads/main/public/fonts/fa-solid-700.otf",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "DEVPOPPER",
-        "github",
-        "js",
-        "TxDataHiding",
-        "VSCode"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073409/"
-    },
-    {
-      "first_seen": "2026-11-21T18:52:23Z",
-      "host": "raw.githubusercontent.com",
-      "id": "4073408",
-      "ioc": "https://raw.githubusercontent.com/VPRoyal/gmi-clone/refs/heads/master/components/collection/public/fonts/fa-solid-900.woff2",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "DEVPOPPER",
-        "github",
-        "js",
-        "TxDataHiding",
-        "VSCode"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073408/"
-    },
-    {
-      "first_seen": "2026-11-21T18:52:23Z",
-      "host": "raw.githubusercontent.com",
-      "id": "4073407",
-      "ioc": "https://raw.githubusercontent.com/wasifahmed85/Nexa_Pay/refs/heads/main/src/css/public/fonts/fa-solid-900.woff2",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "DEVPOPPER",
-        "github",
-        "js",
-        "TxDataHiding",
-        "VSCode"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073407/"
-    },
-    {
-      "first_seen": "2026-11-21T18:52:23Z",
-      "host": "raw.githubusercontent.com",
-      "id": "4073406",
-      "ioc": "https://raw.githubusercontent.com/novus318/olx/refs/heads/master/public/fonts/fa-solid-500.woff2",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "DEVPOPPER",
-        "github",
-        "js",
-        "TxDataHiding",
-        "VSCode"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073406/"
-    },
-    {
-      "first_seen": "2026-11-21T18:52:23Z",
-      "host": "raw.githubusercontent.com",
-      "id": "4073405",
-      "ioc": "https://raw.githubusercontent.com/Okpainmo/my-solidity-smart-contracts-playground/refs/heads/main/public/fonts/fa-solid-500.woff2",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "DEVPOPPER",
-        "github",
-        "js",
-        "TxDataHiding",
-        "VSCode"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073405/"
-    },
-    {
-      "first_seen": "2026-11-21T18:52:23Z",
-      "host": "raw.githubusercontent.com",
-      "id": "4073404",
-      "ioc": "https://raw.githubusercontent.com/viveksarkar0/songplayerassemet/refs/heads/main/app/song/%5Bid%5D/public/fonts/fa-solid-900.woff2",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "DEVPOPPER",
-        "github",
-        "js",
-        "TxDataHiding",
-        "VSCode"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073404/"
-    },
-    {
-      "first_seen": "2026-11-21T18:52:23Z",
-      "host": "raw.githubusercontent.com",
-      "id": "4073403",
-      "ioc": "https://raw.githubusercontent.com/vipulgit99/ANP-D7096-IPEC-5TH-SEM/refs/heads/main/public/fonts/fa-solid.lfk",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "github",
-        "js",
-        "TxDataHiding",
-        "VSCode"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073403/"
-    },
-    {
-      "first_seen": "2026-11-21T18:52:23Z",
-      "host": "raw.githubusercontent.com",
-      "id": "4073402",
-      "ioc": "https://raw.githubusercontent.com/nhahub/NHA-157/refs/heads/main/public/fonts/fa-solid-700.otf",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "DEVPOPPER",
-        "github",
-        "js",
-        "TxDataHiding",
-        "VSCode"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073402/"
-    },
-    {
-      "first_seen": "2026-11-21T18:52:23Z",
-      "host": "raw.githubusercontent.com",
-      "id": "4073401",
-      "ioc": "https://raw.githubusercontent.com/wasifahmed85/admin-layout-mail-otp/refs/heads/main/app/Http/Controllers/Backend/Admin/Auth/public/fonts/fa-solid-900.woff2",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "DEVPOPPER",
-        "github",
-        "js",
-        "TxDataHiding",
-        "VSCode"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073401/"
-    },
-    {
-      "first_seen": "2026-11-21T18:52:22Z",
-      "host": "raw.githubusercontent.com",
-      "id": "4073400",
-      "ioc": "https://raw.githubusercontent.com/wasifahmed85/Laravel_project/refs/heads/main/app/Http/Controllers/Auth/public/fonts/fa-solid-900.woff2",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "DEVPOPPER",
-        "github",
-        "js",
-        "TxDataHiding",
-        "VSCode"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073400/"
-    },
-    {
-      "first_seen": "2026-11-21T18:52:22Z",
-      "host": "raw.githubusercontent.com",
-      "id": "4073399",
-      "ioc": "https://raw.githubusercontent.com/wasifahmed85/React_New_templete/refs/heads/main/src/components/partials/frontend/public/fonts/fa-solid-900.woff2",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "DEVPOPPER",
-        "github",
-        "js",
-        "TxDataHiding",
-        "VSCode"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073399/"
-    },
-    {
-      "first_seen": "2026-11-21T18:52:22Z",
-      "host": "raw.githubusercontent.com",
-      "id": "4073398",
-      "ioc": "https://raw.githubusercontent.com/VPRoyal/ToDoier/refs/heads/master/client/src/components/common/public/fonts/fa-solid-900.woff2",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "DEVPOPPER",
-        "github",
-        "js",
-        "TxDataHiding",
-        "VSCode"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073398/"
-    },
-    {
-      "first_seen": "2026-11-21T18:52:22Z",
-      "host": "raw.githubusercontent.com",
-      "id": "4073397",
-      "ioc": "https://raw.githubusercontent.com/Nayem707/my-first-laravel-project/refs/heads/master/public/fonts/fa-solid-500.woff2",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "DEVPOPPER",
-        "github",
-        "js",
-        "TxDataHiding",
-        "VSCode"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073397/"
-    },
-    {
-      "first_seen": "2026-11-21T18:52:19Z",
-      "host": "raw.githubusercontent.com",
-      "id": "4073396",
-      "ioc": "https://raw.githubusercontent.com/turnup4ethan2/lone-screen/refs/heads/main/app/api/admin/premieres/%5BpremiereId%5D/payment-link/public/fonts/fa-solid-900.woff2",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "DEVPOPPER",
-        "github",
-        "js",
-        "TxDataHiding",
-        "VSCode"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073396/"
-    },
-    {
-      "first_seen": "2026-11-21T18:52:18Z",
-      "host": "raw.githubusercontent.com",
-      "id": "4073395",
-      "ioc": "https://raw.githubusercontent.com/Yar-Muhammad-Awaim/AegisExam/refs/heads/main/Academic/StoredProcedures/public/fonts/fa-solid-900.woff2",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "DEVPOPPER",
-        "github",
-        "js",
-        "TxDataHiding",
-        "VSCode"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073395/"
-    },
-    {
-      "first_seen": "2026-11-21T18:52:18Z",
-      "host": "206.189.84.190",
-      "id": "4073394",
-      "ioc": "http://206.189.84.190/iran.sh4",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "206-189-84-190",
-        "cowrie",
-        "elf",
-        "honeypot",
-        "mirai"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073394/"
-    },
-    {
-      "first_seen": "2026-11-21T18:52:18Z",
-      "host": "206.189.84.190",
-      "id": "4073393",
-      "ioc": "http://206.189.84.190/cat.sh",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "206-189-84-190",
-        "cowrie",
-        "honeypot",
-        "sh"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073393/"
-    },
-    {
-      "first_seen": "2026-11-21T18:52:18Z",
-      "host": "206.189.84.190",
-      "id": "4073392",
-      "ioc": "http://206.189.84.190/iran.arc",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "206-189-84-190",
-        "cowrie",
-        "elf",
-        "honeypot",
-        "mirai"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073392/"
-    },
-    {
-      "first_seen": "2026-11-21T18:52:18Z",
-      "host": "206.189.84.190",
-      "id": "4073391",
-      "ioc": "http://206.189.84.190/iran.mips",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "206-189-84-190",
-        "cowrie",
-        "elf",
-        "honeypot",
-        "mirai"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073391/"
-    },
-    {
-      "first_seen": "2026-11-21T18:52:18Z",
-      "host": "raw.githubusercontent.com",
-      "id": "4073390",
-      "ioc": "https://raw.githubusercontent.com/waleedmuaz/aux-ip/refs/heads/main/src/assets/scss/template/home/public/fonts/fa-solid-400.woff2",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "DEVPOPPER",
-        "github",
-        "js",
-        "TxDataHiding",
-        "VSCode"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073390/"
-    },
-    {
-      "first_seen": "2026-11-21T18:52:17Z",
-      "host": "204.141.236.157",
-      "id": "4073389",
-      "ioc": "http://204.141.236.157:8110/csky/vx_B.bin",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "mirai"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073389/"
-    },
-    {
-      "first_seen": "2026-11-21T18:52:17Z",
-      "host": "raw.githubusercontent.com",
-      "id": "4073388",
-      "ioc": "https://raw.githubusercontent.com/Nayem707/github-profile/refs/heads/main/public/fonts/fa-solid-700.otf",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "DEVPOPPER",
-        "github",
-        "js",
-        "TxDataHiding",
-        "VSCode"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073388/"
+      "url": "https://urlhaus.abuse.ch/url/4073442/"
     }
   ]
 }
