@@ -25537,6 +25537,20 @@
       "source": "NVD",
       "version": "3.1"
     },
+    "CVE-2026-111560": {
+      "fetched_at": "2026-11-22T22:21:56Z",
+      "score": 8.6,
+      "severity": "High",
+      "source": "NVD",
+      "version": "4.0"
+    },
+    "CVE-2026-111793": {
+      "fetched_at": "2026-11-22T22:21:44Z",
+      "score": 4.3,
+      "severity": "Medium",
+      "source": "NVD",
+      "version": "3.1"
+    },
     "CVE-2026-114713": {
       "fetched_at": "2026-11-22T21:18:51Z",
       "score": 7.7,
@@ -25551,6 +25565,13 @@
       "source": "NVD",
       "version": "4.0"
     },
+    "CVE-2026-123039": {
+      "fetched_at": "2026-11-22T22:21:32Z",
+      "score": 7.8,
+      "severity": "High",
+      "source": "NVD",
+      "version": "3.1"
+    },
     "CVE-2026-123890": {
       "fetched_at": "2026-11-22T15:35:47Z",
       "score": 9.8,
@@ -25558,10 +25579,24 @@
       "source": "NVD",
       "version": "3.1"
     },
+    "CVE-2026-124194": {
+      "fetched_at": "2026-11-22T22:21:38Z",
+      "score": 6.5,
+      "severity": "Medium",
+      "source": "NVD",
+      "version": "3.1"
+    },
     "CVE-2026-129448": {
       "fetched_at": "2026-11-22T15:35:41Z",
       "score": 9.8,
       "severity": "Critical",
+      "source": "NVD",
+      "version": "3.1"
+    },
+    "CVE-2026-20320": {
+      "fetched_at": "2026-11-22T22:21:50Z",
+      "score": 7.5,
+      "severity": "High",
       "source": "NVD",
       "version": "3.1"
     },
@@ -25594,7 +25629,7 @@
       "version": "3.1"
     }
   },
-  "generated_at": "2026-11-22T21:18:53Z",
+  "generated_at": "2026-11-22T22:21:59Z",
   "kev": [
     {
       "cve": "CVE-2026-129448",
@@ -25778,10 +25813,10 @@
     },
     {
       "cve": "CVE-2026-123039",
-      "cvss_score": null,
-      "cvss_severity": "Unavailable",
-      "cvss_source": null,
-      "cvss_version": null,
+      "cvss_score": 7.8,
+      "cvss_severity": "High",
+      "cvss_source": "NVD",
+      "cvss_version": "3.1",
       "date_added": "2026-11-13T00:00:00Z",
       "description": "Check Point Firewall, Multi-Domain Security Management Server, Scalable Platforms, Security Gateway, and Security Management Server contain an incorrect permissions assignment for critical resources vulnerability when the Gaia OS DynamicCLI daemon runs as root and listens on a world-writable local socket without authenticating connecting processes. An authenticated local user can send a command to the socket and have it executed as root.",
       "due_date": "2026-11-16T00:00:00Z",
@@ -25796,10 +25831,10 @@
     },
     {
       "cve": "CVE-2026-124194",
-      "cvss_score": null,
-      "cvss_severity": "Unavailable",
-      "cvss_source": null,
-      "cvss_version": null,
+      "cvss_score": 6.5,
+      "cvss_severity": "Medium",
+      "cvss_source": "NVD",
+      "cvss_version": "3.1",
       "date_added": "2026-11-10T00:00:00Z",
       "description": "Microsoft Office Outlook contains a missing user interaction for potentially unsafe action vulnerability that allows an unauthorized attacker to perform spoofing over a network.",
       "due_date": "2026-11-24T00:00:00Z",
@@ -25814,10 +25849,10 @@
     },
     {
       "cve": "CVE-2026-111793",
-      "cvss_score": null,
-      "cvss_severity": "Unavailable",
-      "cvss_source": null,
-      "cvss_version": null,
+      "cvss_score": 4.3,
+      "cvss_severity": "Medium",
+      "cvss_source": "NVD",
+      "cvss_version": "3.1",
       "date_added": "2026-11-10T00:00:00Z",
       "description": "Openwave Messaging Limited Webtop Media Transcoder contains an incorrect resource transfer between spheres vulnerability that may allow an authenticated user to process and convert unintended document types if bypassing the Webmail experience.",
       "due_date": "2026-11-24T00:00:00Z",
@@ -25832,10 +25867,10 @@
     },
     {
       "cve": "CVE-2026-20320",
-      "cvss_score": null,
-      "cvss_severity": "Unavailable",
-      "cvss_source": null,
-      "cvss_version": null,
+      "cvss_score": 7.5,
+      "cvss_severity": "High",
+      "cvss_source": "NVD",
+      "cvss_version": "3.1",
       "date_added": "2026-11-10T00:00:00Z",
       "description": "Cisco BroadWorks contains an improper restriction of XML external entity reference vulnerability that could allow an unauthenticated, remote attacker to read sensitive configuration information on an affected system.",
       "due_date": "2026-11-24T00:00:00Z",
@@ -25850,10 +25885,10 @@
     },
     {
       "cve": "CVE-2026-111560",
-      "cvss_score": null,
-      "cvss_severity": "Unavailable",
-      "cvss_source": null,
-      "cvss_version": null,
+      "cvss_score": 8.6,
+      "cvss_severity": "High",
+      "cvss_source": "NVD",
+      "cvss_version": "4.0",
       "date_added": "2026-11-10T00:00:00Z",
       "description": "Barracuda Networks Email Security Gateway (ESG), Load Balancer, Application Delivery Controller (ADC), Message Archiver (BMA), WAF Control Center (WCC), Web Application Firewall (WAF), and Web Security Gateway (WSG) contain an OS command injection vulnerability. This vulnerability could allow an authenticated administrator to inject OS commands that execute with root privileges when the crafted timezone value is subsequently processed. This vulnerability can be chained with CVE-2026-116606",
       "due_date": "2026-11-13T00:00:00Z",
@@ -57932,36 +57967,36 @@
   "sources": {
     "cisa_advisories": {
       "error": null,
-      "last_attempt": "2026-11-22T21:18:26Z",
-      "last_success": "2026-11-22T21:18:26Z",
+      "last_attempt": "2026-11-22T22:21:31Z",
+      "last_success": "2026-11-22T22:21:31Z",
       "status": "healthy",
       "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml"
     },
     "cisa_kev": {
       "error": null,
-      "last_attempt": "2026-11-22T21:18:26Z",
-      "last_success": "2026-11-22T21:18:26Z",
+      "last_attempt": "2026-11-22T22:21:31Z",
+      "last_success": "2026-11-22T22:21:31Z",
       "status": "healthy",
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
     },
     "cisa_news": {
       "error": null,
-      "last_attempt": "2026-11-22T21:18:26Z",
-      "last_success": "2026-11-22T21:18:26Z",
+      "last_attempt": "2026-11-22T22:21:31Z",
+      "last_success": "2026-11-22T22:21:31Z",
       "status": "healthy",
       "url": "https://www.cisa.gov/news.xml"
     },
     "threatfox": {
-      "error": "IncompleteRead(833583 bytes read)",
-      "last_attempt": "2026-11-22T21:18:51Z",
+      "error": "IncompleteRead(64375 bytes read)",
+      "last_attempt": "2026-11-22T22:21:57Z",
       "last_success": "2026-11-22T00:28:26Z",
       "status": "stale",
       "url": "https://threatfox-api.abuse.ch/api/v1/"
     },
     "urlhaus": {
       "error": null,
-      "last_attempt": "2026-11-22T21:18:51Z",
-      "last_success": "2026-11-22T21:18:51Z",
+      "last_attempt": "2026-11-22T22:21:56Z",
+      "last_success": "2026-11-22T22:21:56Z",
       "status": "healthy",
       "url": "https://urlhaus-api.abuse.ch/v1/urls/recent/limit/100/"
     }
@@ -103587,6 +103622,1425 @@
   ],
   "urlhaus": [
     {
+      "first_seen": "2026-11-22T22:19:06Z",
+      "host": "125.43.32.186",
+      "id": "4074389",
+      "ioc": "http://125.43.32.186:54905/bin.sh",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "32-bit",
+        "elf",
+        "mips",
+        "Mozi"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074389/"
+    },
+    {
+      "first_seen": "2026-11-22T22:17:06Z",
+      "host": "219.157.179.218",
+      "id": "4074388",
+      "ioc": "http://219.157.179.218:38103/i",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [],
+      "url": "https://urlhaus.abuse.ch/url/4074388/"
+    },
+    {
+      "first_seen": "2026-11-22T22:17:06Z",
+      "host": "42.231.201.41",
+      "id": "4074387",
+      "ioc": "http://42.231.201.41:51384/i",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [],
+      "url": "https://urlhaus.abuse.ch/url/4074387/"
+    },
+    {
+      "first_seen": "2026-11-22T22:17:05Z",
+      "host": "125.26.202.160",
+      "id": "4074386",
+      "ioc": "http://125.26.202.160:54665/i",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "mirai"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074386/"
+    },
+    {
+      "first_seen": "2026-11-22T22:02:05Z",
+      "host": "222.124.77.104",
+      "id": "4074385",
+      "ioc": "http://222.124.77.104:52631/i",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "mirai"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074385/"
+    },
+    {
+      "first_seen": "2026-11-22T22:02:05Z",
+      "host": "42.177.78.170",
+      "id": "4074384",
+      "ioc": "http://42.177.78.170:51890/i",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [],
+      "url": "https://urlhaus.abuse.ch/url/4074384/"
+    },
+    {
+      "first_seen": "2026-11-22T22:02:05Z",
+      "host": "222.134.163.136",
+      "id": "4074383",
+      "ioc": "http://222.134.163.136:54580/i",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "Mozi"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074383/"
+    },
+    {
+      "first_seen": "2026-11-22T21:59:10Z",
+      "host": "github.com",
+      "id": "4074382",
+      "ioc": "https://github.com/slowpigeonovercome/TgWsProxy/releases/download/TgWsProxy/TgWsProxy_windows.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074382/"
+    },
+    {
+      "first_seen": "2026-11-22T21:59:08Z",
+      "host": "175.165.109.161",
+      "id": "4074381",
+      "ioc": "http://175.165.109.161:43641/i",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "elf"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074381/"
+    },
+    {
+      "first_seen": "2026-11-22T21:59:08Z",
+      "host": "github.com",
+      "id": "4074380",
+      "ioc": "https://github.com/slowpigeonovercome/TelegramFix/releases/download/TelegramFix/TgWsProxy_windows_7_64bit.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074380/"
+    },
+    {
+      "first_seen": "2026-11-22T21:59:06Z",
+      "host": "125.26.202.160",
+      "id": "4074379",
+      "ioc": "http://125.26.202.160:54665/bin.sh",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "mirai"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074379/"
+    },
+    {
+      "first_seen": "2026-11-22T21:59:06Z",
+      "host": "42.177.78.170",
+      "id": "4074378",
+      "ioc": "http://42.177.78.170:51890/bin.sh",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [],
+      "url": "https://urlhaus.abuse.ch/url/4074378/"
+    },
+    {
+      "first_seen": "2026-11-22T21:59:05Z",
+      "host": "42.231.201.41",
+      "id": "4074377",
+      "ioc": "http://42.231.201.41:51384/bin.sh",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "Mozi"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074377/"
+    },
+    {
+      "first_seen": "2026-11-22T21:59:05Z",
+      "host": "github.com",
+      "id": "4074376",
+      "ioc": "https://github.com/slowpigeonovercome/tg-fix/releases/download/tg-fix/TgWsProxy_windows.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074376/"
+    },
+    {
+      "first_seen": "2026-11-22T21:44:20Z",
+      "host": "github.com",
+      "id": "4074375",
+      "ioc": "https://github.com/slowpigeonovercome/TgWsProxy/releases/download/TgWsProxy/TgWsProxy_windows_7_32bit.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074375/"
+    },
+    {
+      "first_seen": "2026-11-22T21:44:20Z",
+      "host": "github.com",
+      "id": "4074374",
+      "ioc": "https://github.com/goliathhippointrigue/TelegramFix/releases/download/TelegramFix/TgWsProxy_windows_7_32bit.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074374/"
+    },
+    {
+      "first_seen": "2026-11-22T21:44:20Z",
+      "host": "github.com",
+      "id": "4074373",
+      "ioc": "https://github.com/slowpigeonovercome/Tg-Ws-Proxy/releases/download/Tg-Ws-Proxy/TgWsProxy_windows_arm64.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074373/"
+    },
+    {
+      "first_seen": "2026-11-22T21:44:19Z",
+      "host": "github.com",
+      "id": "4074372",
+      "ioc": "https://github.com/slowpigeonovercome/TelegramFix/releases/download/TelegramFix/TgWsProxy_windows.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074372/"
+    },
+    {
+      "first_seen": "2026-11-22T21:44:19Z",
+      "host": "github.com",
+      "id": "4074371",
+      "ioc": "https://github.com/slowpigeonovercome/TelegramFix/releases/download/TelegramFix/TgWsProxy_windows_7_32bit.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074371/"
+    },
+    {
+      "first_seen": "2026-11-22T21:44:19Z",
+      "host": "github.com",
+      "id": "4074370",
+      "ioc": "https://github.com/goliathhippointrigue/TelegramFix/releases/download/TelegramFix/TgWsProxy_windows.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074370/"
+    },
+    {
+      "first_seen": "2026-11-22T21:44:19Z",
+      "host": "github.com",
+      "id": "4074369",
+      "ioc": "https://github.com/slowpigeonovercome/TelegramZapret/releases/download/TelegramZapret/TgWsProxy_windows_arm64.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074369/"
+    },
+    {
+      "first_seen": "2026-11-22T21:44:19Z",
+      "host": "github.com",
+      "id": "4074368",
+      "ioc": "https://github.com/slowpigeonovercome/Tg-Ws-Proxy/releases/download/Tg-Ws-Proxy/TgWsProxy_windows_7_64bit.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074368/"
+    },
+    {
+      "first_seen": "2026-11-22T21:44:19Z",
+      "host": "github.com",
+      "id": "4074367",
+      "ioc": "https://github.com/goliathhippointrigue/tg-fix/releases/download/tg-fix/TgWsProxy_windows.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074367/"
+    },
+    {
+      "first_seen": "2026-11-22T21:44:19Z",
+      "host": "github.com",
+      "id": "4074366",
+      "ioc": "https://github.com/slowpigeonovercome/tg-fix/releases/download/tg-fix/TgWsProxy_windows_arm64.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074366/"
+    },
+    {
+      "first_seen": "2026-11-22T21:44:19Z",
+      "host": "github.com",
+      "id": "4074365",
+      "ioc": "https://github.com/slowpigeonovercome/ZapretTelegram/releases/download/ZapretTelegram/TgWsProxy_windows_7_32bit.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074365/"
+    },
+    {
+      "first_seen": "2026-11-22T21:44:19Z",
+      "host": "github.com",
+      "id": "4074364",
+      "ioc": "https://github.com/slowpigeonovercome/tg-fix/releases/download/tg-fix/TgWsProxy_windows_7_32bit.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074364/"
+    },
+    {
+      "first_seen": "2026-11-22T21:44:19Z",
+      "host": "github.com",
+      "id": "4074363",
+      "ioc": "https://github.com/slowpigeonovercome/TelegramZapret/releases/download/TelegramZapret/TgWsProxy_windows.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074363/"
+    },
+    {
+      "first_seen": "2026-11-22T21:44:19Z",
+      "host": "github.com",
+      "id": "4074362",
+      "ioc": "https://github.com/goliathhippointrigue/TG-WS-Proxy-v1.11.4/releases/download/TG-WS-Proxy-v1.11.4/TgWsProxy_windows_7_32bit.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074362/"
+    },
+    {
+      "first_seen": "2026-11-22T21:44:19Z",
+      "host": "github.com",
+      "id": "4074361",
+      "ioc": "https://github.com/slowpigeonovercome/TelegramZapret/releases/download/TelegramZapret/TgWsProxy_windows_7_32bit.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074361/"
+    },
+    {
+      "first_seen": "2026-11-22T21:44:19Z",
+      "host": "github.com",
+      "id": "4074360",
+      "ioc": "https://github.com/slowpigeonovercome/ZapretTelegram/releases/download/ZapretTelegram/TgWsProxy_windows_arm64.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074360/"
+    },
+    {
+      "first_seen": "2026-11-22T21:44:19Z",
+      "host": "github.com",
+      "id": "4074359",
+      "ioc": "https://github.com/slowpigeonovercome/TelegramFix/releases/download/TelegramFix/TgWsProxy_windows_arm64.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074359/"
+    },
+    {
+      "first_seen": "2026-11-22T21:44:18Z",
+      "host": "github.com",
+      "id": "4074358",
+      "ioc": "https://github.com/slowpigeonovercome/Telegram-Zapret/releases/download/Telegram-Zapret/TgWsProxy_windows.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074358/"
+    },
+    {
+      "first_seen": "2026-11-22T21:44:17Z",
+      "host": "github.com",
+      "id": "4074357",
+      "ioc": "https://github.com/slowpigeonovercome/Telegram-Zapret/releases/download/Telegram-Zapret/TgWsProxy_windows_arm64.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074357/"
+    },
+    {
+      "first_seen": "2026-11-22T21:44:14Z",
+      "host": "github.com",
+      "id": "4074356",
+      "ioc": "https://github.com/slowpigeonovercome/Telegram-Zapret/releases/download/Telegram-Zapret/TgWsProxy_windows_7_64bit.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074356/"
+    },
+    {
+      "first_seen": "2026-11-22T21:44:14Z",
+      "host": "github.com",
+      "id": "4074355",
+      "ioc": "https://github.com/slowpigeonovercome/Zapret-Telegram/releases/download/Zapret-Telegram/TgWsProxy_windows_arm64.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074355/"
+    },
+    {
+      "first_seen": "2026-11-22T21:44:13Z",
+      "host": "github.com",
+      "id": "4074354",
+      "ioc": "https://github.com/slowpigeonovercome/Telegram-Fix/releases/download/Telegram-Fix/TgWsProxy_windows_arm64.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074354/"
+    },
+    {
+      "first_seen": "2026-11-22T21:44:13Z",
+      "host": "github.com",
+      "id": "4074353",
+      "ioc": "https://github.com/slowpigeonovercome/Tg-Ws-Proxy/releases/download/Tg-Ws-Proxy/TgWsProxy_windows_7_32bit.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074353/"
+    },
+    {
+      "first_seen": "2026-11-22T21:44:13Z",
+      "host": "github.com",
+      "id": "4074352",
+      "ioc": "https://github.com/slowpigeonovercome/Zapret-Telegram/releases/download/Zapret-Telegram/TgWsProxy_windows_7_64bit.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074352/"
+    },
+    {
+      "first_seen": "2026-11-22T21:44:13Z",
+      "host": "github.com",
+      "id": "4074351",
+      "ioc": "https://github.com/slowpigeonovercome/Telegram-Fix/releases/download/Telegram-Fix/TgWsProxy_windows_7_64bit.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074351/"
+    },
+    {
+      "first_seen": "2026-11-22T21:44:12Z",
+      "host": "github.com",
+      "id": "4074350",
+      "ioc": "https://github.com/slowpigeonovercome/tg-fix/releases/download/tg-fix/TgWsProxy_windows_7_64bit.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074350/"
+    },
+    {
+      "first_seen": "2026-11-22T21:44:12Z",
+      "host": "github.com",
+      "id": "4074349",
+      "ioc": "https://github.com/slowpigeonovercome/ZapretTelegram/releases/download/ZapretTelegram/TgWsProxy_windows_7_64bit.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074349/"
+    },
+    {
+      "first_seen": "2026-11-22T21:44:11Z",
+      "host": "github.com",
+      "id": "4074348",
+      "ioc": "https://github.com/slowpigeonovercome/TgWsProxy/releases/download/TgWsProxy/TgWsProxy_windows_arm64.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074348/"
+    },
+    {
+      "first_seen": "2026-11-22T21:44:11Z",
+      "host": "github.com",
+      "id": "4074347",
+      "ioc": "https://github.com/slowpigeonovercome/Zapret-Telegram/releases/download/Zapret-Telegram/TgWsProxy_windows.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074347/"
+    },
+    {
+      "first_seen": "2026-11-22T21:44:11Z",
+      "host": "github.com",
+      "id": "4074346",
+      "ioc": "https://github.com/slowpigeonovercome/Zapret-Telegram/releases/download/Zapret-Telegram/TgWsProxy_windows_7_32bit.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074346/"
+    },
+    {
+      "first_seen": "2026-11-22T21:44:11Z",
+      "host": "github.com",
+      "id": "4074345",
+      "ioc": "https://github.com/goliathhippointrigue/Zapret-Telegram/releases/download/Zapret-Telegram/TgWsProxy_windows.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074345/"
+    },
+    {
+      "first_seen": "2026-11-22T21:44:10Z",
+      "host": "github.com",
+      "id": "4074344",
+      "ioc": "https://github.com/slowpigeonovercome/TG-WS-Proxy-v1.11.4/releases/download/TG-WS-Proxy-v1.11.4/TgWsProxy_windows_arm64.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074344/"
+    },
+    {
+      "first_seen": "2026-11-22T21:44:10Z",
+      "host": "github.com",
+      "id": "4074343",
+      "ioc": "https://github.com/slowpigeonovercome/Tg-Ws-Proxy/releases/download/Tg-Ws-Proxy/TgWsProxy_windows.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074343/"
+    },
+    {
+      "first_seen": "2026-11-22T21:44:09Z",
+      "host": "github.com",
+      "id": "4074342",
+      "ioc": "https://github.com/slowpigeonovercome/TelegramZapret/releases/download/TelegramZapret/TgWsProxy_windows_7_64bit.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074342/"
+    },
+    {
+      "first_seen": "2026-11-22T21:44:09Z",
+      "host": "github.com",
+      "id": "4074341",
+      "ioc": "https://github.com/goliathhippointrigue/Telegram-Fix/releases/download/Telegram-Fix/TgWsProxy_windows.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074341/"
+    },
+    {
+      "first_seen": "2026-11-22T21:44:09Z",
+      "host": "github.com",
+      "id": "4074340",
+      "ioc": "https://github.com/slowpigeonovercome/TG-WS-Proxy-v1.11.4/releases/download/TG-WS-Proxy-v1.11.4/TgWsProxy_windows.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074340/"
+    },
+    {
+      "first_seen": "2026-11-22T21:44:09Z",
+      "host": "github.com",
+      "id": "4074339",
+      "ioc": "https://github.com/goliathhippointrigue/Telegram-Fix/releases/download/Telegram-Fix/TgWsProxy_windows_7_32bit.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074339/"
+    },
+    {
+      "first_seen": "2026-11-22T21:44:09Z",
+      "host": "github.com",
+      "id": "4074338",
+      "ioc": "https://github.com/slowpigeonovercome/ZapretTelegram/releases/download/ZapretTelegram/TgWsProxy_windows.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074338/"
+    },
+    {
+      "first_seen": "2026-11-22T21:44:09Z",
+      "host": "github.com",
+      "id": "4074337",
+      "ioc": "https://github.com/slowpigeonovercome/TG-WS-Proxy-v1.11.4/releases/download/TG-WS-Proxy-v1.11.4/TgWsProxy_windows_7_64bit.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074337/"
+    },
+    {
+      "first_seen": "2026-11-22T21:44:09Z",
+      "host": "github.com",
+      "id": "4074336",
+      "ioc": "https://github.com/slowpigeonovercome/Telegram-Fix/releases/download/Telegram-Fix/TgWsProxy_windows.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074336/"
+    },
+    {
+      "first_seen": "2026-11-22T21:44:09Z",
+      "host": "github.com",
+      "id": "4074335",
+      "ioc": "https://github.com/slowpigeonovercome/TgWsProxy/releases/download/TgWsProxy/TgWsProxy_windows_7_64bit.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074335/"
+    },
+    {
+      "first_seen": "2026-11-22T21:44:09Z",
+      "host": "github.com",
+      "id": "4074334",
+      "ioc": "https://github.com/goliathhippointrigue/Telegram-Zapret/releases/download/Telegram-Zapret/TgWsProxy_windows.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074334/"
+    },
+    {
+      "first_seen": "2026-11-22T21:44:09Z",
+      "host": "github.com",
+      "id": "4074333",
+      "ioc": "https://github.com/slowpigeonovercome/Telegram-Zapret/releases/download/Telegram-Zapret/TgWsProxy_windows_7_32bit.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074333/"
+    },
+    {
+      "first_seen": "2026-11-22T21:44:08Z",
+      "host": "github.com",
+      "id": "4074332",
+      "ioc": "https://github.com/slowpigeonovercome/Telegram-Fix/releases/download/Telegram-Fix/TgWsProxy_windows_7_32bit.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074332/"
+    },
+    {
+      "first_seen": "2026-11-22T21:44:08Z",
+      "host": "github.com",
+      "id": "4074331",
+      "ioc": "https://github.com/slowpigeonovercome/TG-WS-Proxy-v1.11.4/releases/download/TG-WS-Proxy-v1.11.4/TgWsProxy_windows_7_32bit.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074331/"
+    },
+    {
+      "first_seen": "2026-11-22T21:43:11Z",
+      "host": "github.com",
+      "id": "4074330",
+      "ioc": "https://github.com/goliathhippointrigue/TelegramFix/releases/download/TelegramFix/TgWsProxy_windows_7_64bit.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074330/"
+    },
+    {
+      "first_seen": "2026-11-22T21:43:11Z",
+      "host": "github.com",
+      "id": "4074329",
+      "ioc": "https://github.com/goliathhippointrigue/ZapretTelegram/releases/download/ZapretTelegram/TgWsProxy_windows_7_32bit.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074329/"
+    },
+    {
+      "first_seen": "2026-11-22T21:43:11Z",
+      "host": "github.com",
+      "id": "4074328",
+      "ioc": "https://github.com/goliathhippointrigue/TgWsProxy/releases/download/TgWsProxy/TgWsProxy_windows.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074328/"
+    },
+    {
+      "first_seen": "2026-11-22T21:43:11Z",
+      "host": "github.com",
+      "id": "4074327",
+      "ioc": "https://github.com/goliathhippointrigue/ZapretTelegram/releases/download/ZapretTelegram/TgWsProxy_windows.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074327/"
+    },
+    {
+      "first_seen": "2026-11-22T21:43:11Z",
+      "host": "github.com",
+      "id": "4074326",
+      "ioc": "https://github.com/goliathhippointrigue/TelegramZapret/releases/download/TelegramZapret/TgWsProxy_windows_7_32bit.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074326/"
+    },
+    {
+      "first_seen": "2026-11-22T21:43:10Z",
+      "host": "github.com",
+      "id": "4074325",
+      "ioc": "https://github.com/goliathhippointrigue/Telegram-Zapret/releases/download/Telegram-Zapret/TgWsProxy_windows_7_32bit.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074325/"
+    },
+    {
+      "first_seen": "2026-11-22T21:43:10Z",
+      "host": "github.com",
+      "id": "4074324",
+      "ioc": "https://github.com/goliathhippointrigue/Tg-Ws-Proxy/releases/download/Tg-Ws-Proxy/TgWsProxy_windows_7_32bit.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074324/"
+    },
+    {
+      "first_seen": "2026-11-22T21:43:10Z",
+      "host": "github.com",
+      "id": "4074323",
+      "ioc": "https://github.com/goliathhippointrigue/Zapret-Telegram/releases/download/Zapret-Telegram/TgWsProxy_windows_7_64bit.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074323/"
+    },
+    {
+      "first_seen": "2026-11-22T21:43:10Z",
+      "host": "github.com",
+      "id": "4074322",
+      "ioc": "https://github.com/goliathhippointrigue/TgWsProxy/releases/download/TgWsProxy/TgWsProxy_windows_7_32bit.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074322/"
+    },
+    {
+      "first_seen": "2026-11-22T21:43:09Z",
+      "host": "github.com",
+      "id": "4074321",
+      "ioc": "https://github.com/goliathhippointrigue/tg-fix/releases/download/tg-fix/TgWsProxy_windows_7_64bit.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074321/"
+    },
+    {
+      "first_seen": "2026-11-22T21:43:09Z",
+      "host": "github.com",
+      "id": "4074320",
+      "ioc": "https://github.com/goliathhippointrigue/TG-WS-Proxy-v1.11.4/releases/download/TG-WS-Proxy-v1.11.4/TgWsProxy_windows_7_64bit.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074320/"
+    },
+    {
+      "first_seen": "2026-11-22T21:43:09Z",
+      "host": "github.com",
+      "id": "4074319",
+      "ioc": "https://github.com/goliathhippointrigue/Tg-Ws-Proxy/releases/download/Tg-Ws-Proxy/TgWsProxy_windows.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074319/"
+    },
+    {
+      "first_seen": "2026-11-22T21:43:09Z",
+      "host": "github.com",
+      "id": "4074318",
+      "ioc": "https://github.com/goliathhippointrigue/TG-WS-Proxy-v1.11.4/releases/download/TG-WS-Proxy-v1.11.4/TgWsProxy_windows.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074318/"
+    },
+    {
+      "first_seen": "2026-11-22T21:43:09Z",
+      "host": "github.com",
+      "id": "4074317",
+      "ioc": "https://github.com/goliathhippointrigue/Telegram-Fix/releases/download/Telegram-Fix/TgWsProxy_windows_arm64.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074317/"
+    },
+    {
+      "first_seen": "2026-11-22T21:43:09Z",
+      "host": "github.com",
+      "id": "4074316",
+      "ioc": "https://github.com/goliathhippointrigue/Telegram-Zapret/releases/download/Telegram-Zapret/TgWsProxy_windows_7_64bit.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074316/"
+    },
+    {
+      "first_seen": "2026-11-22T21:43:09Z",
+      "host": "github.com",
+      "id": "4074315",
+      "ioc": "https://github.com/goliathhippointrigue/Zapret-Telegram/releases/download/Zapret-Telegram/TgWsProxy_windows_7_32bit.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074315/"
+    },
+    {
+      "first_seen": "2026-11-22T21:43:08Z",
+      "host": "github.com",
+      "id": "4074314",
+      "ioc": "https://github.com/goliathhippointrigue/tg-fix/releases/download/tg-fix/TgWsProxy_windows_7_32bit.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074314/"
+    },
+    {
+      "first_seen": "2026-11-22T21:43:08Z",
+      "host": "github.com",
+      "id": "4074313",
+      "ioc": "https://github.com/goliathhippointrigue/TelegramFix/releases/download/TelegramFix/TgWsProxy_windows_arm64.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074313/"
+    },
+    {
+      "first_seen": "2026-11-22T21:43:08Z",
+      "host": "github.com",
+      "id": "4074312",
+      "ioc": "https://github.com/goliathhippointrigue/TelegramZapret/releases/download/TelegramZapret/TgWsProxy_windows.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074312/"
+    },
+    {
+      "first_seen": "2026-11-22T21:43:08Z",
+      "host": "github.com",
+      "id": "4074311",
+      "ioc": "https://github.com/goliathhippointrigue/Telegram-Fix/releases/download/Telegram-Fix/TgWsProxy_windows_7_64bit.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074311/"
+    },
+    {
+      "first_seen": "2026-11-22T21:42:12Z",
+      "host": "github.com",
+      "id": "4074310",
+      "ioc": "https://github.com/goliathhippointrigue/TgWsProxy/releases/download/TgWsProxy/TgWsProxy_windows_7_64bit.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074310/"
+    },
+    {
+      "first_seen": "2026-11-22T21:42:10Z",
+      "host": "github.com",
+      "id": "4074309",
+      "ioc": "https://github.com/goliathhippointrigue/Telegram-Zapret/releases/download/Telegram-Zapret/TgWsProxy_windows_arm64.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074309/"
+    },
+    {
+      "first_seen": "2026-11-22T21:42:10Z",
+      "host": "github.com",
+      "id": "4074308",
+      "ioc": "https://github.com/goliathhippointrigue/Zapret-Telegram/releases/download/Zapret-Telegram/TgWsProxy_windows_arm64.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074308/"
+    },
+    {
+      "first_seen": "2026-11-22T21:42:10Z",
+      "host": "github.com",
+      "id": "4074307",
+      "ioc": "https://github.com/goliathhippointrigue/TG-WS-Proxy-v1.11.4/releases/download/TG-WS-Proxy-v1.11.4/TgWsProxy_windows_arm64.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074307/"
+    },
+    {
+      "first_seen": "2026-11-22T21:42:10Z",
+      "host": "github.com",
+      "id": "4074306",
+      "ioc": "https://github.com/goliathhippointrigue/TelegramZapret/releases/download/TelegramZapret/TgWsProxy_windows_7_64bit.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074306/"
+    },
+    {
+      "first_seen": "2026-11-22T21:42:10Z",
+      "host": "github.com",
+      "id": "4074305",
+      "ioc": "https://github.com/goliathhippointrigue/ZapretTelegram/releases/download/ZapretTelegram/TgWsProxy_windows_arm64.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074305/"
+    },
+    {
+      "first_seen": "2026-11-22T21:42:10Z",
+      "host": "github.com",
+      "id": "4074304",
+      "ioc": "https://github.com/goliathhippointrigue/Tg-Ws-Proxy/releases/download/Tg-Ws-Proxy/TgWsProxy_windows_arm64.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074304/"
+    },
+    {
+      "first_seen": "2026-11-22T21:42:10Z",
+      "host": "github.com",
+      "id": "4074303",
+      "ioc": "https://github.com/goliathhippointrigue/ZapretTelegram/releases/download/ZapretTelegram/TgWsProxy_windows_7_64bit.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074303/"
+    },
+    {
+      "first_seen": "2026-11-22T21:42:08Z",
+      "host": "github.com",
+      "id": "4074302",
+      "ioc": "https://github.com/goliathhippointrigue/TgWsProxy/releases/download/TgWsProxy/TgWsProxy_windows_arm64.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074302/"
+    },
+    {
+      "first_seen": "2026-11-22T21:42:06Z",
+      "host": "github.com",
+      "id": "4074301",
+      "ioc": "https://github.com/goliathhippointrigue/Tg-Ws-Proxy/releases/download/Tg-Ws-Proxy/TgWsProxy_windows_7_64bit.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074301/"
+    },
+    {
+      "first_seen": "2026-11-22T21:42:06Z",
+      "host": "github.com",
+      "id": "4074300",
+      "ioc": "https://github.com/goliathhippointrigue/tg-fix/releases/download/tg-fix/TgWsProxy_windows_arm64.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074300/"
+    },
+    {
+      "first_seen": "2026-11-22T21:42:06Z",
+      "host": "github.com",
+      "id": "4074299",
+      "ioc": "https://github.com/goliathhippointrigue/TelegramZapret/releases/download/TelegramZapret/TgWsProxy_windows_arm64.exe",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "exe",
+        "github",
+        "SalatStealer"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074299/"
+    },
+    {
+      "first_seen": "2026-11-22T21:39:13Z",
+      "host": "115.55.238.187",
+      "id": "4074298",
+      "ioc": "http://115.55.238.187:60062/i",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "32-bit",
+        "elf",
+        "mips",
+        "Mozi"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074298/"
+    },
+    {
+      "first_seen": "2026-11-22T21:37:15Z",
+      "host": "175.165.109.161",
+      "id": "4074297",
+      "ioc": "http://175.165.109.161:43641/bin.sh",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "elf"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074297/"
+    },
+    {
+      "first_seen": "2026-11-22T21:32:07Z",
+      "host": "222.124.77.104",
+      "id": "4074296",
+      "ioc": "http://222.124.77.104:52631/bin.sh",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "mirai"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074296/"
+    },
+    {
+      "first_seen": "2026-11-22T21:32:06Z",
+      "host": "182.114.34.91",
+      "id": "4074295",
+      "ioc": "http://182.114.34.91:37651/i",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "Mozi"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074295/"
+    },
+    {
+      "first_seen": "2026-11-22T21:32:05Z",
+      "host": "222.134.163.136",
+      "id": "4074294",
+      "ioc": "http://222.134.163.136:54580/bin.sh",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "Mozi"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074294/"
+    },
+    {
+      "first_seen": "2026-11-22T21:19:12Z",
+      "host": "cdn.discordapp.com",
+      "id": "4074293",
+      "ioc": "https://cdn.discordapp.com/attachments/1571225716761170093/1574171600935461124/8045bd90fb?ex=6b04ad0c&is=6b035b8c&hm=8ba61e9c051e06b2ab5edfe94a04cc6047fdba2a25ce15fb9cd621f3f740f215&",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "IRAHook"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4074293/"
+    },
+    {
       "first_seen": "2026-11-22T21:15:16Z",
       "host": "210.208.110.51",
       "id": "4074292",
@@ -103598,6 +105052,7 @@
         "32-bit",
         "arm",
         "elf",
+        "mirai",
         "Mozi"
       ],
       "url": "https://urlhaus.abuse.ch/url/4074292/"
@@ -103627,1348 +105082,6 @@
         "Mozi"
       ],
       "url": "https://urlhaus.abuse.ch/url/4074290/"
-    },
-    {
-      "first_seen": "2026-11-22T21:02:05Z",
-      "host": "115.63.144.120",
-      "id": "4074289",
-      "ioc": "http://115.63.144.120:54128/i",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074289/"
-    },
-    {
-      "first_seen": "2026-11-22T21:01:07Z",
-      "host": "github.com",
-      "id": "4074288",
-      "ioc": "https://github.com/TwilightMaharaja/PUBG-Radar/releases/download/PUBG-Radar/PUBG-Radar.zip",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "github",
-        "MopsStealer"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074288/"
-    },
-    {
-      "first_seen": "2026-11-22T21:00:16Z",
-      "host": "122.156.143.62",
-      "id": "4074287",
-      "ioc": "http://122.156.143.62:14685/bin.sh",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "32-bit",
-        "elf",
-        "mips",
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074287/"
-    },
-    {
-      "first_seen": "2026-11-22T20:47:06Z",
-      "host": "222.140.0.144",
-      "id": "4074286",
-      "ioc": "http://222.140.0.144:40501/bin.sh",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "mirai"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074286/"
-    },
-    {
-      "first_seen": "2026-11-22T20:47:06Z",
-      "host": "125.41.4.101",
-      "id": "4074285",
-      "ioc": "http://125.41.4.101:48611/i",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074285/"
-    },
-    {
-      "first_seen": "2026-11-22T20:47:06Z",
-      "host": "125.47.73.238",
-      "id": "4074284",
-      "ioc": "http://125.47.73.238:57733/i",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074284/"
-    },
-    {
-      "first_seen": "2026-11-22T20:47:06Z",
-      "host": "115.63.144.120",
-      "id": "4074283",
-      "ioc": "http://115.63.144.120:54128/bin.sh",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074283/"
-    },
-    {
-      "first_seen": "2026-11-22T20:45:08Z",
-      "host": "115.55.238.187",
-      "id": "4074282",
-      "ioc": "http://115.55.238.187:60062/bin.sh",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "32-bit",
-        "elf",
-        "mips",
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074282/"
-    },
-    {
-      "first_seen": "2026-11-22T20:34:14Z",
-      "host": "119.116.4.153",
-      "id": "4074281",
-      "ioc": "http://119.116.4.153:42193/bin.sh",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "32-bit",
-        "elf",
-        "mips",
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074281/"
-    },
-    {
-      "first_seen": "2026-11-22T20:34:14Z",
-      "host": "115.56.154.137",
-      "id": "4074280",
-      "ioc": "http://115.56.154.137:35351/i",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "32-bit",
-        "elf",
-        "mips",
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074280/"
-    },
-    {
-      "first_seen": "2026-11-22T20:32:05Z",
-      "host": "125.47.73.238",
-      "id": "4074279",
-      "ioc": "http://125.47.73.238:57733/bin.sh",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074279/"
-    },
-    {
-      "first_seen": "2026-11-22T20:31:13Z",
-      "host": "222.139.43.156",
-      "id": "4074278",
-      "ioc": "http://222.139.43.156:42517/i",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "32-bit",
-        "elf",
-        "mips",
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074278/"
-    },
-    {
-      "first_seen": "2026-11-22T20:26:10Z",
-      "host": "115.56.154.137",
-      "id": "4074277",
-      "ioc": "http://115.56.154.137:35351/bin.sh",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "32-bit",
-        "elf",
-        "mips",
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074277/"
-    },
-    {
-      "first_seen": "2026-11-22T20:17:06Z",
-      "host": "221.14.40.134",
-      "id": "4074276",
-      "ioc": "http://221.14.40.134:42243/i",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074276/"
-    },
-    {
-      "first_seen": "2026-11-22T20:17:06Z",
-      "host": "27.223.253.81",
-      "id": "4074275",
-      "ioc": "http://27.223.253.81:46114/i",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074275/"
-    },
-    {
-      "first_seen": "2026-11-22T20:17:06Z",
-      "host": "115.56.146.108",
-      "id": "4074274",
-      "ioc": "http://115.56.146.108:33803/i",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074274/"
-    },
-    {
-      "first_seen": "2026-11-22T20:17:06Z",
-      "host": "182.116.116.220",
-      "id": "4074273",
-      "ioc": "http://182.116.116.220:48461/i",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074273/"
-    },
-    {
-      "first_seen": "2026-11-22T20:02:19Z",
-      "host": "120.84.214.12",
-      "id": "4074272",
-      "ioc": "http://120.84.214.12:42447/bin.sh",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "offline",
-      "tags": [],
-      "url": "https://urlhaus.abuse.ch/url/4074272/"
-    },
-    {
-      "first_seen": "2026-11-22T20:02:06Z",
-      "host": "182.114.240.63",
-      "id": "4074271",
-      "ioc": "http://182.114.240.63:58611/i",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "mirai"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074271/"
-    },
-    {
-      "first_seen": "2026-11-22T20:02:05Z",
-      "host": "182.121.112.54",
-      "id": "4074270",
-      "ioc": "http://182.121.112.54:50827/i",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074270/"
-    },
-    {
-      "first_seen": "2026-11-22T19:57:11Z",
-      "host": "117.40.69.58",
-      "id": "4074269",
-      "ioc": "http://117.40.69.58:43869/i",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "32-bit",
-        "arm",
-        "elf",
-        "mirai",
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074269/"
-    },
-    {
-      "first_seen": "2026-11-22T19:56:13Z",
-      "host": "115.55.131.109",
-      "id": "4074268",
-      "ioc": "http://115.55.131.109:60209/i",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "32-bit",
-        "elf",
-        "mips",
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074268/"
-    },
-    {
-      "first_seen": "2026-11-22T19:51:17Z",
-      "host": "117.40.69.58",
-      "id": "4074267",
-      "ioc": "http://117.40.69.58:43869/bin.sh",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "32-bit",
-        "arm",
-        "elf",
-        "mirai",
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074267/"
-    },
-    {
-      "first_seen": "2026-11-22T19:47:07Z",
-      "host": "120.84.214.12",
-      "id": "4074266",
-      "ioc": "http://120.84.214.12:42447/i",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [],
-      "url": "https://urlhaus.abuse.ch/url/4074266/"
-    },
-    {
-      "first_seen": "2026-11-22T19:47:07Z",
-      "host": "125.45.10.195",
-      "id": "4074265",
-      "ioc": "http://125.45.10.195:40503/i",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074265/"
-    },
-    {
-      "first_seen": "2026-11-22T19:47:06Z",
-      "host": "115.56.146.108",
-      "id": "4074264",
-      "ioc": "http://115.56.146.108:33803/bin.sh",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074264/"
-    },
-    {
-      "first_seen": "2026-11-22T19:47:05Z",
-      "host": "123.12.230.112",
-      "id": "4074263",
-      "ioc": "http://123.12.230.112:43570/bin.sh",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074263/"
-    },
-    {
-      "first_seen": "2026-11-22T19:47:05Z",
-      "host": "151.230.192.97",
-      "id": "4074262",
-      "ioc": "http://151.230.192.97:43620/i",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "mirai"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074262/"
-    },
-    {
-      "first_seen": "2026-11-22T19:32:07Z",
-      "host": "210.208.110.21",
-      "id": "4074261",
-      "ioc": "http://210.208.110.21:49590/bin.sh",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "mirai"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074261/"
-    },
-    {
-      "first_seen": "2026-11-22T19:32:07Z",
-      "host": "115.50.29.193",
-      "id": "4074260",
-      "ioc": "http://115.50.29.193:54744/i",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074260/"
-    },
-    {
-      "first_seen": "2026-11-22T19:32:05Z",
-      "host": "125.43.104.32",
-      "id": "4074259",
-      "ioc": "http://125.43.104.32:34883/i",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074259/"
-    },
-    {
-      "first_seen": "2026-11-22T19:17:05Z",
-      "host": "213.193.244.46",
-      "id": "4074258",
-      "ioc": "http://213.193.244.46/bins/parm",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "honeypot",
-        "mirai"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074258/"
-    },
-    {
-      "first_seen": "2026-11-22T19:17:05Z",
-      "host": "213.193.244.46",
-      "id": "4074257",
-      "ioc": "http://213.193.244.46/bins/px86",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "honeypot",
-        "mirai"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074257/"
-    },
-    {
-      "first_seen": "2026-11-22T19:16:08Z",
-      "host": "213.193.244.46",
-      "id": "4074256",
-      "ioc": "http://213.193.244.46/bins/px86_64",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "honeypot",
-        "mirai"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074256/"
-    },
-    {
-      "first_seen": "2026-11-22T19:16:08Z",
-      "host": "59.97.250.203",
-      "id": "4074255",
-      "ioc": "http://59.97.250.203:57052/bin.sh",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074255/"
-    },
-    {
-      "first_seen": "2026-11-22T19:16:07Z",
-      "host": "125.43.104.32",
-      "id": "4074254",
-      "ioc": "http://125.43.104.32:34883/bin.sh",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074254/"
-    },
-    {
-      "first_seen": "2026-11-22T19:16:07Z",
-      "host": "213.193.244.46",
-      "id": "4074253",
-      "ioc": "http://213.193.244.46/bins/parm5",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "honeypot",
-        "mirai"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074253/"
-    },
-    {
-      "first_seen": "2026-11-22T19:16:06Z",
-      "host": "213.193.244.46",
-      "id": "4074252",
-      "ioc": "http://213.193.244.46/bins/parm7",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "honeypot",
-        "mirai"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074252/"
-    },
-    {
-      "first_seen": "2026-11-22T19:16:06Z",
-      "host": "213.193.244.46",
-      "id": "4074251",
-      "ioc": "http://213.193.244.46/bins/parm6",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "honeypot",
-        "mirai"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074251/"
-    },
-    {
-      "first_seen": "2026-11-22T19:16:06Z",
-      "host": "213.193.244.46",
-      "id": "4074250",
-      "ioc": "http://213.193.244.46/bins/psh4",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "honeypot",
-        "mirai"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074250/"
-    },
-    {
-      "first_seen": "2026-11-22T19:16:06Z",
-      "host": "213.193.244.46",
-      "id": "4074249",
-      "ioc": "http://213.193.244.46/bins/pmpsl",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "honeypot",
-        "mirai"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074249/"
-    },
-    {
-      "first_seen": "2026-11-22T19:16:06Z",
-      "host": "213.193.244.46",
-      "id": "4074248",
-      "ioc": "http://213.193.244.46/bins/pppc",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "honeypot",
-        "mirai"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074248/"
-    },
-    {
-      "first_seen": "2026-11-22T19:16:06Z",
-      "host": "213.193.244.46",
-      "id": "4074247",
-      "ioc": "http://213.193.244.46/bins/pm68k",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "honeypot",
-        "mirai"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074247/"
-    },
-    {
-      "first_seen": "2026-11-22T19:16:06Z",
-      "host": "213.193.244.46",
-      "id": "4074246",
-      "ioc": "http://213.193.244.46/bins/pmips",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "honeypot",
-        "mirai"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074246/"
-    },
-    {
-      "first_seen": "2026-11-22T19:03:10Z",
-      "host": "210.208.111.220",
-      "id": "4074245",
-      "ioc": "http://210.208.111.220:55688/i",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "mirai"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074245/"
-    },
-    {
-      "first_seen": "2026-11-22T19:02:18Z",
-      "host": "59.180.188.243",
-      "id": "4074244",
-      "ioc": "http://59.180.188.243:53916/i",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074244/"
-    },
-    {
-      "first_seen": "2026-11-22T19:02:08Z",
-      "host": "210.208.111.74",
-      "id": "4074243",
-      "ioc": "http://210.208.111.74:59592/bin.sh",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "mirai"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074243/"
-    },
-    {
-      "first_seen": "2026-11-22T19:01:06Z",
-      "host": "static.tnkjmec.com",
-      "id": "4074242",
-      "ioc": "https://static.tnkjmec.com/res.zip",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "offline",
-      "tags": [
-        "zip"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074242/"
-    },
-    {
-      "first_seen": "2026-11-22T18:55:07Z",
-      "host": "115.63.144.64",
-      "id": "4074241",
-      "ioc": "http://115.63.144.64:34628/i",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "32-bit",
-        "elf",
-        "mips",
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074241/"
-    },
-    {
-      "first_seen": "2026-11-22T18:47:05Z",
-      "host": "42.239.191.173",
-      "id": "4074240",
-      "ioc": "http://42.239.191.173:54394/i",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [],
-      "url": "https://urlhaus.abuse.ch/url/4074240/"
-    },
-    {
-      "first_seen": "2026-11-22T18:42:07Z",
-      "host": "doc.pdf-unico.lat",
-      "id": "4074239",
-      "ioc": "https://doc.pdf-unico.lat/d/abpod6",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "offline",
-      "tags": [
-        "CHL",
-        "geofenced"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074239/"
-    },
-    {
-      "first_seen": "2026-11-22T18:42:06Z",
-      "host": "113.206.164.142",
-      "id": "4074238",
-      "ioc": "http://113.206.164.142:60003/bin.sh",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "32-bit",
-        "arm",
-        "elf",
-        "mirai",
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074238/"
-    },
-    {
-      "first_seen": "2026-11-22T18:36:07Z",
-      "host": "www.x9q.top",
-      "id": "4074237",
-      "ioc": "http://www.x9q.top/m",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [],
-      "url": "https://urlhaus.abuse.ch/url/4074237/"
-    },
-    {
-      "first_seen": "2026-11-22T18:32:06Z",
-      "host": "123.9.43.224",
-      "id": "4074236",
-      "ioc": "http://123.9.43.224:44640/bin.sh",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074236/"
-    },
-    {
-      "first_seen": "2026-11-22T18:32:06Z",
-      "host": "138.204.196.254",
-      "id": "4074235",
-      "ioc": "http://138.204.196.254:44313/i",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "mirai"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074235/"
-    },
-    {
-      "first_seen": "2026-11-22T18:31:55Z",
-      "host": "todenk.com.cn",
-      "id": "4074234",
-      "ioc": "https://todenk.com.cn/generated_pages/moban53/static/pic/ToDesk.zip",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "SilverFox",
-        "ValleyRAT"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074234/"
-    },
-    {
-      "first_seen": "2026-11-22T18:26:44Z",
-      "host": "sooyun-yun.com.cn",
-      "id": "4074233",
-      "ioc": "https://sooyun-yun.com.cn/donwnload/ToDesk.zip",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "SilverFox",
-        "ValleyRAT"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074233/"
-    },
-    {
-      "first_seen": "2026-11-22T18:26:21Z",
-      "host": "pub-f6745cf8efe14679acfbe49bedff70af.r2.dev",
-      "id": "4074232",
-      "ioc": "https://pub-f6745cf8efe14679acfbe49bedff70af.r2.dev/Todesk_Big_3.1.1.zip",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "SilverFox",
-        "ValleyRAT"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074232/"
-    },
-    {
-      "first_seen": "2026-11-22T18:26:20Z",
-      "host": "pub-e4396ac9c01344db998f3a97ab6a8226.r2.dev",
-      "id": "4074231",
-      "ioc": "https://pub-e4396ac9c01344db998f3a97ab6a8226.r2.dev/11.22Tduinfwarw0eq.zip",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "SilverFox",
-        "ValleyRAT"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074231/"
-    },
-    {
-      "first_seen": "2026-11-22T18:26:05Z",
-      "host": "kuaifase-me.cn",
-      "id": "4074230",
-      "ioc": "http://kuaifase-me.cn",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "offline",
-      "tags": [
-        "SilverFox",
-        "ValleyRAT"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074230/"
-    },
-    {
-      "first_seen": "2026-11-22T18:18:08Z",
-      "host": "sasa2.fixiow.icu",
-      "id": "4074229",
-      "ioc": "https://sasa2.fixiow.icu/DvnX.zip",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "dvx.to",
-        "Password-protected",
-        "zip"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074229/"
-    },
-    {
-      "first_seen": "2026-11-22T18:18:06Z",
-      "host": "ckdb.hypstok.info",
-      "id": "4074228",
-      "ioc": "https://ckdb.hypstok.info/HFinex.zip",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "hype",
-        "Password-protected",
-        "zip"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074228/"
-    },
-    {
-      "first_seen": "2026-11-22T18:18:06Z",
-      "host": "121.43.62.98",
-      "id": "4074227",
-      "ioc": "http://121.43.62.98/ezo",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [],
-      "url": "https://urlhaus.abuse.ch/url/4074227/"
-    },
-    {
-      "first_seen": "2026-11-22T18:18:05Z",
-      "host": "177.3.208.56",
-      "id": "4074226",
-      "ioc": "http://177.3.208.56/x86_64",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "cowrie",
-        "honeypot",
-        "mirai"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074226/"
-    },
-    {
-      "first_seen": "2026-11-22T18:18:05Z",
-      "host": "159.138.120.97",
-      "id": "4074225",
-      "ioc": "http://159.138.120.97/zzxbac0029fd9",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "offline",
-      "tags": [],
-      "url": "https://urlhaus.abuse.ch/url/4074225/"
-    },
-    {
-      "first_seen": "2026-11-22T18:17:06Z",
-      "host": "42.233.106.88",
-      "id": "4074224",
-      "ioc": "http://42.233.106.88:58031/i",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074224/"
-    },
-    {
-      "first_seen": "2026-11-22T18:17:06Z",
-      "host": "42.233.95.165",
-      "id": "4074223",
-      "ioc": "http://42.233.95.165:47496/i",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074223/"
-    },
-    {
-      "first_seen": "2026-11-22T18:12:38Z",
-      "host": "cdn.discordapp.com",
-      "id": "4074222",
-      "ioc": "https://cdn.discordapp.com/attachments/1298616021669773397/1574123122292957448/e265dfdaa6?ex=6b047fe6&is=6b032e66&hm=6bfade5306c4cd7cbb36c1a4866fc219d4d8112e367f8726a94befc1e19e7e75&",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "IRAHook"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074222/"
-    },
-    {
-      "first_seen": "2026-11-22T18:08:04Z",
-      "host": "gitlab.com",
-      "id": "4074221",
-      "ioc": "https://gitlab.com/Lexamarni/silentum-spoofer/-/raw/main/SilentumSpoofer.zip",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "offline",
-      "tags": [
-        "gitlab",
-        "LummaStealer"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074221/"
-    },
-    {
-      "first_seen": "2026-11-22T18:02:08Z",
-      "host": "210.208.111.234",
-      "id": "4074220",
-      "ioc": "http://210.208.111.234:42118/i",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "mirai"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074220/"
-    },
-    {
-      "first_seen": "2026-11-22T18:02:05Z",
-      "host": "196.189.46.69",
-      "id": "4074219",
-      "ioc": "http://196.189.46.69:44663/bin.sh",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "mirai"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074219/"
-    },
-    {
-      "first_seen": "2026-11-22T17:58:10Z",
-      "host": "210.208.106.68",
-      "id": "4074218",
-      "ioc": "http://210.208.106.68:51014/i",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "32-bit",
-        "arm",
-        "elf",
-        "mirai",
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074218/"
-    },
-    {
-      "first_seen": "2026-11-22T17:47:05Z",
-      "host": "179.49.213.85",
-      "id": "4074217",
-      "ioc": "http://179.49.213.85:33317/i",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "mirai"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074217/"
-    },
-    {
-      "first_seen": "2026-11-22T17:43:14Z",
-      "host": "210.208.106.68",
-      "id": "4074216",
-      "ioc": "http://210.208.106.68:51014/bin.sh",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "32-bit",
-        "arm",
-        "elf",
-        "mirai",
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074216/"
-    },
-    {
-      "first_seen": "2026-11-22T17:40:19Z",
-      "host": "210.208.111.26",
-      "id": "4074215",
-      "ioc": "http://210.208.111.26:35067/i",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "32-bit",
-        "arm",
-        "elf",
-        "mirai",
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074215/"
-    },
-    {
-      "first_seen": "2026-11-22T17:40:11Z",
-      "host": "github.com",
-      "id": "4074214",
-      "ioc": "https://github.com/ShackleWidow/zapret-discord-youtube/releases/download/zapret-discord-youtube/zapret-discord-youtube-1.10.4.zip",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "github",
-        "zapret"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074214/"
-    },
-    {
-      "first_seen": "2026-11-22T17:40:11Z",
-      "host": "github.com",
-      "id": "4074213",
-      "ioc": "https://github.com/PassLocust44/zapret-discord-youtube/releases/download/zapret-discord-youtube/zapret-discord-youtube-1.10.4.zip",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "github",
-        "zapret"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074213/"
-    },
-    {
-      "first_seen": "2026-11-22T17:40:10Z",
-      "host": "github.com",
-      "id": "4074212",
-      "ioc": "https://github.com/ShackleWidow/ObhodDiscord/releases/download/ObhodDiscord/zapret-discord-youtube-1.10.4.rar",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "github",
-        "zapret"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074212/"
-    },
-    {
-      "first_seen": "2026-11-22T17:40:09Z",
-      "host": "61.52.43.215",
-      "id": "4074211",
-      "ioc": "http://61.52.43.215:37927/i",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074211/"
-    },
-    {
-      "first_seen": "2026-11-22T17:40:09Z",
-      "host": "61.52.43.215",
-      "id": "4074210",
-      "ioc": "http://61.52.43.215:37927/bin.sh",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074210/"
-    },
-    {
-      "first_seen": "2026-11-22T17:25:26Z",
-      "host": "github.com",
-      "id": "4074209",
-      "ioc": "https://github.com/ShackleWidow/Zapret-Discord/releases/download/Zapret-Discord/zapret-discord-youtube-1.10.4.rar",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "github",
-        "zapret"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074209/"
-    },
-    {
-      "first_seen": "2026-11-22T17:25:26Z",
-      "host": "github.com",
-      "id": "4074208",
-      "ioc": "https://github.com/PassLocust44/zapret-discord-youtube-1.10.4/releases/download/zapret-discord-youtube-1.10.4/zapret-discord-youtube-1.10.4.rar",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "github",
-        "zapret"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074208/"
-    },
-    {
-      "first_seen": "2026-11-22T17:25:26Z",
-      "host": "github.com",
-      "id": "4074207",
-      "ioc": "https://github.com/PassLocust44/ObhodDiscord/releases/download/ObhodDiscord/zapret-discord-youtube-1.10.4.zip",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "github",
-        "zapret"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074207/"
-    },
-    {
-      "first_seen": "2026-11-22T17:25:25Z",
-      "host": "github.com",
-      "id": "4074206",
-      "ioc": "https://github.com/ShackleWidow/Discord-Zapret/releases/download/Discord-Zapret/zapret-discord-youtube-1.10.4.rar",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "github",
-        "zapret"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074206/"
-    },
-    {
-      "first_seen": "2026-11-22T17:25:25Z",
-      "host": "github.com",
-      "id": "4074205",
-      "ioc": "https://github.com/ShackleWidow/Skachat-Zapret/releases/download/Skachat-Zapret/zapret-discord-youtube-1.10.4.zip",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "github",
-        "zapret"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074205/"
-    },
-    {
-      "first_seen": "2026-11-22T17:25:25Z",
-      "host": "github.com",
-      "id": "4074204",
-      "ioc": "https://github.com/PassLocust44/Skachat-Zapret/releases/download/Skachat-Zapret/zapret-discord-youtube-1.10.4.rar",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "github",
-        "zapret"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074204/"
-    },
-    {
-      "first_seen": "2026-11-22T17:25:25Z",
-      "host": "github.com",
-      "id": "4074203",
-      "ioc": "https://github.com/ShackleWidow/DiscordFix/releases/download/DiscordFix/zapret-discord-youtube-1.10.4.rar",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "github",
-        "zapret"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074203/"
-    },
-    {
-      "first_seen": "2026-11-22T17:25:25Z",
-      "host": "github.com",
-      "id": "4074202",
-      "ioc": "https://github.com/ShackleWidow/DiscordFix/releases/download/DiscordFix/zapret-discord-youtube-1.10.4.zip",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "github",
-        "zapret"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074202/"
-    },
-    {
-      "first_seen": "2026-11-22T17:25:25Z",
-      "host": "github.com",
-      "id": "4074201",
-      "ioc": "https://github.com/PassLocust44/Zapret-Discord/releases/download/Zapret-Discord/zapret-discord-youtube-1.10.4.zip",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "github",
-        "zapret"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074201/"
-    },
-    {
-      "first_seen": "2026-11-22T17:25:25Z",
-      "host": "github.com",
-      "id": "4074200",
-      "ioc": "https://github.com/PassLocust44/DiscordFix/releases/download/DiscordFix/zapret-discord-youtube-1.10.4.rar",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "github",
-        "zapret"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074200/"
-    },
-    {
-      "first_seen": "2026-11-22T17:25:25Z",
-      "host": "github.com",
-      "id": "4074199",
-      "ioc": "https://github.com/PassLocust44/zapret-discord-youtube-1.10.4/releases/download/zapret-discord-youtube-1.10.4/zapret-discord-youtube-1.10.4.zip",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "github",
-        "zapret"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074199/"
-    },
-    {
-      "first_seen": "2026-11-22T17:25:25Z",
-      "host": "github.com",
-      "id": "4074198",
-      "ioc": "https://github.com/ShackleWidow/DiscordObhod/releases/download/DiscordObhod/zapret-discord-youtube-1.10.4.zip",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "github",
-        "zapret"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074198/"
-    },
-    {
-      "first_seen": "2026-11-22T17:25:25Z",
-      "host": "github.com",
-      "id": "4074197",
-      "ioc": "https://github.com/PassLocust44/DiscordObhod/releases/download/DiscordObhod/zapret-discord-youtube-1.10.4.rar",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "github",
-        "zapret"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074197/"
-    },
-    {
-      "first_seen": "2026-11-22T17:25:25Z",
-      "host": "github.com",
-      "id": "4074196",
-      "ioc": "https://github.com/ShackleWidow/Zapret-Discord/releases/download/Zapret-Discord/zapret-discord-youtube-1.10.4.zip",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "github",
-        "zapret"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074196/"
-    },
-    {
-      "first_seen": "2026-11-22T17:25:25Z",
-      "host": "github.com",
-      "id": "4074195",
-      "ioc": "https://github.com/PassLocust44/Discord-Fix/releases/download/DiscordFix/zapret-discord-youtube-1.10.4.rar",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "github",
-        "zapret"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074195/"
-    },
-    {
-      "first_seen": "2026-11-22T17:25:25Z",
-      "host": "github.com",
-      "id": "4074194",
-      "ioc": "https://github.com/ShackleWidow/DiscordObhod/releases/download/DiscordObhod/zapret-discord-youtube-1.10.4.rar",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "github",
-        "zapret"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074194/"
-    },
-    {
-      "first_seen": "2026-11-22T17:25:23Z",
-      "host": "github.com",
-      "id": "4074193",
-      "ioc": "https://github.com/PassLocust44/Zapret-Discord/releases/download/Zapret-Discord/zapret-discord-youtube-1.10.4.rar",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "github",
-        "zapret"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4074193/"
     }
   ]
 }
