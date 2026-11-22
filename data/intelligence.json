@@ -25522,7 +25522,7 @@
       "vendor": "Zyxel"
     }
   ],
-  "generated_at": "2026-11-22T00:28:28Z",
+  "generated_at": "2026-11-22T07:22:24Z",
   "kev": [
     {
       "cve": "CVE-2026-129448",
@@ -50700,36 +50700,36 @@
   "sources": {
     "cisa_advisories": {
       "error": null,
-      "last_attempt": "2026-11-22T00:28:25Z",
-      "last_success": "2026-11-22T00:28:25Z",
+      "last_attempt": "2026-11-22T07:22:23Z",
+      "last_success": "2026-11-22T07:22:23Z",
       "status": "healthy",
       "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml"
     },
     "cisa_kev": {
       "error": null,
-      "last_attempt": "2026-11-22T00:28:25Z",
-      "last_success": "2026-11-22T00:28:25Z",
+      "last_attempt": "2026-11-22T07:22:23Z",
+      "last_success": "2026-11-22T07:22:23Z",
       "status": "healthy",
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
     },
     "cisa_news": {
       "error": null,
-      "last_attempt": "2026-11-22T00:28:25Z",
-      "last_success": "2026-11-22T00:28:25Z",
+      "last_attempt": "2026-11-22T07:22:23Z",
+      "last_success": "2026-11-22T07:22:23Z",
       "status": "healthy",
       "url": "https://www.cisa.gov/news.xml"
     },
     "threatfox": {
-      "error": null,
-      "last_attempt": "2026-11-22T00:28:26Z",
+      "error": "IncompleteRead(64375 bytes read)",
+      "last_attempt": "2026-11-22T07:22:23Z",
       "last_success": "2026-11-22T00:28:26Z",
-      "status": "healthy",
+      "status": "stale",
       "url": "https://threatfox-api.abuse.ch/api/v1/"
     },
     "urlhaus": {
       "error": null,
-      "last_attempt": "2026-11-22T00:28:26Z",
-      "last_success": "2026-11-22T00:28:26Z",
+      "last_attempt": "2026-11-22T07:22:23Z",
+      "last_success": "2026-11-22T07:22:23Z",
       "status": "healthy",
       "url": "https://urlhaus-api.abuse.ch/v1/urls/recent/limit/100/"
     }
@@ -96355,155 +96355,10 @@
   ],
   "urlhaus": [
     {
-      "first_seen": "2026-11-22T00:20:07Z",
-      "host": "124.6.165.86",
-      "id": "4073550",
-      "ioc": "http://124.6.165.86:52227/bin.sh",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "32-bit",
-        "arm",
-        "elf",
-        "mirai",
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073550/"
-    },
-    {
-      "first_seen": "2026-11-22T00:17:12Z",
-      "host": "115.63.229.180",
-      "id": "4073547",
-      "ioc": "http://115.63.229.180:56518/bin.sh",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073547/"
-    },
-    {
-      "first_seen": "2026-11-22T00:17:12Z",
-      "host": "175.165.199.203",
-      "id": "4073548",
-      "ioc": "http://175.165.199.203:41687/i",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [],
-      "url": "https://urlhaus.abuse.ch/url/4073548/"
-    },
-    {
-      "first_seen": "2026-11-22T00:17:12Z",
-      "host": "105.184.198.94",
-      "id": "4073549",
-      "ioc": "http://105.184.198.94:49335/i",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "mirai"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073549/"
-    },
-    {
-      "first_seen": "2026-11-22T00:17:11Z",
-      "host": "27.207.139.35",
-      "id": "4073544",
-      "ioc": "http://27.207.139.35:44352/bin.sh",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073544/"
-    },
-    {
-      "first_seen": "2026-11-22T00:17:11Z",
-      "host": "101.21.11.177",
-      "id": "4073545",
-      "ioc": "http://101.21.11.177:60723/i",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "mirai"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073545/"
-    },
-    {
-      "first_seen": "2026-11-22T00:17:11Z",
-      "host": "182.124.127.89",
-      "id": "4073546",
-      "ioc": "http://182.124.127.89:40820/bin.sh",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073546/"
-    },
-    {
-      "first_seen": "2026-11-22T00:02:06Z",
-      "host": "42.238.172.36",
-      "id": "4073541",
-      "ioc": "http://42.238.172.36:53276/bin.sh",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073541/"
-    },
-    {
-      "first_seen": "2026-11-22T00:02:06Z",
-      "host": "115.55.217.143",
-      "id": "4073542",
-      "ioc": "http://115.55.217.143:39314/i",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073542/"
-    },
-    {
-      "first_seen": "2026-11-22T00:02:06Z",
-      "host": "61.71.255.225",
-      "id": "4073543",
-      "ioc": "http://61.71.255.225:59183/i",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "mirai"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073543/"
-    },
-    {
-      "first_seen": "2026-11-22T00:02:05Z",
-      "host": "123.12.230.112",
-      "id": "4073540",
-      "ioc": "http://123.12.230.112:43570/i",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073540/"
-    },
-    {
-      "first_seen": "2026-11-21T23:53:15Z",
-      "host": "141.11.154.61",
-      "id": "4073539",
-      "ioc": "http://141.11.154.61:51863/i",
+      "first_seen": "2026-11-22T07:20:18Z",
+      "host": "182.116.13.152",
+      "id": "4073858",
+      "ioc": "http://182.116.13.152:41016/i",
       "ioc_type": "url",
       "source": "urlhaus",
       "status": "online",
@@ -96511,1224 +96366,351 @@
         "32-bit",
         "elf",
         "mips",
-        "mirai"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073539/"
-    },
-    {
-      "first_seen": "2026-11-21T23:47:11Z",
-      "host": "123.8.35.255",
-      "id": "4073538",
-      "ioc": "http://123.8.35.255:54476/i",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
         "Mozi"
       ],
-      "url": "https://urlhaus.abuse.ch/url/4073538/"
+      "url": "https://urlhaus.abuse.ch/url/4073858/"
     },
     {
-      "first_seen": "2026-11-21T23:47:08Z",
-      "host": "123.11.180.127",
-      "id": "4073537",
-      "ioc": "http://123.11.180.127:40460/i",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073537/"
-    },
-    {
-      "first_seen": "2026-11-21T23:47:06Z",
-      "host": "163.142.77.233",
-      "id": "4073536",
-      "ioc": "http://163.142.77.233:49005/i",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [],
-      "url": "https://urlhaus.abuse.ch/url/4073536/"
-    },
-    {
-      "first_seen": "2026-11-21T23:45:14Z",
-      "host": "61.53.122.168",
-      "id": "4073535",
-      "ioc": "http://61.53.122.168:42446/i",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "elf",
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073535/"
-    },
-    {
-      "first_seen": "2026-11-21T23:32:21Z",
-      "host": "59.180.156.170",
-      "id": "4073534",
-      "ioc": "http://59.180.156.170:58502/bin.sh",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073534/"
-    },
-    {
-      "first_seen": "2026-11-21T23:32:07Z",
-      "host": "115.55.217.143",
-      "id": "4073533",
-      "ioc": "http://115.55.217.143:39314/bin.sh",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073533/"
-    },
-    {
-      "first_seen": "2026-11-21T23:32:06Z",
-      "host": "105.225.96.231",
-      "id": "4073531",
-      "ioc": "http://105.225.96.231:49807/bin.sh",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "mirai"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073531/"
-    },
-    {
-      "first_seen": "2026-11-21T23:32:06Z",
-      "host": "27.204.195.97",
-      "id": "4073532",
-      "ioc": "http://27.204.195.97:35109/i",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073532/"
-    },
-    {
-      "first_seen": "2026-11-21T23:29:15Z",
-      "host": "36.88.136.194",
-      "id": "4073530",
-      "ioc": "http://36.88.136.194:36647/i",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "32-bit",
-        "arm",
-        "elf",
-        "mirai",
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073530/"
-    },
-    {
-      "first_seen": "2026-11-21T23:25:15Z",
-      "host": "141.11.154.61",
-      "id": "4073529",
-      "ioc": "http://141.11.154.61:51863/bin.sh",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "32-bit",
-        "elf",
-        "mips",
-        "mirai"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073529/"
-    },
-    {
-      "first_seen": "2026-11-21T23:18:14Z",
-      "host": "61.53.122.168",
-      "id": "4073528",
-      "ioc": "http://61.53.122.168:42446/bin.sh",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "elf",
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073528/"
-    },
-    {
-      "first_seen": "2026-11-21T23:18:07Z",
-      "host": "115.58.172.28",
-      "id": "4073527",
-      "ioc": "http://115.58.172.28:50312/bin.sh",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073527/"
-    },
-    {
-      "first_seen": "2026-11-21T23:17:07Z",
-      "host": "163.142.77.233",
-      "id": "4073526",
-      "ioc": "http://163.142.77.233:49005/bin.sh",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [],
-      "url": "https://urlhaus.abuse.ch/url/4073526/"
-    },
-    {
-      "first_seen": "2026-11-21T23:02:05Z",
-      "host": "42.230.38.231",
-      "id": "4073525",
-      "ioc": "http://42.230.38.231:35880/i",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073525/"
-    },
-    {
-      "first_seen": "2026-11-21T22:51:04Z",
-      "host": "www.dropbox.com",
-      "id": "4073524",
-      "ioc": "https://www.dropbox.com/scl/fi/dcgh2bk079w4ixp8bntbk/31ce35c351?rlkey=8sbeumsrndwof53magn53tvt2&st=e44tjw4f&dl=1",
+      "first_seen": "2026-11-22T07:17:27Z",
+      "host": "153.117.40.65",
+      "id": "4073857",
+      "ioc": "http://153.117.40.65:52555/Mozi.a",
       "ioc_type": "url",
       "source": "urlhaus",
       "status": "offline",
       "tags": [
-        "IRAHook"
+        "Mozi",
+        "tarpit-http"
       ],
-      "url": "https://urlhaus.abuse.ch/url/4073524/"
+      "url": "https://urlhaus.abuse.ch/url/4073857/"
     },
     {
-      "first_seen": "2026-11-21T22:47:08Z",
-      "host": "116.140.14.181",
-      "id": "4073523",
-      "ioc": "http://116.140.14.181:56289/i",
+      "first_seen": "2026-11-22T07:17:24Z",
+      "host": "github.com",
+      "id": "4073856",
+      "ioc": "https://github.com/t62381556-cmyk/fw1423/releases/download/fw142/mnrx.exe",
       "ioc_type": "url",
       "source": "urlhaus",
       "status": "online",
       "tags": [
-        "mirai"
+        "CoinMiner",
+        "xmrig"
       ],
-      "url": "https://urlhaus.abuse.ch/url/4073523/"
+      "url": "https://urlhaus.abuse.ch/url/4073856/"
     },
     {
-      "first_seen": "2026-11-21T22:47:07Z",
-      "host": "106.107.153.151",
-      "id": "4073522",
-      "ioc": "http://106.107.153.151:33824/i",
+      "first_seen": "2026-11-22T07:17:19Z",
+      "host": "85.234.100.172",
+      "id": "4073854",
+      "ioc": "http://85.234.100.172/yrjrs/tftf.bba",
       "ioc_type": "url",
       "source": "urlhaus",
       "status": "online",
       "tags": [
-        "Mozi"
+        "stealer",
+        "yogi"
       ],
-      "url": "https://urlhaus.abuse.ch/url/4073522/"
+      "url": "https://urlhaus.abuse.ch/url/4073854/"
     },
     {
-      "first_seen": "2026-11-21T22:47:06Z",
-      "host": "42.230.38.231",
-      "id": "4073521",
-      "ioc": "http://42.230.38.231:35880/bin.sh",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073521/"
-    },
-    {
-      "first_seen": "2026-11-21T22:32:06Z",
-      "host": "115.63.8.47",
-      "id": "4073520",
-      "ioc": "http://115.63.8.47:43351/i",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073520/"
-    },
-    {
-      "first_seen": "2026-11-21T22:29:08Z",
-      "host": "164.163.25.176",
-      "id": "4073518",
-      "ioc": "http://164.163.25.176:39910/i",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "elf",
-        "mirai"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073518/"
-    },
-    {
-      "first_seen": "2026-11-21T22:29:08Z",
-      "host": "36.88.136.194",
-      "id": "4073519",
-      "ioc": "http://36.88.136.194:36647/bin.sh",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "32-bit",
-        "arm",
-        "elf",
-        "mirai",
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073519/"
-    },
-    {
-      "first_seen": "2026-11-21T22:21:10Z",
-      "host": "cdn.discordapp.com",
-      "id": "4073517",
-      "ioc": "https://cdn.discordapp.com/attachments/1540130216540770334/1573819827343204483/50c2158094?ex=6b03656e&is=6b0213ee&hm=90fa01a5949535b11952eafdfe352ead3dadbbebdb08f157b465b64152a170a3&",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "IRAHook"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073517/"
-    },
-    {
-      "first_seen": "2026-11-21T22:20:26Z",
-      "host": "cdn.discordapp.com",
-      "id": "4073516",
-      "ioc": "https://cdn.discordapp.com/attachments/1567313157385363520/1573792444288598077/3babe820b9?ex=6b034bee&is=6b01fa6e&hm=e33a4c0fd78dcf96f5e03490527eaaa3178222c4faedef4ab622cd18cbd7c54c&",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "IRAHook"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073516/"
-    },
-    {
-      "first_seen": "2026-11-21T22:17:07Z",
-      "host": "115.63.147.111",
-      "id": "4073515",
-      "ioc": "http://115.63.147.111:36796/i",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073515/"
-    },
-    {
-      "first_seen": "2026-11-21T22:17:05Z",
-      "host": "45.172.218.181",
-      "id": "4073514",
-      "ioc": "http://45.172.218.181:55769/bin.sh",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "offline",
-      "tags": [
-        "mirai"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073514/"
-    },
-    {
-      "first_seen": "2026-11-21T22:16:15Z",
-      "host": "42.239.152.248",
-      "id": "4073513",
-      "ioc": "http://42.239.152.248:49547/bin.sh",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "offline",
-      "tags": [
-        "32-bit",
-        "elf",
-        "mips",
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073513/"
-    },
-    {
-      "first_seen": "2026-11-21T22:02:06Z",
-      "host": "105.225.96.231",
-      "id": "4073512",
-      "ioc": "http://105.225.96.231:49807/i",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "mirai"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073512/"
-    },
-    {
-      "first_seen": "2026-11-21T22:02:05Z",
-      "host": "115.49.71.27",
-      "id": "4073511",
-      "ioc": "http://115.49.71.27:48264/bin.sh",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073511/"
-    },
-    {
-      "first_seen": "2026-11-21T22:00:15Z",
-      "host": "164.163.25.176",
-      "id": "4073510",
-      "ioc": "http://164.163.25.176:39910/bin.sh",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "elf",
-        "mirai"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073510/"
-    },
-    {
-      "first_seen": "2026-11-21T21:47:13Z",
-      "host": "42.57.36.98",
-      "id": "4073509",
-      "ioc": "http://42.57.36.98:38129/bin.sh",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "32-bit",
-        "elf",
-        "mips",
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073509/"
-    },
-    {
-      "first_seen": "2026-11-21T21:47:07Z",
-      "host": "221.15.214.223",
-      "id": "4073508",
-      "ioc": "http://221.15.214.223:41075/i",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "mirai"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073508/"
-    },
-    {
-      "first_seen": "2026-11-21T21:47:06Z",
-      "host": "123.14.235.128",
-      "id": "4073506",
-      "ioc": "http://123.14.235.128:48319/i",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073506/"
-    },
-    {
-      "first_seen": "2026-11-21T21:47:06Z",
-      "host": "115.61.16.59",
-      "id": "4073507",
-      "ioc": "http://115.61.16.59:51737/i",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073507/"
-    },
-    {
-      "first_seen": "2026-11-21T21:32:06Z",
-      "host": "115.49.71.27",
-      "id": "4073504",
-      "ioc": "http://115.49.71.27:48264/i",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073504/"
-    },
-    {
-      "first_seen": "2026-11-21T21:32:06Z",
-      "host": "219.155.2.77",
-      "id": "4073505",
-      "ioc": "http://219.155.2.77:48177/i",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073505/"
-    },
-    {
-      "first_seen": "2026-11-21T21:21:15Z",
-      "host": "115.48.138.240",
-      "id": "4073503",
-      "ioc": "http://115.48.138.240:43782/bin.sh",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "offline",
-      "tags": [
-        "32-bit",
-        "elf",
-        "mips",
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073503/"
-    },
-    {
-      "first_seen": "2026-11-21T21:17:07Z",
-      "host": "219.155.2.77",
-      "id": "4073501",
-      "ioc": "http://219.155.2.77:48177/bin.sh",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073501/"
-    },
-    {
-      "first_seen": "2026-11-21T21:17:07Z",
-      "host": "59.97.251.68",
-      "id": "4073502",
-      "ioc": "http://59.97.251.68:57345/i",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073502/"
-    },
-    {
-      "first_seen": "2026-11-21T21:17:04Z",
-      "host": "115.55.8.155",
-      "id": "4073500",
-      "ioc": "http://115.55.8.155:51744/bin.sh",
+      "first_seen": "2026-11-22T07:17:19Z",
+      "host": "196.190.224.62",
+      "id": "4073855",
+      "ioc": "http://196.190.224.62:32962/Mozi.m",
       "ioc_type": "url",
       "source": "urlhaus",
       "status": "offline",
       "tags": [],
-      "url": "https://urlhaus.abuse.ch/url/4073500/"
+      "url": "https://urlhaus.abuse.ch/url/4073855/"
     },
     {
-      "first_seen": "2026-11-21T21:02:05Z",
-      "host": "103.68.95.197",
-      "id": "4073499",
-      "ioc": "http://103.68.95.197:33529/i",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [],
-      "url": "https://urlhaus.abuse.ch/url/4073499/"
-    },
-    {
-      "first_seen": "2026-11-21T20:57:12Z",
-      "host": "114.198.242.174",
-      "id": "4073498",
-      "ioc": "http://114.198.242.174:51054/i",
+      "first_seen": "2026-11-22T07:17:18Z",
+      "host": "outline-willow.com",
+      "id": "4073853",
+      "ioc": "https://outline-willow.com/f/9ksbxnvwoj7pts0uxop4sa/01pemlfd",
       "ioc_type": "url",
       "source": "urlhaus",
       "status": "online",
       "tags": [
+        "Amos",
+        "ClickFix",
+        "Foxveil",
+        "Mach-O",
+        "macOS",
+        "ua-curl"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073853/"
+    },
+    {
+      "first_seen": "2026-11-22T07:17:13Z",
+      "host": "160.22.107.158",
+      "id": "4073852",
+      "ioc": "http://160.22.107.158/ntm.x86_64",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "docker",
         "elf",
-        "mirai"
+        "ssh"
       ],
-      "url": "https://urlhaus.abuse.ch/url/4073498/"
+      "url": "https://urlhaus.abuse.ch/url/4073852/"
     },
     {
-      "first_seen": "2026-11-21T20:54:05Z",
-      "host": "111.173.159.149",
-      "id": "4073497",
-      "ioc": "http://111.173.159.149:44844/i",
+      "first_seen": "2026-11-22T07:17:10Z",
+      "host": "160.22.107.158",
+      "id": "4073851",
+      "ioc": "http://160.22.107.158/ntm.aarch64",
       "ioc_type": "url",
       "source": "urlhaus",
       "status": "online",
       "tags": [
-        "32-bit",
-        "arm",
+        "docker",
         "elf",
-        "mirai",
-        "Mozi"
+        "ssh"
       ],
-      "url": "https://urlhaus.abuse.ch/url/4073497/"
+      "url": "https://urlhaus.abuse.ch/url/4073851/"
     },
     {
-      "first_seen": "2026-11-21T20:49:13Z",
-      "host": "112.248.97.125",
-      "id": "4073496",
-      "ioc": "http://112.248.97.125:59778/i",
+      "first_seen": "2026-11-22T07:17:08Z",
+      "host": "github.com",
+      "id": "4073849",
+      "ioc": "https://github.com/t62381556-cmyk/fw1423/releases/download/fw142/cmrg.exe",
       "ioc_type": "url",
       "source": "urlhaus",
       "status": "online",
       "tags": [
-        "32-bit",
-        "elf",
-        "mips",
-        "Mozi"
+        "CoinMiner",
+        "helper",
+        "launcher",
+        "xmrig"
       ],
-      "url": "https://urlhaus.abuse.ch/url/4073496/"
+      "url": "https://urlhaus.abuse.ch/url/4073849/"
     },
     {
-      "first_seen": "2026-11-21T20:47:06Z",
-      "host": "59.97.251.68",
-      "id": "4073494",
-      "ioc": "http://59.97.251.68:57345/bin.sh",
+      "first_seen": "2026-11-22T07:17:08Z",
+      "host": "stca.topickks.icu",
+      "id": "4073850",
+      "ioc": "https://stca.topickks.icu/HFinex.zip",
       "ioc_type": "url",
       "source": "urlhaus",
       "status": "online",
       "tags": [
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073494/"
-    },
-    {
-      "first_seen": "2026-11-21T20:47:06Z",
-      "host": "115.206.129.74",
-      "id": "4073495",
-      "ioc": "http://115.206.129.74:47219/bin.sh",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "mirai"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073495/"
-    },
-    {
-      "first_seen": "2026-11-21T20:47:05Z",
-      "host": "219.156.154.40",
-      "id": "4073493",
-      "ioc": "http://219.156.154.40:43469/bin.sh",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073493/"
-    },
-    {
-      "first_seen": "2026-11-21T20:32:06Z",
-      "host": "118.248.133.205",
-      "id": "4073492",
-      "ioc": "http://118.248.133.205:48634/i",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "mirai"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073492/"
-    },
-    {
-      "first_seen": "2026-11-21T20:31:13Z",
-      "host": "111.173.159.149",
-      "id": "4073491",
-      "ioc": "http://111.173.159.149:44844/bin.sh",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "32-bit",
-        "arm",
-        "elf",
-        "mirai",
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073491/"
-    },
-    {
-      "first_seen": "2026-11-21T20:30:14Z",
-      "host": "182.126.120.231",
-      "id": "4073490",
-      "ioc": "http://182.126.120.231:42374/i",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "32-bit",
-        "elf",
-        "mips",
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073490/"
-    },
-    {
-      "first_seen": "2026-11-21T20:17:06Z",
-      "host": "60.23.188.227",
-      "id": "4073489",
-      "ioc": "http://60.23.188.227:47013/i",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "mirai"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073489/"
-    },
-    {
-      "first_seen": "2026-11-21T20:17:05Z",
-      "host": "115.62.155.207",
-      "id": "4073488",
-      "ioc": "http://115.62.155.207:47086/i",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073488/"
-    },
-    {
-      "first_seen": "2026-11-21T20:02:08Z",
-      "host": "203.177.28.149",
-      "id": "4073487",
-      "ioc": "http://203.177.28.149:40304/i",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073487/"
-    },
-    {
-      "first_seen": "2026-11-21T20:02:07Z",
-      "host": "115.49.230.227",
-      "id": "4073486",
-      "ioc": "http://115.49.230.227:45898/i",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "offline",
-      "tags": [
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073486/"
-    },
-    {
-      "first_seen": "2026-11-21T20:02:06Z",
-      "host": "118.248.133.205",
-      "id": "4073485",
-      "ioc": "http://118.248.133.205:48634/bin.sh",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "mirai"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073485/"
-    },
-    {
-      "first_seen": "2026-11-21T20:02:05Z",
-      "host": "37.54.14.52",
-      "id": "4073484",
-      "ioc": "http://37.54.14.52:34150/i",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073484/"
-    },
-    {
-      "first_seen": "2026-11-21T19:47:06Z",
-      "host": "115.62.155.207",
-      "id": "4073483",
-      "ioc": "http://115.62.155.207:47086/bin.sh",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073483/"
-    },
-    {
-      "first_seen": "2026-11-21T19:37:14Z",
-      "host": "182.126.120.231",
-      "id": "4073482",
-      "ioc": "http://182.126.120.231:42374/bin.sh",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "32-bit",
-        "elf",
-        "mips",
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073482/"
-    },
-    {
-      "first_seen": "2026-11-21T19:32:06Z",
-      "host": "115.49.65.129",
-      "id": "4073481",
-      "ioc": "http://115.49.65.129:51921/i",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073481/"
-    },
-    {
-      "first_seen": "2026-11-21T19:32:04Z",
-      "host": "37.54.14.52",
-      "id": "4073480",
-      "ioc": "http://37.54.14.52:34150/bin.sh",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073480/"
-    },
-    {
-      "first_seen": "2026-11-21T19:30:20Z",
-      "host": "67.213.124.23",
-      "id": "4073479",
-      "ioc": "http://67.213.124.23:8811/bin",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "offline",
-      "tags": [],
-      "url": "https://urlhaus.abuse.ch/url/4073479/"
-    },
-    {
-      "first_seen": "2026-11-21T19:29:41Z",
-      "host": "cdn.discordapp.com",
-      "id": "4073478",
-      "ioc": "https://cdn.discordapp.com/attachments/1573383170915835914/1573383814062014525/d717ab737d?ex=6b0320dd&is=6b01cf5d&hm=02080a2756c305ff91fcf1c47c857d519fe833d8154596d62ec9b5f874a1d1d6&",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "discord",
-        "ens",
-        "EtherHiding",
-        "IRAHook",
-        "java",
-        "minecraft",
-        "rat",
-        "stealer"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073478/"
-    },
-    {
-      "first_seen": "2026-11-21T19:29:32Z",
-      "host": "www.dropbox.com",
-      "id": "4073477",
-      "ioc": "https://www.dropbox.com/scl/fi/gvt1norn57vcr43fx8ipg/cp.zip?rlkey=slrrhrn10c62di4kuziaebaiq&st=p2funnqp&dl=1",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "offline",
-      "tags": [
-        "Dropbox",
-        "ens",
-        "EtherHiding",
-        "IRAHook",
-        "java",
-        "minecraft",
-        "rat",
-        "stealer"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073477/"
-    },
-    {
-      "first_seen": "2026-11-21T19:29:12Z",
-      "host": "cdn.discordapp.com",
-      "id": "4073476",
-      "ioc": "https://cdn.discordapp.com/attachments/1549546018918506568/1573744809733259505/c46387a43d?ex=6b031f91&is=6b01ce11&hm=e33b6254b18c97b63bc72f6cabbb08c364ad1e0b7c1f5bf2164a6926b6131763&",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "discord",
-        "ens",
-        "EtherHiding",
-        "IRAHook",
-        "java",
-        "minecraft",
-        "rat",
-        "stealer"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073476/"
-    },
-    {
-      "first_seen": "2026-11-21T19:09:10Z",
-      "host": "raw.githubusercontent.com",
-      "id": "4073475",
-      "ioc": "https://raw.githubusercontent.com/viveksarkar0/affiliate/refs/heads/main/src/components/layout/public/fonts/fa-solid-900.woff2",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "DEVPOPPER",
-        "github",
-        "js",
-        "TxDataHiding",
-        "VSCode"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073475/"
-    },
-    {
-      "first_seen": "2026-11-21T19:08:12Z",
-      "host": "125.47.116.38",
-      "id": "4073473",
-      "ioc": "http://125.47.116.38:51780/i",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "32-bit",
-        "elf",
-        "mips",
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073473/"
-    },
-    {
-      "first_seen": "2026-11-21T19:08:12Z",
-      "host": "115.55.8.155",
-      "id": "4073474",
-      "ioc": "http://115.55.8.155:51744/i",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "offline",
-      "tags": [
-        "32-bit",
-        "elf",
-        "mips",
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073474/"
-    },
-    {
-      "first_seen": "2026-11-21T19:08:07Z",
-      "host": "105.224.253.3",
-      "id": "4073466",
-      "ioc": "http://105.224.253.3:54463/i",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "mirai"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073466/"
-    },
-    {
-      "first_seen": "2026-11-21T19:08:07Z",
-      "host": "105.224.253.3",
-      "id": "4073467",
-      "ioc": "http://105.224.253.3:54463/bin.sh",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "mirai"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073467/"
-    },
-    {
-      "first_seen": "2026-11-21T19:08:07Z",
-      "host": "115.49.65.129",
-      "id": "4073468",
-      "ioc": "http://115.49.65.129:51921/bin.sh",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073468/"
-    },
-    {
-      "first_seen": "2026-11-21T19:08:07Z",
-      "host": "raw.githubusercontent.com",
-      "id": "4073469",
-      "ioc": "https://raw.githubusercontent.com/VPRoyal/athena/refs/heads/master/app/api/contact/public/fonts/fa-solid-900.woff2",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "DEVPOPPER",
-        "github",
-        "js",
-        "TxDataHiding",
-        "VSCode"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073469/"
-    },
-    {
-      "first_seen": "2026-11-21T19:08:07Z",
-      "host": "raw.githubusercontent.com",
-      "id": "4073470",
-      "ioc": "https://raw.githubusercontent.com/techsavvy87/apseshopping/refs/heads/main/src/pages/home/public/fonts/fa-solid-900.woff2",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "DEVPOPPER",
-        "github",
-        "js",
-        "TxDataHiding",
-        "VSCode"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073470/"
-    },
-    {
-      "first_seen": "2026-11-21T19:08:07Z",
-      "host": "raw.githubusercontent.com",
-      "id": "4073471",
-      "ioc": "https://raw.githubusercontent.com/VPRoyal/bloxhq/refs/heads/main/frontend/src/components/skeletons/public/fonts/fa-solid-900.woff2",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "DEVPOPPER",
-        "github",
-        "js",
-        "TxDataHiding",
-        "VSCode"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073471/"
-    },
-    {
-      "first_seen": "2026-11-21T19:08:07Z",
-      "host": "raw.githubusercontent.com",
-      "id": "4073472",
-      "ioc": "https://raw.githubusercontent.com/viveksarkar0/quyl-assesment/refs/heads/main/app/api/students/%5Bid%5D/public/fonts/fa-solid-900.woff2",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "DEVPOPPER",
-        "github",
-        "js",
-        "TxDataHiding",
-        "VSCode"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073472/"
-    },
-    {
-      "first_seen": "2026-11-21T19:08:06Z",
-      "host": "108.170.136.155",
-      "id": "4073465",
-      "ioc": "http://108.170.136.155:51896/i",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [],
-      "url": "https://urlhaus.abuse.ch/url/4073465/"
-    },
-    {
-      "first_seen": "2026-11-21T19:08:05Z",
-      "host": "raw.githubusercontent.com",
-      "id": "4073463",
-      "ioc": "https://raw.githubusercontent.com/tryReduct/Reduct-cli/refs/heads/amaan/twelvelabs/backend/public/fonts/fa-solid-400.woff2",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "DEVPOPPER",
-        "github",
-        "js",
-        "TxDataHiding",
-        "VSCode"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073463/"
-    },
-    {
-      "first_seen": "2026-11-21T19:08:05Z",
-      "host": "42.232.111.244",
-      "id": "4073464",
-      "ioc": "http://42.232.111.244:56572/i",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "Mozi"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073464/"
-    },
-    {
-      "first_seen": "2026-11-21T18:52:47Z",
-      "host": "www.dropbox.com",
-      "id": "4073462",
-      "ioc": "https://www.dropbox.com/scl/fi/zst0ogtbik2yzd2eejd1u/d8bfb66bfb?rlkey=xuezriihmic1i1btd3sh849iw&st=0yuaae8v&dl=1",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "offline",
-      "tags": [
-        "Dropbox",
-        "ens",
-        "EtherHiding",
-        "IRAHook",
-        "java",
-        "minecraft",
-        "rat",
-        "stealer"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073462/"
-    },
-    {
-      "first_seen": "2026-11-21T18:52:38Z",
-      "host": "cdn.discordapp.com",
-      "id": "4073461",
-      "ioc": "https://cdn.discordapp.com/attachments/1573734195673698395/1573735549192110080/b4c7e801cc?ex=6b0316f1&is=6b01c571&hm=3dc4ae7c959d04819fd3dc2d5b488a2ba7be8b4a6c0a709271f3405edbe37ebf&",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "online",
-      "tags": [
-        "discord",
-        "ens",
-        "EtherHiding",
-        "IRAHook",
-        "java",
-        "minecraft",
-        "rat",
-        "stealer"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073461/"
-    },
-    {
-      "first_seen": "2026-11-21T18:52:37Z",
-      "host": "206.189.84.190",
-      "id": "4073458",
-      "ioc": "http://206.189.84.190/iran.armv4l",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "offline",
-      "tags": [
-        "206-189-84-190",
-        "cowrie",
-        "elf",
-        "honeypot",
-        "mirai"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073458/"
-    },
-    {
-      "first_seen": "2026-11-21T18:52:37Z",
-      "host": "206.189.84.190",
-      "id": "4073459",
-      "ioc": "http://206.189.84.190/iran.armv5l",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "offline",
-      "tags": [
-        "206-189-84-190",
-        "cowrie",
-        "elf",
-        "honeypot",
-        "mirai"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073459/"
-    },
-    {
-      "first_seen": "2026-11-21T18:52:37Z",
-      "host": "206.189.84.190",
-      "id": "4073460",
-      "ioc": "http://206.189.84.190/iran.m68k",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "offline",
-      "tags": [
-        "206-189-84-190",
-        "cowrie",
-        "elf",
-        "honeypot",
-        "mirai"
-      ],
-      "url": "https://urlhaus.abuse.ch/url/4073460/"
-    },
-    {
-      "first_seen": "2026-11-21T18:52:35Z",
-      "host": "cda.fixiow.icu",
-      "id": "4073457",
-      "ioc": "https://cda.fixiow.icu/DvnX.zip",
-      "ioc_type": "url",
-      "source": "urlhaus",
-      "status": "offline",
-      "tags": [
-        "dvx.to",
+        "hype",
         "Password-protected",
         "zip"
       ],
-      "url": "https://urlhaus.abuse.ch/url/4073457/"
+      "url": "https://urlhaus.abuse.ch/url/4073850/"
     },
     {
-      "first_seen": "2026-11-21T18:52:32Z",
-      "host": "raw.githubusercontent.com",
-      "id": "4073456",
-      "ioc": "https://raw.githubusercontent.com/niloysannyal/Portfolio-old/refs/heads/main/public/fonts/fa-solid-400.woff2",
+      "first_seen": "2026-11-22T07:17:07Z",
+      "host": "31.77.248.254",
+      "id": "4073845",
+      "ioc": "http://31.77.248.254/files/ambush.png",
       "ioc_type": "url",
       "source": "urlhaus",
       "status": "online",
       "tags": [
-        "DEVPOPPER",
-        "github",
-        "js",
-        "TxDataHiding",
-        "VSCode"
+        "stealer",
+        "yogi"
       ],
-      "url": "https://urlhaus.abuse.ch/url/4073456/"
+      "url": "https://urlhaus.abuse.ch/url/4073845/"
     },
     {
-      "first_seen": "2026-11-21T18:52:31Z",
-      "host": "206.189.84.190",
-      "id": "4073455",
-      "ioc": "http://206.189.84.190/iran.sparc",
+      "first_seen": "2026-11-22T07:17:07Z",
+      "host": "infinitevote.com",
+      "id": "4073846",
+      "ioc": "https://infinitevote.com/C1eF2xWk/poto1.bin",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "stealer",
+        "yogi"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073846/"
+    },
+    {
+      "first_seen": "2026-11-22T07:17:07Z",
+      "host": "www.unlinedsound.com",
+      "id": "4073847",
+      "ioc": "https://www.unlinedsound.com/ecc874/cfebbac7d1c0.js",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [],
+      "url": "https://urlhaus.abuse.ch/url/4073847/"
+    },
+    {
+      "first_seen": "2026-11-22T07:17:07Z",
+      "host": "sendit.sh",
+      "id": "4073848",
+      "ioc": "https://sendit.sh/6tnYY/ck2Iw.gz",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "ssh"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073848/"
+    },
+    {
+      "first_seen": "2026-11-22T07:17:06Z",
+      "host": "181.215.115.169",
+      "id": "4073843",
+      "ioc": "http://181.215.115.169/shitmloversishere.sh",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "script"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073843/"
+    },
+    {
+      "first_seen": "2026-11-22T07:17:06Z",
+      "host": "123.5.221.28",
+      "id": "4073844",
+      "ioc": "http://123.5.221.28:52437/bin.sh",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "Mozi"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073844/"
+    },
+    {
+      "first_seen": "2026-11-22T07:17:04Z",
+      "host": "181.215.115.169",
+      "id": "4073841",
+      "ioc": "http://181.215.115.169/sora.sh",
       "ioc_type": "url",
       "source": "urlhaus",
       "status": "offline",
       "tags": [
-        "206-189-84-190",
-        "cowrie",
-        "elf",
-        "honeypot",
+        "script"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073841/"
+    },
+    {
+      "first_seen": "2026-11-22T07:17:04Z",
+      "host": "outline-willow.com",
+      "id": "4073842",
+      "ioc": "https://outline-willow.com/curl/i7tpy7x1zam2/sghi11ky3xvyurox.json",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "offline",
+      "tags": [
+        "Amos",
+        "ClickFix",
+        "Foxveil",
+        "macOS",
+        "ua-curl",
+        "zsh"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073842/"
+    },
+    {
+      "first_seen": "2026-11-22T07:02:08Z",
+      "host": "182.126.101.3",
+      "id": "4073840",
+      "ioc": "http://182.126.101.3:59268/i",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "Mozi"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073840/"
+    },
+    {
+      "first_seen": "2026-11-22T07:02:06Z",
+      "host": "123.8.35.255",
+      "id": "4073839",
+      "ioc": "http://123.8.35.255:54476/bin.sh",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "Mozi"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073839/"
+    },
+    {
+      "first_seen": "2026-11-22T06:58:11Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073838",
+      "ioc": "https://raw.githubusercontent.com/VictorClonnyy/Estudos/refs/heads/main/Sql.rar",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "github",
+        "SmartLoader",
+        "zip"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073838/"
+    },
+    {
+      "first_seen": "2026-11-22T06:55:20Z",
+      "host": "182.121.108.175",
+      "id": "4073837",
+      "ioc": "http://182.121.108.175:35704/bin.sh",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "offline",
+      "tags": [],
+      "url": "https://urlhaus.abuse.ch/url/4073837/"
+    },
+    {
+      "first_seen": "2026-11-22T06:55:08Z",
+      "host": "115.56.56.44",
+      "id": "4073835",
+      "ioc": "http://115.56.56.44:56392/i",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "Mozi"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073835/"
+    },
+    {
+      "first_seen": "2026-11-22T06:55:08Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073836",
+      "ioc": "https://raw.githubusercontent.com/sarad-blockchain/Calculator_dapp/refs/heads/main/public/fonts/fa-solid-700.otf",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073836/"
+    },
+    {
+      "first_seen": "2026-11-22T06:55:07Z",
+      "host": "45.90.81.17",
+      "id": "4073827",
+      "ioc": "http://45.90.81.17:56956/i",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
         "mirai"
       ],
-      "url": "https://urlhaus.abuse.ch/url/4073455/"
+      "url": "https://urlhaus.abuse.ch/url/4073827/"
     },
     {
-      "first_seen": "2026-11-21T18:52:30Z",
+      "first_seen": "2026-11-22T06:55:07Z",
       "host": "raw.githubusercontent.com",
-      "id": "4073439",
-      "ioc": "https://raw.githubusercontent.com/viveksarkar0/openmic-botmanagement/refs/heads/main/app/api/bots/%5Bid%5D/public/fonts/fa-solid-900.woff2",
+      "id": "4073828",
+      "ioc": "https://raw.githubusercontent.com/shahrierbiddut/CareerPilot_server/refs/heads/main/src/config/public/fonts/fa-brands-400.ttf",
       "ioc_type": "url",
       "source": "urlhaus",
       "status": "online",
@@ -97739,13 +96721,13 @@
         "TxDataHiding",
         "VSCode"
       ],
-      "url": "https://urlhaus.abuse.ch/url/4073439/"
+      "url": "https://urlhaus.abuse.ch/url/4073828/"
     },
     {
-      "first_seen": "2026-11-21T18:52:30Z",
+      "first_seen": "2026-11-22T06:55:07Z",
       "host": "raw.githubusercontent.com",
-      "id": "4073440",
-      "ioc": "https://raw.githubusercontent.com/wasifahmed85/admin-layout-email-verification/refs/heads/main/app/Http/Controllers/Backend/Admin/Auth/public/fonts/fa-solid-900.woff2",
+      "id": "4073829",
+      "ioc": "https://raw.githubusercontent.com/zakaria-akash/fashion-mart-website/refs/heads/main/src/app/api/admin/products/%5BproductId%5D/public/fonts/fa-solid-900.woff2",
       "ioc_type": "url",
       "source": "urlhaus",
       "status": "online",
@@ -97756,13 +96738,29 @@
         "TxDataHiding",
         "VSCode"
       ],
-      "url": "https://urlhaus.abuse.ch/url/4073440/"
+      "url": "https://urlhaus.abuse.ch/url/4073829/"
     },
     {
-      "first_seen": "2026-11-21T18:52:30Z",
+      "first_seen": "2026-11-22T06:55:07Z",
+      "host": "222.141.113.60",
+      "id": "4073830",
+      "ioc": "http://222.141.113.60:49544/i",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "32-bit",
+        "elf",
+        "mips",
+        "Mozi"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073830/"
+    },
+    {
+      "first_seen": "2026-11-22T06:55:07Z",
       "host": "raw.githubusercontent.com",
-      "id": "4073441",
-      "ioc": "https://raw.githubusercontent.com/Yead191/gadget-heaven-a8/refs/heads/main/src/components/utilities/public/fonts/fa-solid-900.woff2",
+      "id": "4073831",
+      "ioc": "https://raw.githubusercontent.com/RabeyaAkter78/socket-io-server/refs/heads/main/public/fonts/fa-solid-700.otf",
       "ioc_type": "url",
       "source": "urlhaus",
       "status": "online",
@@ -97773,13 +96771,13 @@
         "TxDataHiding",
         "VSCode"
       ],
-      "url": "https://urlhaus.abuse.ch/url/4073441/"
+      "url": "https://urlhaus.abuse.ch/url/4073831/"
     },
     {
-      "first_seen": "2026-11-21T18:52:30Z",
+      "first_seen": "2026-11-22T06:55:07Z",
       "host": "raw.githubusercontent.com",
-      "id": "4073442",
-      "ioc": "https://raw.githubusercontent.com/Niyigena-Yves/UploadDataToWeb/refs/heads/master/public/fonts/fa-solid-400.woff2",
+      "id": "4073832",
+      "ioc": "https://raw.githubusercontent.com/parvezislam45/bigbazar/refs/heads/main/staticfiles/admin/img/gis/public/fonts/fa-brand-400.woff",
       "ioc_type": "url",
       "source": "urlhaus",
       "status": "online",
@@ -97790,7 +96788,1197 @@
         "TxDataHiding",
         "VSCode"
       ],
-      "url": "https://urlhaus.abuse.ch/url/4073442/"
+      "url": "https://urlhaus.abuse.ch/url/4073832/"
+    },
+    {
+      "first_seen": "2026-11-22T06:55:07Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073833",
+      "ioc": "https://raw.githubusercontent.com/Saddam2508/shopping-site/refs/heads/master/public/fonts/fa-solid-700.otf",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073833/"
+    },
+    {
+      "first_seen": "2026-11-22T06:55:07Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073834",
+      "ioc": "https://raw.githubusercontent.com/smartraysam/annewatt/refs/heads/master/public/fonts/fa-solid-400.woff2",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073834/"
+    },
+    {
+      "first_seen": "2026-11-22T06:39:41Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073826",
+      "ioc": "https://raw.githubusercontent.com/shahrierbiddut/Assi_4_Hero/refs/heads/main/script/public/fonts/fa-brands-400.ttf",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073826/"
+    },
+    {
+      "first_seen": "2026-11-22T06:39:40Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073821",
+      "ioc": "https://raw.githubusercontent.com/shahrierbiddut/shoptonics/refs/heads/main/assets/font/font-awesome-4.7.0/css/public/fonts/fa-brands-400.ttf",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073821/"
+    },
+    {
+      "first_seen": "2026-11-22T06:39:40Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073822",
+      "ioc": "https://raw.githubusercontent.com/parvezislam45/All-Auths/refs/heads/main/server/accounts/migrations/public/fonts/fa-brand-400.woff",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073822/"
+    },
+    {
+      "first_seen": "2026-11-22T06:39:40Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073823",
+      "ioc": "https://raw.githubusercontent.com/lamdan0901/BatRadar-vscode/refs/heads/master/public/fonts/fa-solid-700.otf",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073823/"
+    },
+    {
+      "first_seen": "2026-11-22T06:39:40Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073824",
+      "ioc": "https://raw.githubusercontent.com/PavloooVA/BuscaPaises/refs/heads/main/public/fonts/fa-solid-500.woff2",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073824/"
+    },
+    {
+      "first_seen": "2026-11-22T06:39:40Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073825",
+      "ioc": "https://raw.githubusercontent.com/PasanSasmika/cbc-backend/refs/heads/master/controllers/public/fonts/fa-brands-400.ttf",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073825/"
+    },
+    {
+      "first_seen": "2026-11-22T06:39:39Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073805",
+      "ioc": "https://raw.githubusercontent.com/MUmerch641/PDF-Unloacker-app/refs/heads/main/public/fonts/fa-solid-700.otf",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073805/"
+    },
+    {
+      "first_seen": "2026-11-22T06:39:39Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073806",
+      "ioc": "https://raw.githubusercontent.com/wasifahmed85/kai_admin/refs/heads/main/resources/views/backend/admin/layouts/partials/public/fonts/fa-solid-900.woff2",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073806/"
+    },
+    {
+      "first_seen": "2026-11-22T06:39:39Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073807",
+      "ioc": "https://raw.githubusercontent.com/ZahidMiana/rust/refs/heads/main/ENUM/src/public/fonts/fa-solid-900.woff2",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073807/"
+    },
+    {
+      "first_seen": "2026-11-22T06:39:39Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073808",
+      "ioc": "https://raw.githubusercontent.com/souravsasmal/socket-test-server/refs/heads/main/public/fonts/fa-solid-500.woff2",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073808/"
+    },
+    {
+      "first_seen": "2026-11-22T06:39:39Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073809",
+      "ioc": "https://raw.githubusercontent.com/ZahidMiana/SMART-KISAAN/refs/heads/main/assets/images/public/fonts/fa-solid-900.woff2",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073809/"
+    },
+    {
+      "first_seen": "2026-11-22T06:39:39Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073810",
+      "ioc": "https://raw.githubusercontent.com/yousuf-git/cloak/refs/heads/main/desktop/src-tauri/icons/android/mipmap-anydpi-v26/public/fonts/fa-solid-400.woff2",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073810/"
+    },
+    {
+      "first_seen": "2026-11-22T06:39:39Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073811",
+      "ioc": "https://raw.githubusercontent.com/sajjad-mascot/sajjad-mascot.github.io/refs/heads/main/public/fonts/fa-solid-700.otf",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073811/"
+    },
+    {
+      "first_seen": "2026-11-22T06:39:39Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073812",
+      "ioc": "https://raw.githubusercontent.com/parvezislam45/hospital-management/refs/heads/main/src/app/Components/public/fonts/fa-brand-400.woff",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073812/"
+    },
+    {
+      "first_seen": "2026-11-22T06:39:39Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073813",
+      "ioc": "https://raw.githubusercontent.com/parvezislam45/new-health/refs/heads/main/src/app/Pages/public/fonts/fa-brand-400.woff",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073813/"
+    },
+    {
+      "first_seen": "2026-11-22T06:39:39Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073814",
+      "ioc": "https://raw.githubusercontent.com/SibomanaEdouard/dnl_project/refs/heads/main/public/fonts/fa-solid-400.woff2",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073814/"
+    },
+    {
+      "first_seen": "2026-11-22T06:39:39Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073815",
+      "ioc": "https://raw.githubusercontent.com/ebad-khan-01/todo-list/refs/heads/main/public/fonts/fa-solid-400.woff2",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073815/"
+    },
+    {
+      "first_seen": "2026-11-22T06:39:39Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073816",
+      "ioc": "https://raw.githubusercontent.com/parvezislam45/My-Portfolio/refs/heads/main/src/app/public/fonts/fa-brand-400.woff",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073816/"
+    },
+    {
+      "first_seen": "2026-11-22T06:39:39Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073817",
+      "ioc": "https://raw.githubusercontent.com/SamyaRoy999/Migmag99-dash/refs/heads/main/src/assets/Images/Notifications/public/fonts/fa-brand-400.woff",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073817/"
+    },
+    {
+      "first_seen": "2026-11-22T06:39:39Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073818",
+      "ioc": "https://raw.githubusercontent.com/savindaJ/Lern-SprinBoot-With-React/refs/heads/master/public/fonts/fa-solid-500.woff2",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073818/"
+    },
+    {
+      "first_seen": "2026-11-22T06:39:39Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073819",
+      "ioc": "https://raw.githubusercontent.com/prashannaLeo/Hackthon_WK_1/refs/heads/main/public/fonts/fa-solid-500.woff2",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073819/"
+    },
+    {
+      "first_seen": "2026-11-22T06:39:39Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073820",
+      "ioc": "https://raw.githubusercontent.com/shahrierbiddut/vue-staterkit-laravel/refs/heads/main/resources/js/components/ui/alert/public/fonts/fa-brands-400.ttf",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073820/"
+    },
+    {
+      "first_seen": "2026-11-22T06:39:38Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073794",
+      "ioc": "https://raw.githubusercontent.com/utujesandrine456/C-Files/refs/heads/master/data/public/fonts/fa-solid-900.woff2",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073794/"
+    },
+    {
+      "first_seen": "2026-11-22T06:39:38Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073795",
+      "ioc": "https://raw.githubusercontent.com/Semulli/APIFILTER/refs/heads/main/src/Pages/public/fonts/fa-solid-900.woff2",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073795/"
+    },
+    {
+      "first_seen": "2026-11-22T06:39:38Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073796",
+      "ioc": "https://raw.githubusercontent.com/Zeyad-Baloch/medicortex_backend_mcp/refs/heads/main/app/api/endpoints/public/fonts/fa-solid-900.woff2",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073796/"
+    },
+    {
+      "first_seen": "2026-11-22T06:39:38Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073797",
+      "ioc": "https://raw.githubusercontent.com/ZahidMiana/YOLO_Object_Detection/refs/heads/main/huggingface_deploy/public/fonts/fa-solid-900.woff2",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073797/"
+    },
+    {
+      "first_seen": "2026-11-22T06:39:38Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073798",
+      "ioc": "https://raw.githubusercontent.com/RabeyaAkter78/ssl-commerz/refs/heads/main/public/fonts/fa-solid-700.otf",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073798/"
+    },
+    {
+      "first_seen": "2026-11-22T06:39:38Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073799",
+      "ioc": "https://raw.githubusercontent.com/seidgy/abella-inss/refs/heads/main/public/fonts/fa-solid-500.woff2",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073799/"
+    },
+    {
+      "first_seen": "2026-11-22T06:39:38Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073800",
+      "ioc": "https://raw.githubusercontent.com/shubhagrwl/gqlgen-auth/refs/heads/master/public/fonts/fa-solid-500.woff2",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073800/"
+    },
+    {
+      "first_seen": "2026-11-22T06:39:38Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073801",
+      "ioc": "https://raw.githubusercontent.com/shahrierbiddut/KeenKeeper-Assi-7-Hero/refs/heads/main/src/assets/Pages/data/public/fonts/fa-brands-400.ttf",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073801/"
+    },
+    {
+      "first_seen": "2026-11-22T06:39:38Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073802",
+      "ioc": "https://raw.githubusercontent.com/ZahidMiana/Foudry_FundMe-/refs/heads/main/lib/chainlink-brownie-contracts/contracts/abi/%40eth-optimism/contracts/L1/messaging/IL1CrossDomainMessenger.sol/public/fonts/fa-solid-900.woff2",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073802/"
+    },
+    {
+      "first_seen": "2026-11-22T06:39:38Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073803",
+      "ioc": "https://raw.githubusercontent.com/ebad-khan-01/add-to-cart/refs/heads/main/public/fonts/fa-solid-400.woff2",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073803/"
+    },
+    {
+      "first_seen": "2026-11-22T06:39:38Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073804",
+      "ioc": "https://raw.githubusercontent.com/ZahidMiana/Self_Healing_MultiAgent_Code_Assistant/refs/heads/main/backend/app/api/v1/public/fonts/fa-solid-900.woff2",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073804/"
+    },
+    {
+      "first_seen": "2026-11-22T06:39:37Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073785",
+      "ioc": "https://raw.githubusercontent.com/SajidAfridi/MyCalculator/refs/heads/main/public/fonts/fa-solid-400.woff2",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073785/"
+    },
+    {
+      "first_seen": "2026-11-22T06:39:37Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073786",
+      "ioc": "https://raw.githubusercontent.com/lamdan0901/solist-landing/refs/heads/main/public/fonts/fa-solid-700.otf",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073786/"
+    },
+    {
+      "first_seen": "2026-11-22T06:39:37Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073787",
+      "ioc": "https://raw.githubusercontent.com/zakaria-akash/pulseboard-backend/refs/heads/main/src/common/middleware/public/fonts/fa-solid-900.woff2",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073787/"
+    },
+    {
+      "first_seen": "2026-11-22T06:39:37Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073788",
+      "ioc": "https://raw.githubusercontent.com/panthosarkar/Media_Control_Knob_With_Arduino_Nano/refs/heads/main/getDataFromArduino/public/fonts/fa-brands-400.ttf",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "offline",
+      "tags": [
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073788/"
+    },
+    {
+      "first_seen": "2026-11-22T06:39:37Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073789",
+      "ioc": "https://raw.githubusercontent.com/shahrierbiddut/Assi_2_Hero/refs/heads/main/assets/UI/public/fonts/fa-brands-400.ttf",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073789/"
+    },
+    {
+      "first_seen": "2026-11-22T06:39:37Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073790",
+      "ioc": "https://raw.githubusercontent.com/Shumaim-Naseer-Kiyani/blog_site/refs/heads/main/public/fonts/fa-brands-400.ttf",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073790/"
+    },
+    {
+      "first_seen": "2026-11-22T06:39:37Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073791",
+      "ioc": "https://raw.githubusercontent.com/Zawwar6/Blaze-brand/refs/heads/master/src/components/header/nav/body/public/fonts/fa-solid-900.woff2",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073791/"
+    },
+    {
+      "first_seen": "2026-11-22T06:39:37Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073792",
+      "ioc": "https://raw.githubusercontent.com/Saarcasmic/Inkriptor/refs/heads/master/public/fonts/fa-solid-500.woff2",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073792/"
+    },
+    {
+      "first_seen": "2026-11-22T06:39:37Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073793",
+      "ioc": "https://raw.githubusercontent.com/soumyatechflux/service_provider_super_admin/refs/heads/main/public/fonts/fa-solid-700.otf",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073793/"
+    },
+    {
+      "first_seen": "2026-11-22T06:39:35Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073784",
+      "ioc": "https://raw.githubusercontent.com/shahrierbiddut/penguin-fashion-using-tailwin/refs/heads/main/icons/public/fonts/fa-brands-400.ttf",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073784/"
+    },
+    {
+      "first_seen": "2026-11-22T06:39:33Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073782",
+      "ioc": "https://raw.githubusercontent.com/zubairislam200/chatbot/refs/heads/main/health_multi/public/fonts/fa-solid-900.woff2",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073782/"
+    },
+    {
+      "first_seen": "2026-11-22T06:39:33Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073783",
+      "ioc": "https://raw.githubusercontent.com/ZahidMiana/Node-Express-Learning/refs/heads/main/MVC/controllers/public/fonts/fa-solid-900.woff2",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073783/"
+    },
+    {
+      "first_seen": "2026-11-22T06:39:32Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073768",
+      "ioc": "https://raw.githubusercontent.com/zakaria-akash/repliq-e-store-ecommerce/refs/heads/main/pages/admin-panel/new-product-form/public/fonts/fa-solid-900.woff2",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073768/"
+    },
+    {
+      "first_seen": "2026-11-22T06:39:32Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073769",
+      "ioc": "https://raw.githubusercontent.com/stevewoz1234567890/Copilot-Travel-Engine/refs/heads/main/examples/public/fonts/fa-solid-900.woff2",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073769/"
+    },
+    {
+      "first_seen": "2026-11-22T06:39:32Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073770",
+      "ioc": "https://raw.githubusercontent.com/parvezislam45/escapetask/refs/heads/main/accounts/migrations/public/fonts/fa-brand-400.woff",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073770/"
+    },
+    {
+      "first_seen": "2026-11-22T06:39:32Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073771",
+      "ioc": "https://raw.githubusercontent.com/zakaria-akash/quran-web-application-version-2/refs/heads/main/src/app/api/quran/%5Bid%5D/public/fonts/fa-solid-900.woff2",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073771/"
+    },
+    {
+      "first_seen": "2026-11-22T06:39:32Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073772",
+      "ioc": "https://raw.githubusercontent.com/ZahidMiana/LangChain/refs/heads/main/RAG/docLoader/textSplitter/public/fonts/fa-solid-900.woff2",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073772/"
+    },
+    {
+      "first_seen": "2026-11-22T06:39:32Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073773",
+      "ioc": "https://raw.githubusercontent.com/Zawwar6/final-project/refs/heads/main/Hackathon/src/assets/public/fonts/fa-solid-900.woff2",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073773/"
+    },
+    {
+      "first_seen": "2026-11-22T06:39:32Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073774",
+      "ioc": "https://raw.githubusercontent.com/sauverpro/exalto-platform/refs/heads/main/public/fonts/fa-solid-400.woff2",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073774/"
+    },
+    {
+      "first_seen": "2026-11-22T06:39:32Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073775",
+      "ioc": "https://raw.githubusercontent.com/mjunayed2003/express-typescript-nodemon-setup/refs/heads/main/src/public/fonts/fa-solid-900.woff2",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073775/"
+    },
+    {
+      "first_seen": "2026-11-22T06:39:32Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073776",
+      "ioc": "https://raw.githubusercontent.com/waw3/DocBlockr.novaextension/refs/heads/main/Images/readme/public/fonts/fa-solid-900.eot",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073776/"
+    },
+    {
+      "first_seen": "2026-11-22T06:39:32Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073777",
+      "ioc": "https://raw.githubusercontent.com/PasanSasmika/convoflow-next-social-application/refs/heads/master/src/app/api/uploadthing/public/fonts/fa-brands-400.ttf",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073777/"
+    },
+    {
+      "first_seen": "2026-11-22T06:39:32Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073778",
+      "ioc": "https://raw.githubusercontent.com/ZahidMiana/Go_Lang/refs/heads/master/01hello/public/fonts/fa-solid-900.woff2",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073778/"
+    },
+    {
+      "first_seen": "2026-11-22T06:39:32Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073779",
+      "ioc": "https://raw.githubusercontent.com/zakaria-akash/rise-at-seven-clone/refs/heads/main/src/components/common/public/fonts/fa-solid-900.woff2",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073779/"
+    },
+    {
+      "first_seen": "2026-11-22T06:39:32Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073780",
+      "ioc": "https://raw.githubusercontent.com/ZahidMiana/qrcode-backend/refs/heads/main/src/config/public/fonts/fa-solid-900.woff2",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073780/"
+    },
+    {
+      "first_seen": "2026-11-22T06:39:32Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073781",
+      "ioc": "https://raw.githubusercontent.com/shahrierbiddut/Assi_1_Hero/refs/heads/master/Sections/public/fonts/fa-brands-400.ttf",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073781/"
+    },
+    {
+      "first_seen": "2026-11-22T06:39:31Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073756",
+      "ioc": "https://raw.githubusercontent.com/shahrierbiddut/Assi_6_Hero/refs/heads/main/src/assets/Component/public/fonts/fa-brands-400.ttf",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073756/"
+    },
+    {
+      "first_seen": "2026-11-22T06:39:31Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073757",
+      "ioc": "https://raw.githubusercontent.com/Prahants/fordemand/refs/heads/main/public/fonts/fa-solid-700.otf",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073757/"
+    },
+    {
+      "first_seen": "2026-11-22T06:39:31Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073758",
+      "ioc": "https://raw.githubusercontent.com/zakaria-akash/frontend-challenge-recursive-partitioning/refs/heads/main/src/components/public/fonts/fa-solid-900.woff2",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073758/"
+    },
+    {
+      "first_seen": "2026-11-22T06:39:31Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073759",
+      "ioc": "https://raw.githubusercontent.com/zain-bin-ramzan/postgresql-learning/refs/heads/main/src/views/components/public/fonts/fa-solid-900.woff2",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073759/"
+    },
+    {
+      "first_seen": "2026-11-22T06:39:31Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073760",
+      "ioc": "https://raw.githubusercontent.com/parvezislam45/ChatApp/refs/heads/main/android/app/src/main/java/com/chatapp/public/fonts/fa-brand-400.woff",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073760/"
+    },
+    {
+      "first_seen": "2026-11-22T06:39:31Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073761",
+      "ioc": "https://raw.githubusercontent.com/ZahidMiana/FOUNDRY_SOLIDITY/refs/heads/main/broadcast/DeploySimpleStorage.s.sol/11155111/public/fonts/fa-solid-900.woff2",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073761/"
+    },
+    {
+      "first_seen": "2026-11-22T06:39:31Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073762",
+      "ioc": "https://raw.githubusercontent.com/shahriarnur03/DiaBeatEase/refs/heads/main/public/fonts/fa-solid-500.woff2",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073762/"
+    },
+    {
+      "first_seen": "2026-11-22T06:39:31Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073763",
+      "ioc": "https://raw.githubusercontent.com/SasinduYomal/microservices-fastapi-master/refs/heads/main/microservices-fastapi-master/venv/Lib/site-packages/pip/_vendor/urllib3/contrib/_securetransport/public/fonts/fa-brands-400.ttf",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073763/"
+    },
+    {
+      "first_seen": "2026-11-22T06:39:31Z",
+      "host": "raw.githubusercontent.com",
+      "id": "4073764",
+      "ioc": "https://raw.githubusercontent.com/snypenet/intelligent-document-comparer/refs/heads/main/pipeline/public/fonts/fa-brand-400.woff",
+      "ioc_type": "url",
+      "source": "urlhaus",
+      "status": "online",
+      "tags": [
+        "DEVPOPPER",
+        "github",
+        "js",
+        "TxDataHiding",
+        "VSCode"
+      ],
+      "url": "https://urlhaus.abuse.ch/url/4073764/"
     }
   ]
 }
