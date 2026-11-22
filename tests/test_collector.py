@@ -21,6 +21,59 @@ class CollectorTests(unittest.TestCase):
         item = collector.parse_kev(payload)[0]
         self.assertEqual(item["cve"], "CVE-2024-1")
         self.assertEqual(item["ransomware_use"], "Unknown")
+        self.assertIsNone(item["cvss_score"])
+        self.assertEqual(item["cvss_severity"], "Unavailable")
+
+    def test_cvss_severity_uses_standard_boundary_ranges(self):
+        expected = {
+            0: "None",
+            0.1: "Low",
+            3.9: "Low",
+            4.0: "Medium",
+            6.9: "Medium",
+            7.0: "High",
+            8.9: "High",
+            9.0: "Critical",
+            10.0: "Critical",
+        }
+        for score, severity in expected.items():
+            with self.subTest(score=score):
+                self.assertEqual(collector.cvss_severity(score), severity)
+        self.assertEqual(collector.cvss_severity(None), "Unavailable")
+        self.assertEqual(collector.cvss_severity("invalid"), "Unavailable")
+        self.assertEqual(collector.cvss_severity(10.1), "Unavailable")
+
+    def test_nvd_cvss_enrichment_selects_primary_highest_priority_version_and_caches(self):
+        payload = json.dumps({"vulnerabilities": [{"cve": {"metrics": {
+            "cvssMetricV30": [{"type": "Primary", "cvssData": {"baseScore": 8.1}}],
+            "cvssMetricV31": [{"type": "Secondary", "cvssData": {"baseScore": 9.8}}, {"type": "Primary", "cvssData": {"baseScore": 9.0}}],
+        }}}]}).encode()
+        calls = []
+
+        def fetcher(url, headers=None):
+            calls.append((url, headers))
+            return payload
+
+        data = {"kev": [{"cve": "CVE-2024-12345"}], "cvss_cache": {}}
+        collector.enrich_kev_cvss(data, api_key="secret", fetcher=fetcher, sleeper=lambda _: None)
+        self.assertEqual(data["kev"][0]["cvss_score"], 9.0)
+        self.assertEqual(data["kev"][0]["cvss_version"], "3.1")
+        self.assertEqual(data["kev"][0]["cvss_severity"], "Critical")
+        self.assertEqual(calls[0][1], {"apiKey": "secret"})
+
+        collector.enrich_kev_cvss(data, api_key="secret", fetcher=lambda **_: self.fail("fresh cache was not used"), sleeper=lambda _: None)
+        self.assertEqual(len(calls), 1)
+
+    def test_nvd_enrichment_failure_keeps_kev_record_and_marks_score_unavailable(self):
+        data = {"kev": [{"cve": "CVE-2024-12345", "title": "Still retained"}], "cvss_cache": {}}
+
+        def failing_fetcher(*args, **kwargs):
+            raise OSError("NVD unavailable")
+
+        collector.enrich_kev_cvss(data, fetcher=failing_fetcher, sleeper=lambda _: None)
+        self.assertEqual(len(data["kev"]), 1)
+        self.assertEqual(data["kev"][0]["title"], "Still retained")
+        self.assertIsNone(data["kev"][0].get("cvss_score"))
 
     def test_urlhaus_parsing_ignores_invalid_urls(self):
         payload = json.dumps({"urls": [{"id": "1", "url": "https://malware.test/a", "host": "malware.test", "url_status": "online", "date_added": "2024-01-01 01:02:03 UTC", "tags": ["loader"], "urlhaus_reference": "https://urlhaus.abuse.ch/url/1/"}, {"id": "2", "url": "javascript:alert(1)"}]}).encode()

@@ -25,6 +25,7 @@ jobs:
           fetch-depth: 0
       - name: Collect feeds
         env:
+          NVD_API_KEY: ${{ secrets.NVD_API_KEY }}
           URLHAUS_AUTH_KEY: ${{ secrets.URLHAUS_AUTH_KEY }}
           THREATFOX_AUTH_KEY: ${{ secrets.THREATFOX_AUTH_KEY }}
         run: python3 scripts/collect.py
